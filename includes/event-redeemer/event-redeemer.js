@@ -4,9 +4,9 @@
 
 jQuery(document).ready( function($){
 
-    var eventCode = event_redeemer.eventCode;
-    var eventID = event_redeemer.eventID;
-    var eventYear = event_redeemer.eventYear;
+    var eventCode = event_redeemer.event_code;
+    var eventID = event_redeemer.event_id;
+    var eventYear = event_redeemer.event_year;
 
     $('#event-code-submit').click(function(){
 
@@ -25,11 +25,12 @@ jQuery(document).ready( function($){
                 eventID: eventID
             },
             success: function(html) {
-
-                console.log('success');
+                $('.event-not-redeemed').fadeOut(function(){
+                    $('.event-redeemed').fadeIn();
+                });
             },
             error: function(html){
-                console.log('error');
+                $('.event-code-error').text('There was an error processing your request').fadeIn();
             }
 
         });

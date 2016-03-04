@@ -31,6 +31,9 @@ function bikes_check_event($id){
 
     $badges = get_user_meta(get_current_user_id(), 'badges', true);
 
+    // Check if this value has already been entered?
+    // And if so, ignore all this unnecessary stuff
+
     if($badges){
         $badges = json_decode($badges);
 
@@ -49,17 +52,40 @@ function bikes_check_event($id){
 add_action('wp_ajax_bikes_check_event', 'bikes_check_event');           // for logged in user
 add_action('wp_ajax_no_priv_bikes_check_event', 'bikes_check_event');    // if user not logged in
 
+// Get event status details
+function bikes_event_details(){
+
+    $event_code = get_field('bikes_event_code');
+    $event_id = get_the_id();
+    $event_year = tribe_get_start_date(get_the_id(), false, 'Y');
+    $events_redeemed = get_user_meta(get_current_user_id(), 'badges', true);
+    $event_status = json_decode($events_redeemed)->{$event_year}[$event_id];
+
+    $details = array(
+        'event_code' => $event_code,
+        'event_id' => $event_id,
+        'event_year' => $event_year,
+        'event_status' => $event_status
+    );
+    return $details;
+}
+
+// Get class to add to event redeemer div
+function bikes_event_redeemer_classes(){
+    $status = bikes_event_details()['event_status'];
+
+    if($status)
+        return array('complete');
+    return array('incomplete');
+}
 
 // Initialize styles and scripts with info they need
 function bikes_js_init(){
 
     // Get info to send
-    $args = array(
-        'eventCode' => get_field('bikes_event_code'),
-        'eventID' => get_the_id(),
-        'eventYear' => tribe_get_start_date(get_the_id(), false, 'Y')
-    );
+    $args = bikes_event_details();
 
+    // Initialize
     wp_enqueue_script('bike_event_code', get_template_directory_uri().'/includes/event-redeemer/event-redeemer.js');
     wp_localize_script('bike_event_code', 'event_redeemer', $args);
     wp_enqueue_style('event_redeemer_style', get_template_directory_uri().'/includes/event-redeemer/event-redeemer.css');
