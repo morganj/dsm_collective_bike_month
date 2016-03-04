@@ -1,1 +1,4 @@
 <?php 
+
+
+// Event content type
