@@ -1,9 +1,11 @@
 #event-redeemer > .event-code-error{
     display: none;
 }
-.incomplete > .event-redeemed{
+
+
+.incomplete .event-redeemed{
     display: none;
 }
-.complete > .event-not-redeemed{
+.complete .event-not-redeemed{
     display: none;
 }

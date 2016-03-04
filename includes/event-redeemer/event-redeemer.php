@@ -35,12 +35,12 @@ function bikes_check_event($id){
     // And if so, ignore all this unnecessary stuff
 
     if($badges){
-        $badges = json_decode($badges);
+        $badges = json_decode($badges, true);
 
-        if($badges->{$_POST['eventYear']})
-            array_push($badges->{$_POST['eventYear']}, $_POST['eventID']);
+        if(array_key_exists($_POST['eventYear'], $badges))
+            array_push($badges[$_POST['eventYear']], $_POST['eventID']);
         else{
-            $badges->{$_POST['eventYear']} = array($_POST['eventID']);
+            $badges[$_POST['eventYear']] = array($_POST['eventID']);
         }
     }
     else{
@@ -48,6 +48,8 @@ function bikes_check_event($id){
     }
 
     update_user_meta(get_current_user_id(), 'badges', json_encode($badges));
+
+    exit();
 }
 add_action('wp_ajax_bikes_check_event', 'bikes_check_event');           // for logged in user
 add_action('wp_ajax_no_priv_bikes_check_event', 'bikes_check_event');    // if user not logged in
@@ -57,8 +59,12 @@ function bikes_event_details(){
     $event_code = get_field('bikes_event_code');
     $event_id = get_the_id();
     $event_year = tribe_get_start_date(get_the_id(), false, 'Y');
-    $events_redeemed = get_user_meta(get_current_user_id(), 'badges', true);
-    $event_status = json_decode($events_redeemed)->{$event_year}[$event_id];
+    $events_redeemed = json_decode(get_user_meta(get_current_user_id(), 'badges', true), true);
+
+    if(!is_null($events_redeemed) and array_key_exists($event_year, $events_redeemed))
+        $event_status = array_search($event_id, $events_redeemed[(string)$event_year]);
+    else
+        $event_status = false;
 
     $details = array(
         'event_code' => $event_code,
@@ -68,18 +74,19 @@ function bikes_event_details(){
     );
     return $details;
 }
-add_action('wp_head', 'bike_event_details');
+add_action('wp_head', 'bikes_event_details');
 
 // Get class to add to event redeemer div
 function bikes_event_classes(){
     $details = bikes_event_details();
     $status = $details['event_status'];
+//    return $status;
 
-    if($status > 0)
-        return 'complete';
-    return 'incomplete';
+    if(!is_int($status))
+        return 'incomplete';
+    return 'complete';
 }
-add_action('wp_head', 'bike_event_classes');
+add_action('wp_head', 'bikes_event_classes');
 
 // Initialize styles and scripts with info they need
 function bikes_js_init(){
