@@ -1,0 +1,471 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-metasingle.php:9
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:34
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-meta.php:6
+msgid "% Comments"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/404.php:19
+msgid "&larr; Head Home"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "(Optional) Add a Client Name for this Project?"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "(Optional) Add a URL for this Project?"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "(Optional) Add the Date this Project Took Place?"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-metasingle.php:9
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:34
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-meta.php:6
+msgid "0 Comments"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-metasingle.php:9
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:34
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-meta.php:6
+msgid "1 Comment"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/404.php:18
+msgid "404"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Add Another Entry"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metabox/helpers/cmb_Meta_Box_types.php:249
+msgid "Add Row"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Additional Item Detail"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Additional Item Title"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Additional Meta Titles & Descriptions"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Additional Portfolio Item Details"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/inc/content-filters.php:5
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:290
+msgid "All done."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/class-tgm-plugin-activation.php:1
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:268
+msgid "Assign Authors"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:1
+msgid "Cancel"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-metaportfolio.php:6
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Check to disable the sidebar on this post."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Choose Single Widget Footer?"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-metaportfolio.php:6
+msgid "Client"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Client Name"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Client URL"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-metaportfolio.php:6
+msgid "Date"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Detail of your Additional Meta"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Disable Post Sidebar"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:284
+msgid "Download and import file attachments"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:1
+msgid "Email *"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Enter a URL for this client, if left blank, client logo will open into a lightbox."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 1 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 3 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 4 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 5 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Enter the URL for Social Icon 6 e.g www.google.com"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:1
+msgid "Enter your comment here..."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:290
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/theme_functions.php:1
+msgid "Featured Image"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/searchform.php:13
+msgid "Find"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/theme_functions.php:1
+msgid "First"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:290
+msgid "Have fun!"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:271
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:281
+msgid "Import Attachments"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/class-tgm-plugin-activation.php:1
+msgid "Install Plugins"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/class-tgm-plugin-activation.php:1
+msgid "Install Required Plugins"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/class-tgm-plugin-activation.php:1
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/search.php:29
+msgid "Item"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/search.php:29
+msgid "Items"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Job Title"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/theme_functions.php:1
+msgid "Last"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:1
+msgid "Logged in as <a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">Log out?</a>"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:1
+msgid "Name *"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Page Additional Details"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/class-tgm-plugin-activation.php:1
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Post Social Details"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-metasingle.php:3
+msgid "Posted on"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Project Date"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:290
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metabox/helpers/cmb_Meta_Box_types.php:305
+msgid "Remove"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Remove Entry"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/class-tgm-plugin-activation.php:1
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/searchform.php:12
+msgid "Search something"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/page_builder_blocks/portfolio_carousel_block.php:44
+msgid "Show a specific portfolio category?"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Show the single widget footer on this page?"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/class-tgm-plugin-activation.php:1
+msgid "Something went wrong."
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-none.php:
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:290
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:288
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:1
+msgid "Submit"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "The Gallery"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "The Job Title"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "The Post Sidebar"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "The Video Link"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:290
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:290
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:290
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "Title of your Additional Meta"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/wordpress-importer/wordpress-importer.php:269
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-metaportfolio.php:6
+msgid "URL"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 1"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 2"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 3"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 4"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 5"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "URL for Social Icon 6"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/metaboxes.php:1
+msgid "URL for this client (optional)"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/404.php:18
+msgid "Uh, Oh."
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/loop/content-metasingle.php:6
+msgid "Under"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/comments.php:1
+msgid "Website"
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/search.php:22
+msgid "Your Search For"
+msgstr ""
+
+#. Text in echo
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/ebor_framework/theme_functions.php:310
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: TommusRhodus-loom-wordpress-theme-fc27bc5e5f63/search.php:22
+msgid "returned:"
+msgstr ""

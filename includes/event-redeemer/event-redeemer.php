@@ -26,28 +26,28 @@ function create_bikes_sponsors() {
 }
 add_action( 'init', 'create_bikes_sponsors' );
 
-// Update user badge info
+// Update user events attended
 function bikes_check_event($id){
 
-    $badges = get_user_meta(get_current_user_id(), 'badges', true);
+    $events_redeemed = get_user_meta(get_current_user_id(), 'events_redeemed', true);
 
     // Check if this value has already been entered?
     // And if so, ignore all this unnecessary stuff
 
-    if($badges){
-        $badges = json_decode($badges, true);
+    if($events_redeemed){
+        $events_redeemed = json_decode($events_redeemed, true);
 
-        if(array_key_exists($_POST['eventYear'], $badges))
-            array_push($badges[$_POST['eventYear']], $_POST['eventID']);
+        if(array_key_exists($_POST['eventYear'], $events_redeemed))
+            array_push($events_redeemed[$_POST['eventYear']], $_POST['eventID']);
         else{
-            $badges[$_POST['eventYear']] = array($_POST['eventID']);
+            $events_redeemed[$_POST['eventYear']] = array($_POST['eventID']);
         }
     }
     else{
-        $badges = array($_POST['eventYear'] => array($_POST['eventID']));
+        $events_redeemed = array($_POST['eventYear'] => array($_POST['eventID']));
     }
 
-    update_user_meta(get_current_user_id(), 'badges', json_encode($badges));
+    update_user_meta(get_current_user_id(), 'events_redeemed', json_encode($events_redeemed));
 
     exit();
 }
@@ -59,7 +59,7 @@ function bikes_event_details(){
     $event_code = get_field('bikes_event_code');
     $event_id = get_the_id();
     $event_year = tribe_get_start_date(get_the_id(), false, 'Y');
-    $events_redeemed = json_decode(get_user_meta(get_current_user_id(), 'badges', true), true);
+    $events_redeemed = json_decode(get_user_meta(get_current_user_id(), 'events_redeemed', true), true);
 
     if(!is_null($events_redeemed) and array_key_exists($event_year, $events_redeemed))
         $event_status = array_search($event_id, $events_redeemed[(string)$event_year]);
