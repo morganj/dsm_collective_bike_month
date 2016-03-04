@@ -4,8 +4,12 @@
 <body>
 <main>
     <?php echo 'hello world!' ?>
-    <button id="click-button">Click Me</button>
-    
+    <div id="event-redeemer">
+        <input id="event-code" type="text">
+        <button id="event-code-submit">Click Me!</button>
+        <div class="event-code-error"></div>
+    </div>
+
     <?php while(have_posts()): the_post();?>
         <?php the_content(); ?>
     <?php endwhile; ?>
