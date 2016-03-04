@@ -1,5 +1,10 @@
-<?php 
+<?php
 
+// Enqueue jQuery
+function jquery_init() {
+    wp_enqueue_script('jquery');
+}
+add_action('wp_enqueue_scripts', 'jquery_init');
 
 // Event content type will be created by plugin
 
@@ -22,53 +27,45 @@ function create_bikes_sponsors() {
 add_action( 'init', 'create_bikes_sponsors' );
 
 
-/**
- * Add the field current event field to REST API responses for posts read and write
- */
-function bikes_register_event() {
-    register_rest_field(
-        'post',
-        'event_'.get_the_ID(),
-        array(
-            'get_callback'    => 'bikes_get_event'.get_the_ID(),
-            'update_callback' => 'bikes_update_event'.get_the_ID(),
-            'schema'          => null,
-        )
-    );
-}
-add_action( 'rest_api_init', 'bikes_register_event'.get_the_ID());
+// Update user badge info
+function bikes_check_event($id){
 
-/**
- * Handler for getting custom field data.
- *
- * @since 0.1.0
- *
- * @param array $object The object from the response
- * @param string $field_name Name of field
- * @param WP_REST_Request $request Current request
- *
- * @return mixed
- */
-function bikes_get_event( $object, $field_name, $request ) {
-    return get_the_author_meta('event_'.get_the_ID(), $object[ 'id' ], $field_name );
-}
+    $badges = get_user_meta(get_current_user_id(), 'badges', true);
 
-/**
- * Handler for updating custom field data.
- *
- * @since 0.1.0
- *
- * @param mixed $value The value of the field
- * @param object $object The object from the response
- * @param string $field_name Name of field
- *
- * @return bool|int
- */
-function bikes_update_event( $value, $object, $field_name ) {
-    if ( ! $value || ! is_string( $value ) ) {
-        return;
+    if($badges){
+        $badges = json_decode($badges);
+
+        if($badges->{$_POST['year']})
+            array_push($badges->{$_POST['year']}, 'k'.$_POST['event']);
+        else{
+            $badges->{$_POST['year']} = array('i'.$_POST['event']);
+        }
+    }
+    else{
+        $badges = array($_POST['year'] => array('m'.$_POST['event']));
     }
 
-    //is update author meta the right function?
-    return update_author_meta( $object->ID, $field_name, strip_tags( $value ) );
+    update_user_meta(get_current_user_id(), 'badges', json_encode($badges));
 }
+add_action('wp_ajax_bikes_check_event', 'bikes_check_event');           // for logged in user
+add_action('wp_ajax_no_priv_bikes_check_event', 'bikes_check_event');    // if user not logged in
+
+
+// Initialize scripts
+function bikes_js_init(){
+    wp_enqueue_script('bike_click', get_template_directory_uri().'/js/rest-test.js');
+}
+add_action('wp_enqueue_scripts', 'bikes_js_init');
+
+
+
+
+
+
+
+
+
+
+
+
+

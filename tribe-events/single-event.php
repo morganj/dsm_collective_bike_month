@@ -21,15 +21,6 @@ $event_id = get_the_ID();
 
 ?>
 
-<?php echo 'hello world!' ?>
-
-<?php //echo get_the_author_meta('event_'.get_the_ID()); ?>
-
-<?php // If user doesn't have event set, show them a bar to add it ?>
-<input>
-
-
-
 <div id="tribe-events-content" class="tribe-events-single">
 
 	<p class="tribe-events-back">
