@@ -54,7 +54,6 @@ add_action('wp_ajax_no_priv_bikes_check_event', 'bikes_check_event');    // if u
 
 // Get event status details
 function bikes_event_details(){
-
     $event_code = get_field('bikes_event_code');
     $event_id = get_the_id();
     $event_year = tribe_get_start_date(get_the_id(), false, 'Y');
@@ -69,15 +68,18 @@ function bikes_event_details(){
     );
     return $details;
 }
+add_action('wp_head', 'bike_event_details');
 
 // Get class to add to event redeemer div
-function bikes_event_redeemer_classes(){
-    $status = bikes_event_details()['event_status'];
+function bikes_event_classes(){
+    $details = bikes_event_details();
+    $status = $details['event_status'];
 
-    if($status)
-        return array('complete');
-    return array('incomplete');
+    if($status > 0)
+        return 'complete';
+    return 'incomplete';
 }
+add_action('wp_head', 'bike_event_classes');
 
 // Initialize styles and scripts with info they need
 function bikes_js_init(){
