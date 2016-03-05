@@ -1,0 +1,22 @@
+{
+    "name": "basvandorst/stravaphp",
+    "description": "Strava V3 API PHP client with OAuth authentication",
+     "keywords":    ["Strava","API","OAuth","PHP","StravaPHP"],
+    "require": {
+        "educoder/pest": "1.0.0",
+        "league/oauth2-client": "0.8.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bas van Dorst",
+            "email": "basvandorst@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "Strava":        "src/"
+        }
+    }
+}

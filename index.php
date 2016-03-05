@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<?php get_header(); ?>
+<?php
 
-<body>
-<main>
-    <?php while(have_posts()): the_post();?>
-        <?php the_content(); ?>
-    <?php endwhile; ?>
-</main>
-
-<?php get_footer(); ?>
-</body>
-</html>
+get_header();
+get_template_part('inc/wrapper','start');
+get_template_part('loop/loop', get_option('blog_layout','blog') );
+get_template_part('inc/wrapper','end');
+get_footer();

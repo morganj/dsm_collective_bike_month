@@ -17,13 +17,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div id="tribe-events-content" class="tribe-events-month">
 
 	<!-- Month Title -->
-	<?php do_action( 'tribe_events_before_the_title' ) ?>
-	<h2 class="tribe-events-page-title"><?php tribe_events_title() ?></h2>
-	<?php do_action( 'tribe_events_after_the_title' ) ?>
-
-    <?php if ( is_active_sidebar( 'calendar_widget' ) ) : ?>
-        <?php dynamic_sidebar( 'calendar_widget' ); ?>
-    <?php endif; ?>
+    <header>
+        <div class="login">
+            <?php if ( is_active_sidebar( 'calendar_widget' ) ) : ?>
+                <?php dynamic_sidebar( 'calendar_widget' ); ?>
+            <?php endif; ?>
+        </div>
+        <div>
+            <?php do_action( 'tribe_events_before_the_title' ) ?>
+            <h2 class="tribe-events-page-title"><?php tribe_events_title() ?></h2>
+            <?php do_action( 'tribe_events_after_the_title' ) ?>
+        </div>
+    </header>
 
 	<!-- Notices -->
 	<?php tribe_the_notices() ?>

@@ -1,5 +1,4 @@
 <div class="event-container">
-
     <div class="title-container">
         <p class="event-date">
             <?php echo tribe_get_start_date(); ?>
@@ -21,7 +20,9 @@
     </div>
 
     <div class="unlock-section">
-        <img class="badge off" src="http://dannymaller.com/wp-content/uploads/2016/03/Untitled-1.png">
+        <div class="badge-wrapper"><img class="event-badge off" src="http://dannymaller.com/wp-content/uploads/2016/03/Untitled-1.png"></div>
+        <p class="unlock-copy">Each event has a badge. Unlock badges by getting the pass phrase from event staff and share them with your friends.</p>
+        <div class="wrapper"><a href="#" class="unlock-button">Submit</a></div>
     </div>
 
     <div class="social-section">

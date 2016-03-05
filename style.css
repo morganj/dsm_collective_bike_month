@@ -34,13 +34,11 @@ body {
     margin: 0 auto;
     padding: 40px;
 }
+
 @media only screen and (max-width: 600px){
     .event-container{
-        height: 100%;
         width: 100%;
-        background-color: #fff;
-        margin: 0 auto;
-        padding: 10px 0;
+        padding: 20px 0;
     }
 }
 
@@ -71,6 +69,60 @@ body {
     padding: 20px 0;
 }
 
+.unlock-section {
+    background-color: #efefef;
+    padding: 20px;
+    min-height: 170px;
+}
+.unlock-copy {
+    width: 275px;
+    height: 100%;
+    margin-left: 145px;
+    padding: 15px 20px;
+}
+@media only screen and (max-width: 600px){
+    .unlock-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+.event-badge {
+    position: absolute;
+}
+@media only screen and (max-width: 600px){
+    .event-badge{
+        position: static;
+    }
+}
+.unlock-section .badge-wrapper {
+    display: inline-block;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+    .unlock-section .badge-wrapper{
+        display: block;
+    }
+}
+.unlock-section .wrapper{
+    display: block;
+    text-align: center;
+}
+.unlock-button{
+    display: inline-block;
+    max-width: 200px;
+    margin-top: 15px;
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #66bb6a;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.unlock-button:hover,
+.unlock-button:active,
+.unlock-button:visited{
+    color: #fff;
+    text-decoration: none;
+}
 .social-section > div {
     border-radius: 50%;
     height: 40px;
