@@ -101,7 +101,6 @@ jQuery(document).ready( function($){
             return;
         }
 
-
         if($('#event-code').val() != eventCode){
             $('#event-code').addClass('error');
             $('#code-error').fadeIn();
