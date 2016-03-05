@@ -38,7 +38,9 @@ body {
     color: #4e4039;
     background-color: #ededed;
 }
-
+h1.event-title{
+    margin-top: 25px;
+}
 .event-container{
     height: 100%;
     width: 100%;
