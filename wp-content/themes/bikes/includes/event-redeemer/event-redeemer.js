@@ -58,7 +58,7 @@ jQuery(document).ready( function($){
                     return;
 
                 $.ajax({
-                    url: 'wp-admin/admin-ajax.php',
+                    url: event_redeemer.ajax_url,
                     type: 'POST',
                     dataType: 'json',
                     data:{
@@ -70,6 +70,7 @@ jQuery(document).ready( function($){
                     },
                     success: function(html) {
                         userValid = true;
+                        console.log(html);
                         $('#confirmation').fadeIn(function(){
                             $('#user-modal').fadeOut();
                         });
