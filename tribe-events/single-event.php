@@ -42,7 +42,7 @@
         <input type="text" id="user-age" class="input-pill" placeholder="age">
         <input type="text" id="user-zipcode" class="input-pill" placeholder="zipcode">
         <select id="user-gender" class="input-pill">
-            <option value="omitted">Gender Omitted</option>
+            <option>Select</option>
             <option value="female">Female</option>
             <option value="male">Male</option>
         </select>

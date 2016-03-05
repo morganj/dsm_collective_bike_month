@@ -10,27 +10,50 @@ jQuery(document).ready( function($){
     var eventComplete = event_redeemer.event_status;
     var userValid = event_redeemer.user_valid;
 
+    var age, zipcode, selectVal;
+
+    function checkFields(){
+        var valid = true;
+
+        age = $('#user-age');
+        if(!age.val() || age.val().match(/\b[0-9]{1,2}\b/) == null){
+            age.addClass('error');
+            valid = false;
+        }
+        else{
+            age.removeClass('error');
+        }
+
+
+        zipcode = $('#user-zipcode');
+        if(!zipcode.val() || zipcode.val().match(/\b[0-9]{5}\b/) == null){
+            zipcode.addClass('error');
+            valid = false;
+        }
+        else{
+            zipcode.removeClass('error');
+        }
+
+        var select = $('#user-gender');
+        selectVal = $('#user-gender option:selected').val();
+        if(selectVal == "Select"){
+            select.addClass('error');
+            valid = false;
+        }
+        else{
+            select.removeClass('error');
+        }
+        return valid;
+    }
+
     $('#unlock-button').click(function(){
 
         if(!userValid){
             $('#user-modal').fadeIn();
 
             $('#submit-button').click(function(){
-                var age = $('#user-age');
-                if(!age.val()){
-                    age.addClass('error');
+                if(!checkFields())
                     return;
-                }
-                else
-                    age.removeClass('error');
-
-                var zipcode = $('#user-zipcode');
-                if(!zipcode.val()){
-                    zipcode.addClass('error');
-                    return;
-                }
-                else
-                    zipcode.removeClass('error');
 
                 $.ajax({
                     url: 'http://localhost:8888/bikes/wp-admin/admin-ajax.php',
@@ -39,7 +62,7 @@ jQuery(document).ready( function($){
                     data:{
                         action: 'bikes_submit_user_data',
                         user_age: age.val(),
-                        user_gender: $('#user-gender option:selected').val(),
+                        user_gender: selectVal,
                         user_zipcode: zipcode.val()
                     },
                     success: function(html) {
