@@ -1,0 +1,939 @@
+/**
+ */
+/*
+/*-- transition --*/
+#evcal_list .fdes_list_event .desc_trig, .evcal_evdata_img, .event_description .evcal_close, .evcal_btn, .evo_sort_btn, .calendar_header  .evcal_arrows, .desc_trig {
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+
+/** General reusable styles **/
+	.mart5{margin-top:5px} .mart10{margin-top:10px} .mart15{margin-top:15px} .mart20{margin-top:20px} .mart25{margin-top:25px} .mart30{margin-top:30px} .mart40{margin-top:40px} .mart50{margin-top:50px}
+	.marb5{margin-bottom:5px} .marb10{margin-bottom:10px} .marb15{margin-bottom:15px} .marb20{margin-bottom:20px} .marb25{margin-bottom:25px} .marb30{margin-bottom:30px} .marb35{margin-bottom:35px} .marb40{margin-bottom:40px} .marb45{margin-bottom:45px} .marb50{margin-bottom:50px}
+	.padb5{padding-bottom:5px} .padb10{padding-bottom:10px} .padb15{padding-bottom:15px} .padb20{padding-bottom:20px} .padb25{padding-bottom:25px} .padb30{padding-bottom:30px} .padb40{padding-bottom:40px} .padb50{padding-bottom:50px}
+	.padt5{padding-top:5px} .padt10{padding-top:10px} .padt15{padding-top:15px} .padt20{padding-top:20px} .padt25{padding-top:25px} .padt30{padding-top:30px} .padt40{padding-top:40px} .padt50{padding-top:50px} .padt60{padding-top:60px}
+	.pad5{padding:5px} .pad10{padding:10px} .pad15{padding:15px} .pad20{padding:20px} .pad25{padding:25px}
+
+	.ttu{text-transform:uppercase}
+	.tar{text-align:right}
+	.tac{text-align:center}
+	.wid33{width:33.3%}
+	.wid66{width:66.6%}
+	.fleft{float:left}
+
+
+/*-- calendar general styles --*/
+	.ajde_evcal_calendar {width:100%; text-align: left;}
+	.ajde_evcal_calendar img{ max-width:none; box-shadow:none!important}
+	.ajde_evcal_calendar > *{margin:0; padding:0}
+	.evcal_evdata_row .padt5{padding-top:5px;}
+	.evcal_evdata_row .padb10{padding-bottom:10px;}
+	.bordr{border-right:1px solid #cdcdcd}
+	#evcal_list .bordb{border-bottom:1px solid #cdcdcd}
+	.ajde_evcal_calendar a:hover{text-decoration:none}
+	.ajde_evcal_calendar ul, #evcal_list{list-style:none !important; padding:0; margin:0 !important}
+	.ajde_evcal_calendar .fdes_list_event{margin-left:0px; list-style:none;}	
+	.ajde_evcal_calendar .calendar_header p, 
+	.fdes_events_list .fdes_list_event .evcal_cblock{font-family:'arial narrow';	}
+	.ajde_evcal_calendar strong{font-weight:normal }
+	.ajde_evcal_calendar .fdes_desc_in strong{font-weight:bold }
+
+	.ajde_evcal_calendar .fdes_events_list p{
+		font-family:'open sans',arial;
+		padding:0;
+		/*margin-bottom:2px !important; */
+		margin-top:0px;
+	}
+
+	/* event details text */
+	.ajde_evcal_calendar .fdes_events_list .fdes_desc_in ul{
+		font: normal 13px 'open sans',arial;
+		padding-left: 15px;
+		color: #656565;
+	}
+	
+
+/* Jumper */
+	.evo-jumper{margin-bottom: 5px; position: relative;}
+	.evo_cal_above{padding-bottom: 5px;}
+	.evo_cal_above span{
+		opacity: 0.4;
+		background-color: #ADADAD;
+		color: #fff;
+		font-family: 'open sans','arial';
+		font-size: 12px;
+		text-transform: uppercase;
+		display: inline-block;
+		padding: 1px 4px;
+		border-radius: 4px;
+		cursor: pointer;
+		font-style: italic;
+		margin-right: 4px;
+	}
+	.evo_cal_above span:hover{opacity: 1;}	
+	.evo_j_container{
+		padding-top: 0px; padding-bottom: 8px; margin: 0;
+	}
+	.ajde_evcal_calendar .calendar_header .evo_j_dates p.legend{
+		text-transform: uppercase;
+		color: #6e6e6e;
+		font-size: 12px;
+		padding:0px; padding-left: 0;
+		background-color: transparent;
+	}
+	.ajde_evcal_calendar .calendar_header .evo_j_dates p{
+		font-size: 12px;
+		font-family: 'open sans';
+		color: #5d5d5d;
+		padding: 7px 12px;
+		line-height: 100%;
+		height: auto;			
+		color: #fff;
+		
+	}
+	.ajde_evcal_calendar .calendar_header .evo_j_dates p a:hover{
+		background-color: #c3c3c3;
+	}.ajde_evcal_calendar .calendar_header .evo_j_dates p a.current{
+		background-color: #CFCFCF;
+	}.ajde_evcal_calendar .calendar_header .evo_j_dates p a.set{
+		background-color: #888888;
+	}
+	.ajde_evcal_calendar .calendar_header .evo_j_dates p a{
+		background-color: #ECECEC;
+		padding:4px;
+		border-radius: 4px;	
+		display: inline-block;
+		cursor: pointer;
+		color: #fff;
+		min-width: 19px;
+		margin-bottom: 2px;
+		margin-right: 3px;
+		font-size: 12px; text-align: center;
+	}
+	.ajde_evcal_calendar .calendar_header .evo_j_dates.evo_j_years p a{width: auto;}
+	
+	/* widget */
+		#evcal_widget .ajde_evcal_calendar .calendar_header .evo_j_dates p{
+			font-size: 10px;}
+		#evcal_widget #evcal_head .evo_j_dates p a{
+			padding:4px;
+			font-size:9px;
+			min-width: 15px
+		}
+		#evcal_widget .event_description .evo_metarow_time_location .evcal_col50{
+			display: block; width: 100%;
+			border-right:none;
+		}
+
+
+
+/*-- event loading --*/
+	#fdes_loadbar{height: 2px;width: 0%;}
+	#fdes_loadbar_section{border-bottom: 1px solid #e5e5e5;height:2px; width:100%; margin-top: 6px;}
+
+
+/*-- event list -- single event line --*/
+	#evcal_list .fdes_list_event a.sin_val.hasFtIMG .evcal_desc, .sin_val.hasFtIMG .evcal_desc{
+		padding-left:95px;
+	}
+	#evcal_list .fdes_list_event p.no_events{
+		padding:8px 12px;
+		border-left:1px solid #cdcdcd;
+		font-style:italic;
+		font-size:13px;
+		margin-bottom:0;
+	}
+
+/*-- event list --*/
+/*	#evcal_list
+	{border-right:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5
+	}
+	*/
+	.ajde_evcal_calendar .fdes_events_list .fdes_list_event{
+		margin-left:0; margin-bottom:0;
+		padding:0px; overflow:hidden; position:relative;
+		list-style-type:none;
+	}
+	.fdes_events_list .fdes_list_event .desc_trig{cursor:pointer}
+	.fdes_events_list .fdes_list_event .desc_trig:hover{
+		background-color:#f4f4f4;
+		border-left-width:7px
+	}
+	.fdes_events_list .fdes_list_event a{text-decoration: none;
+		border-bottom:none;
+	}
+	.fdes_events_list .fdes_list_event .evcal_list_a:after{
+		content:"";
+		width:100%;
+		height:1px;
+		background-color: #e5e5e5;
+		position: absolute;
+		bottom: 0;
+		display: block;
+	}
+	.fdes_events_list .fdes_list_event .evcal_list_a{
+		display:block; width:100%;position:relative;
+		padding:10px 0 15px;
+		overflow:hidden;
+		border-left-width:3px;
+		border-left-style:solid;
+		min-height:63px;
+		border-bottom:none;
+	}
+	.fdes_events_list .fdes_list_event .evcal_list_a.featured_event{
+		background-color: #F9ECE4;
+	}.fdes_events_list .fdes_list_event .evcal_list_a.featured_event:hover{
+		background-color: #FAE4D7;
+	}
+
+	.fdes_events_list a{text-decoration:none}
+
+
+	.ajde_evcal_calendar .clear{clear:both; height:0px;margin:0;padding: 0;}
+	.fdes_events_list .fdes_list_event .evcal_cblock, .evo_pop_body .evcal_cblock{
+		background-color:transparent !important; color:#ababab;
+		font-size:30px;
+		padding:0px 8px 2px 13px;
+		font-weight:bold;
+		position:absolute;
+		line-height:110%;
+		min-height:30px;	
+		margin:0 6px 0 0;
+		left: 0;
+	}
+	.fdes_events_list .fdes_list_event .hasFtIMG .evcal_cblock, .evo_pop_body .hasFtIMG .evcal_cblock{
+		left:50px;
+	}
+	
+/* cancelled events */
+	.fdes_events_list .fdes_list_event .cancel_event .evo_event_headers, .evo_pop_body .evo_event_headers.canceled{
+		background-color: #F79191;
+		font-size: 12px;
+		color: #fff;
+		display: inline-block;
+		border-radius: 5px;
+		padding: 3px 9px;
+		margin-bottom: 4px;
+		text-transform: uppercase;
+		font-family: 'open sans',arial;
+	}
+	.fdes_events_list .fdes_list_event .cancel_event.evcal_list_a{
+		background: repeating-linear-gradient(
+		  45deg,#FDF2F2, #FDF2F2 10px, #FAFAFA 10px, #FAFAFA 20px
+		);
+	}
+	/* for widget */
+		.widget .fdes_events_list .fdes_list_event .cancel_event .evo_event_headers{padding: 1px 5px; font-size: 10px;}
+
+
+	.fdes_events_list .fdes_list_event .evcal_cblock em, .evo_pop_body .evcal_cblock em{
+		font-style:normal;
+		text-transform:uppercase;
+		line-height:110%;
+	}
+	.fdes_events_list .fdes_list_event .evcal_cblock em.evo_date, .evo_pop_body .evcal_cblock em.evo_date{
+		display:block;
+	}
+
+	.fdes_events_list .fdes_list_event .evcal_cblock em.evo_day,  .evo_pop_body .evcal_cblock em.evo_day{
+		font-size:8px;font-weight:normal;
+		display:block;	float:left; padding-right:6px;
+	}
+	.fdes_events_list .fdes_list_event .evcal_cblock em.evo_day{}
+	.EvcalWidget .fdes_events_list .evcal_cblock .evo_date em.evo_day, .widget .fdes_events_list .evcal_cblock .evo_date em.evo_day{
+		padding-bottom: 3px;
+	}
+
+	.fdes_events_list .fdes_list_event .ev_ftImg{
+		background-repeat:no-repeat;
+		width: 50px;
+		height: 100%;
+		position: absolute;
+		margin:-10px 0;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position:top center;
+		display: block;
+	}
+		#evcal_widget .fdes_events_list .fdes_list_event .ev_ftImg{margin: -5px 0;}
+
+
+
+	.fdes_events_list .fdes_list_event .evcal_cblock span, .evo_pop_body .evcal_cblock span{
+		line-height:100%;vertical-align:super}
+		
+		.evcal_cblock .evo_date .start{
+			float: left;font-size: 30px; clear:both;
+		}
+		.evcal_cblock .evo_date .start em, .evcal_cblock .evo_date .end em{
+			font-size: 11px; font-weight: normal;display: block;margin-left: 6px;}
+		.evcal_cblock .evo_date .start em{margin-left: 0; margin-top: 3px;}
+		.evcal_cblock .evo_date .end em{font-size: 8px; margin-top: 3px;}
+		.evcal_cblock .evo_date .end{
+			float: left; margin-left: 4px; font-size: 14px; }
+
+	
+	/* time */
+		.evcal_cblock .evo_time span.start, .evcal_cblock .evo_time span.end{
+			float: left;font-size: 14px; clear:both;
+			font-weight: normal;
+			padding-top: 4px;		
+		}
+
+		.evcal_cblock .evo_time .evo_day.end{clear: both;padding-top: 5px; }
+		.ajde_evcal_calendar #evcal_list .evcal_cblock .evo_time{display: none;}
+
+		#evcal_widget .fdes_events_list .fdes_list_event .evcal_cblock .evo_time span.start{font-size: 12px;}
+		#evcal_widget .fdes_events_list .fdes_list_event .evcal_cblock .evo_time span.end{font-size: 11px;}
+
+
+	.fdes_events_list .fdes_list_event .evcal_desc, .evo_pop_body .evcal_desc, #page-content p.evcal_desc{
+		margin-left:5px;
+		padding:3px 15px 0 80px; margin-bottom:0px; top: 0;
+		display: block;
+	}
+	.fdes_events_list .fdes_list_event .hasFtIMG .evcal_desc, .evo_pop_body .hasFtIMG .evcal_desc{
+		padding-left:120px;
+	}
+		.fdes_events_list .fdes_list_event .no_val.hasFtIMG .evcal_desc{
+			padding-left: 80px
+		}
+		.fdes_events_list .fdes_list_event .no_val .evcal_cblock{display: none;}
+		.fdes_events_list .fdes_list_event .no_val .evcal_desc, #evcal_widget .fdes_events_list .fdes_list_event .no_val .evcal_desc{
+			padding-left: 10px;
+		}
+
+	.fdes_events_list .fdes_list_event .evcal_desc span, .evo_pop_body .evcal_desc span{
+		display:block; 
+		color:#262626;
+		font-family:'open sans',arial;
+	}
+	.fdes_events_list .fdes_list_event .evcal_desc .evcal_desc_info, .evo_pop_body .evcal_desc .evcal_desc_info{
+		font-size:11px;line-height:120%;
+		padding-bottom:2px;
+		opacity:0.7
+	}
+	.fdes_list_event:hover .evcal_desc .evcal_desc_info{opacity:1}
+
+	.fdes_events_list .fdes_list_event .evcal_desc span.evcal_desc2, .evo_pop_body .evcal_desc span.evcal_desc2{
+		color:#6B6B6B; 
+		text-transform:uppercase;
+		font-size:18px
+	}
+	.evo_pop_body .evcal_desc span.evcal_desc2{line-height: 130%;}
+	.evcal_desc .evcal_desc3 em.evcal_cmd{float: none;}
+	.evcal_desc .evcal_desc3{min-height:14px;}
+	.evcal_desc .evcal_desc3 em{
+		font-size: 10px;
+		line-height: 110%;
+		color: #797979;
+		float:left; display:block;
+		padding-right:6px;
+	}
+	.evcal_desc .evcal_desc3 em i{
+		color:#c8c8c8
+	}
+	.fdes_events_list .fdes_list_event .evcal_desc span.evcal_event_subtitle, .evo_pop_body .evcal_desc span.evcal_event_subtitle{
+		color: #6B6B6B;
+		text-transform: uppercase;
+		font-size: 16px;
+		font-family:'open sans',arial;
+	}
+
+
+/* show more events button */
+	.fdes_events_list .evoShow_more_events:hover{opacity: 0.7}
+	.fdes_events_list .evoShow_more_events{
+		text-align: center;
+		background-color: #e5e5e5;
+		color: #929292;
+		text-transform: uppercase;
+		cursor: pointer;
+		font-size: 14px;
+		padding: 5px 0;
+		margin: 0;
+	}
+
+
+
+/* featured event */
+	.fdes_events_list .ft_event.evcal_list_a .evcal_desc .evcal_event_title{
+		font-size:20px;
+		font-weight:400;
+	}
+	.fdes_events_list .ft_event.evcal_list_a{
+		background-color:#f9f9f9;
+	}
+	.fdes_events_list .fdes_list_event a.ft_event .evcal_cblock em.evo_date{
+		color:#6b6b6b
+	}
+
+
+
+
+	.fdes_events_list .fdes_list_event .evcal_desc em, .evo_pop_body .evcal_desc em{
+		font-weight:normal;
+		margin-bottom:3px;
+	}
+	.fdes_events_list .fdes_list_event .evcal_desc em.evcal_alldayevent_text{
+		text-transform: capitalize;
+	}
+
+	/* date and location fields on event top */
+		.fdes_events_list .fdes_list_event .evcal_desc .evcal_location, 
+		.evo_pop_body .evcal_desc .evcal_location,
+		.fdes_events_list .fdes_list_event .evcal_desc .evcal_time, 
+		.evo_pop_body .evcal_desc .evcal_time{
+			font-style:normal;
+			padding-left:15px;
+			margin-right:5px;
+			position: relative;
+			display: inline-block;			
+		}
+	
+		.fdes_events_list .fdes_list_event .evcal_desc .evcal_time::before, 
+		.evo_pop_body .evcal_desc em.evcal_time::before{
+			content:"\f017";
+		}
+		.fdes_events_list .fdes_list_event .evcal_desc .evcal_location, .evo_pop_body .evcal_desc .evcal_location{
+			display: inline-block;
+		}
+		.fdes_events_list .fdes_list_event .evcal_desc .evcal_location::before, 
+		.evo_pop_body .evcal_desc em.evcal_location::before{
+			content:"\f041";
+		}
+
+		.fdes_events_list .fdes_list_event .evcal_desc .evcal_time::before, 
+		.evo_pop_body .evcal_desc em.evcal_time::before,
+		.fdes_events_list .fdes_list_event .evcal_desc .evcal_location::before, 
+		.evo_pop_body .evcal_desc em.evcal_location::before{
+			position: absolute;
+			left: 0; top: 3px;			
+			display: inline-block;
+			font-family: 'evo_FontAwesome';
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;		
+		}
+
+	.fdes_events_list .fdes_list_event .event_description{	
+		background-color:#eaeaea;
+		border-left:1px solid #e5e5e5;
+		position:relative
+	}
+	.fdes_events_list .fdes_list_event .event_description, .fdes_events_list .fdes_list_event .event_description .evcal_desc_top{
+		border-bottom:1px solid #e5e5e5}
+	.fdes_events_list .fdes_list_event .event_description p{float:none;}
+	.fdes_events_list .fdes_list_event .event_description .evcal_eventbrite, .fdes_events_list .fdes_list_event .event_description .evcal_desc_top{padding:5px 8px;margin-top:4px;}
+	.event_description p{font-family:arial}	
+
+
+/*-- input fields --*/
+	#evcal_list .fdes_list_event .evoInput, .evo_pop_body .evoInput{
+		padding:2px 5px;
+		border:1px solid #ddd;
+		color:#888;
+		font:italic 13px 'open sans';
+		background-color: transparent;
+	}
+
+/*-- gmap --*/
+	.evo_metarow_gmap img {
+		/*max-height: none;	*/	
+	}
+	#evcal_list .fdes_list_event .event_description .evcal_gmaps {
+		margin-top: 0px;width:100%; height:200px; 
+		max-width: none;
+	}
+	.evo_pop_body .evcal_gmaps * {max-width: none;}
+
+	#evcal_list .evorow.getdirections, .evo_pop_body .evorow.getdirections{
+		padding:0px;
+		background-color: #fff;
+	}
+	#evcal_list .evorow.getdirections form, .evo_pop_body .evorow.getdirections form{margin: 0;}
+	#evcal_list .evorow.getdirections p, .evo_pop_body .evorow.getdirections p{
+		position:relative;
+		margin:0;
+		overflow: hidden;
+	}
+	#evcal_list .evorow.getdirections .evoInput, .evo_pop_body .evorow.getdirections .evoInput{
+		width:100%;
+		font-size: 16px;
+		border: none;
+		padding: 8px 10px;
+		margin: 0;
+	}
+	#evcal_list .evorow.getdirections .evcalicon_9, .evo_pop_body .evorow.getdirections .evcalicon_9{
+		display:inline-block;
+		cursor:pointer;
+		position:absolute;
+		right:0;
+		top:0;
+		border:none;
+		color: #858585;
+		font-size: 18px;
+		background: transparent;
+		height: 100%;
+	}
+	#evcal_list .evorow.getdirections .evcalicon_9:hover, .evo_pop_body .evorow.getdirections .evcalicon_9:hover{
+		opacity: 0.7
+	}
+
+/*-- event other data --*/
+	.evcal_evdata_row .evcal_evdata_custometa_icons{
+		display:block; position:absolute; padding:0;
+		width:31px; height:30px;
+	}
+	.evcal_evdata_row .evcal_evdata_icons, .evo_metarow_learnMICS .evcal_col50 .evcal_evdata_icons{
+		display:block; position:absolute; padding:0;
+		width:31px; height:30px;
+	}
+	.evcal_evdata_row.evo_metarow_socialmedia{padding: 0;}
+
+
+	.evcal_evdata_row .evcal_evdata_cell h2, .evcal_evdata_row .evcal_evdata_cell h3{
+		font-weight:normal;
+		text-transform:uppercase;
+		letter-spacing:normal;
+		line-height:100%;
+	}
+
+	.evcal_evdata_row.evcal_evrow_sm{ padding:15px}
+	.evcal_evdata_row{
+		background-color:#eaeaea;
+		padding:15px;
+		position:relative
+	}
+
+	/* social media */
+		.evo_metarow_socialmedia .evo_sm{	
+			display: block;
+			float: left;
+			height: 45px;
+			width: 70px;
+			text-align: center;
+			border-right:1px solid #cdcdcd;
+		}		
+		.evo_metarow_socialmedia a.evo_ss{			
+			display: block;
+			height: 100%;
+		}
+		.evo_metarow_socialmedia a.evo_ss:hover i{	color: #fff;}		
+		.evo_metarow_socialmedia a.evo_ss i{
+			margin-top: 13px;
+			font-size: 24px;
+		}
+		.evo_fc_widget .evo_metarow_socialmedia .evo_sm{
+			height: 35px; width: 40px;
+		}
+		.evo_fc_widget .evo_metarow_socialmedia .evo_sm a{}
+		.evo_fc_widget .evo_metarow_socialmedia .evo_sm i{
+			margin-top: 8px;
+			font-size: 18px;
+		}
+		@media (max-width: 480px){
+			.evo_metarow_socialmedia .evo_sm{
+				height: 35px; width: 40px;
+			}
+			.evo_metarow_socialmedia a.evo_ss i{
+				font-size: 18px;
+				margin-top: 8px;
+			}
+		}
+
+
+/* ICS add to calendar */
+	#evcal_list .fdes_list_event .evcal_eventcard .evo_ics, .evo_pop_body p.evo_ics{
+		padding: 10px 0; margin: 0;
+		position: relative;	}
+	.evo_pop_body p.evo_ics{padding:5px 0 10px;}
+	.evcal_eventcard .evo_ics.evcal_col50, #evcal_list .fdes_list_event .evcal_eventcard .evo_ics.evcal_col50{
+		padding: 0; margin: 0; vertical-align: top;
+	}
+	.evcal_eventcard .evo_ics.evcal_col50 a{
+		padding-top: 12px; display: inline-block;
+	}
+	
+
+	.evo_metarow_ICS.evcal_evdata_row{padding: 10px 15px;}
+	.evo_metarow_learnMICS .evcal_col50 .evcal_evdata_cell p, .evo_metarow_ICS .evcal_evdata_cell p{
+		margin: 0;padding: 0;
+	}
+	.evo_metarow_ICS .evcal_evdata_cell p a, .evo_metarow_learnMICS .evcal_col50 .evcal_evdata_cell p a{
+		font-family:oswald, 'arial narrow';
+		text-transform: uppercase;
+		font-style: normal;
+		font-size: 14px;
+		color:#6B6B6B;
+		padding-right: 8px; padding-top: 0;
+		margin-top: 3px;
+		display: inline-block;
+	}
+	.evo_metarow_ICS .evcal_evdata_cell p a:hover, .evo_metarow_learnMICS .evcal_col50 .evcal_evdata_cell p a:hover{opacity: 0.6}
+
+
+/* clickable row */
+	.evo_clik_row.evcal_evdata_row{
+		display:block;
+		border-bottom:none;
+	}
+	.evo_clik_row .evcal_evdata_row, .evo_clik_row.evcal_evdata_row{
+		display:block;
+		padding:8px 15px;
+		margin: 0;
+	}
+	.evo_clik_row .evcal_evdata_row{
+		background:transparent
+	}
+	.evo_clik_row .evo_h3{
+		padding:5px 0 5px 45px;
+		color: #6B6B6B;
+		font-size:16px;
+		font-weight:normal;
+		line-height:110%;
+		letter-spacing: normal;
+		text-transform:uppercase;
+		margin:0
+	}
+	.evorow.tb, .evorow .tb{
+		display:table;
+		width:100%;
+	}
+	.evorow.tb .evcal_col50, .evorow .tb .evcal_col50{
+		display:table-cell;
+		float:none
+	}
+	.evorow.tb .tbrow, .evorow .tb .tbrow{
+		display:table-row;
+	}	
+	.evorow.lastrow{
+		padding-right:55px
+	}
+
+
+/* diffrent row colors */
+	.dark1{
+		background-color:#e1e1e1;
+	}
+	.dark1:hover{
+		background-color:#d8d8d8;
+		text-decoration:none
+	}
+
+
+/*-- event card close --*/
+	.evorow{position:relative}
+	.event_description .evcal_close:hover{
+		background-color:#c7c7c7;
+	}
+	.event_description .evcal_close{
+		padding:0;
+		background:#eaeaea;
+		position:absolute;
+		bottom:0;
+		right:0;
+		width:60px;
+		height:100%;
+		cursor:pointer;
+	}
+	.evo_pop_body .evorow.lastrow{
+		padding-right:0
+	}
+	.evo_pop_body .evcal_close.evcal_evdata_row {
+		display:none
+	}	
+
+/* RTL  -- evortl */	
+	.evortl #evcal_list .fdes_list_event .evcal_desc span.evcal_event_title, 
+	.evortl .fdes_events_list .fdes_list_event .evcal_desc .evcal_desc_info, 
+	.evortl .fdes_events_list .fdes_list_event .evcal_desc span,
+	.evortl .evcal_evdata_row .evcal_evdata_cell h3,
+	.evortl .fdes_events_list .fdes_list_event .evcal_desc,
+	.evortl #evcal_list .fdes_list_event .evcal_eventcard p,
+	.evortl .evcal_evdata_row .evcal_evdata_cell,
+	.evortl #evcal_list .fdes_list_event p.no_events
+	{text-align: right;}
+
+	
+	.evortl .fdes_events_list .fdes_list_event .evcal_desc{
+		padding-right: 80px; padding-left: 15px;
+	}
+	.evortl .fdes_events_list .fdes_list_event .evcal_cblock{
+		right: 0; left: auto;
+	}
+	.evortl .evcal_desc .evcal_desc3 em{
+		float: none; display: inline-block;
+	}
+	.evortl .evcal_evdata_row .evcal_evdata_cell{padding-right: 45px; padding-left: 0;}
+	.evortl .evcal_evdata_row .evcal_evdata_icons{right: 0;}
+	
+	/* popin */
+		.evortl.evo_popin .evopopclose{left: 0; margin: -14px 0 0 -14px;}
+		.evortl.evo_popin .evcal_desc{padding: 3px 80px 0 15px; text-align: right;}
+		.evortl.evo_popin .evcal_cblock{right:0;}
+
+	/*widget */
+		#evcal_widget .evortl .fdes_events_list .fdes_list_event .evcal_desc{padding-left: 0px;
+			padding-right: 65px;
+		}
+
+.evcal_evdata_row .evcal_evdata_cell >* {margin:0; }			
+.evcal_evdata_cell h2 b, .evcal_evdata_cell h3 b{
+	font-weight:300
+}
+.evcal_evdata_row .evcal_evdata_cell h2{
+	color:#5d5d5d; font-size: 18px; 
+}
+.evcal_evdata_row .evcal_evdata_cell h2.bash{font-weight:bold	}
+.evcal_evdata_row .evcal_evdata_cell h3{
+	color:#5d5d5d; font-size:16px; 
+	margin:0;
+}
+.evcal_evdata_row .evcal_evdata_cell a.evo_cusmeta_btn.evcal_btn{margin-top: 8px;}
+.evcal_evdata_row .evcal_evdata_cell a{border:none; padding:0;}
+.evcal_evdata_row .evcal_evdata_cell, .evo_metarow_learnMICS .evcal_col50 .evcal_evdata_cell{
+	padding-left:45px; min-height:25px
+}
+
+.evcal_evdata_row.evcal_event_details .evcal_evdata_cell p{ 
+	font:normal 12px 'open sans',arial;
+	margin-bottom:5px;
+}
+.evcal_evdata_row .evcal_evdata_cell p{	
+	font:italic 11px georgia; line-height:140%;
+}
+
+.evcal_col50{width:50%; float:left}
+
+/* event organizer */
+	.ajde_evcal_calendar .fdes_events_list .evo_metarow_organizer .evo_card_organizer_image, .evo_pop_body .evo_metarow_organizer .evo_card_organizer_image{
+		display: inline-block;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	.evo_metarow_organizer .evo_card_organizer{
+		display: inline-block;
+	}
+	.evo_metarow_organizer .evo_card_organizer_image img{
+		border-radius: 5px;
+		height: 80px;
+	}
+	#evcal_list .fdes_list_event .evo_metarow_organizer .evo_card_organizer_name, .evo_pop_body .evcal_evdata_row.evo_metarow_organizer .evo_card_organizer_name{
+		display: inline-block;
+		font-size: 16px;
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
+	#evcal_list .fdes_list_event .evo_metarow_organizer .evo_card_organizer_name span, .evo_pop_body .evo_metarow_organizer .evo_card_organizer_name span{
+		display: block;
+		font-size: 13px;
+	}
+
+/* featured image */
+	.evcal_evdata_img {height:70px; }
+	.evcal_evdata_img {
+		width:100%; overflow:hidden; 
+		background-repeat:none;
+		background-position:50% 50%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		position:relative;	
+	}
+	.evcal_evdata_img:hover{background-position: 50% 50%;	}
+	.evcal_evdata_img.evo_imghover:hover{background-position: 50% 45%;	}
+	
+	@media (max-width:680px){
+		.evo_metarow_fimg.evcal_evdata_img{height: 125px;}
+	}
+
+/* event location image */
+	.evo_metarow_locImg{
+		background-repeat:none;
+		background-position:50% 50%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		position:relative;
+		width:100%; overflow:hidden; 
+		text-align: center;	
+		-webkit-transform-style: preserve-3d;
+	  	-moz-transform-style: preserve-3d;
+	  	transform-style: preserve-3d;
+	}
+	.evo_metarow_locImg.tvi::after{
+		content: "";
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		background-color: #000;
+		height: 100%; width: 100%;
+		z-index: 2;
+		opacity: 0.6
+	}
+	#evcal_list .fdes_list_event .evo_metarow_locImg p.evoLOCtxt, .evo_popup .evo_metarow_locImg p.evoLOCtxt{
+		color: #fff;
+		font-family: oswald, 'arial narrow';
+		font-size: 16px;
+		text-transform: uppercase;
+		padding: 15px; margin: 0;
+		z-index: 5;
+
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+	}
+	#evcal_list .fdes_list_event .evo_metarow_locImg p.evoLOCtxt span, .evo_popup .evo_metarow_locImg p.evoLOCtxt span{
+		display: block;
+		text-align: center;
+		font-family: 'open sans';
+		text-transform: none;
+		font-style: italic;
+		opacity: 0.7
+	}
+
+/*-- event description section --*/
+	.fdes_events_list .fdes_list_event .event_description .fdes_full_description p{padding-bottom:8px}
+
+
+	#evcal_list .fdes_list_event .evcal_desc span.evcal_event_title, .fdes_events_list .evcal_event_subtitle{
+		line-height:120%;
+		padding-bottom:3px;
+	}
+
+	#evcal_list .fdes_list_event .event_description .evcal_desc_buy_tix a{color:#fff; background:#949494; padding:3px 10px; border:none; display:inline-block}
+	#evcal_list .fdes_list_event .event_description .evcal_desc_buy_tix a:hover{background:#4F4F4F}
+	#evcal_list .fdes_list_event .event_description p, #evcal_list .evcal_list_a .event_description li, 
+	.evo_pop_body .evcal_evdata_row .evcal_evdata_cell p{
+		font-size:13px; color:#656565;
+		
+	}
+	#evcal_list .fdes_list_event .event_description .evcal_desc_top{background-color:#e4e4e4;}
+	#evcal_list .fdes_list_event .event_description ul{
+		padding-bottom:5px;
+		list-style-type:disc!important;
+	}
+	#evcal_list .fdes_list_event .event_description li{padding-bottom:10px}
+	.evcal_event_details .evcal_evdata_cell.shorter_desc{height:150px; overflow:hidden;	}	
+			
+
+
+	.evcal_event_details .evcal_evdata_cell{position:relative}
+	.evcal_event_details .evcal_evdata_cell .fdes_details_shading_bot{
+		position:absolute;
+		bottom:0; left:0;
+		height:60px;
+		width:100%;
+	}
+	.fdes_details_shading_bot p:hover, .fdes_list_event .fdes_details_shading_bot p:hover{opacity:1}
+	.fdes_details_shading_bot p, .fdes_list_event .fdes_details_shading_bot p{
+		opacity:0.5;
+		margin-top:40px;
+		text-align:center;
+		cursor:pointer;
+	}
+	.fdes_details_shading_bot p span.ev_more_arrow.less{background-position:-8px 0}
+	.fdes_details_shading_bot p span.ev_more_arrow{
+		height:6px; width:8px;	
+		margin-left:9px;
+	}
+	.fdes_details_shading_bot p span{display:inline-block;}
+
+/*-- upcoming events list --*/
+	.ajde_evcal_calendar .evcal_month_line p{
+		padding:8px 0 5px;
+		color: #c6c6c6;
+		font-size: 24px;
+		text-transform: uppercase;
+		min-height: 24px;
+		line-height: 100% !important;
+		margin: 0 !important;
+		font-weight: normal;
+		border-bottom: 1px solid #e5e5e5;
+	}
+
+
+/** FONTS **/
+	.evcal_evdata_row .evcal_evdata_cell p, #evcal_list .fdes_list_event p.no_events{
+		font-family:'open sans',georgia
+	}
+	.evo_data_val{
+		color: #656565;
+		font-family:'open sans',georgia;
+		font-style: italic;
+		font-size: 13px;
+	}
+
+
+/*-- Responsive --*/
+@media (max-width: 480px){
+		.ajde_evcal_calendar #evcal_loader{height:1px; width:1px}
+		.ajde_evcal_calendar .calendar_header p{font-size:24px;
+	}
+	#evcal_sort_bar ul{
+		padding-left:10px
+	}
+	.event_description .evcal_col50{
+		width:100%; float:none;
+		border-bottom: 1px solid #CDCDCD;
+		border-right: none;
+	}
+	.event_description .evcal_col50 .bordr{border-right:none}
+	
+	.evorow .tb .evcal_col50{
+		float:none; display:block;
+	}
+	.evo_metarow_time_location .evcal_col50{
+		width: 100%;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.evo_popup .evcal_evdata_row .evcal_evdata_cell h3,.evo_popup .evo_clik_row .evo_h3{
+		font-size: 12px;
+	}
+	.evcal_evdata_row .evcal_evdata_cell{padding-left: 38px;}
+	#evcal_list .evorow.getdirections .evoInput, .evo_pop_body .evorow.getdirections .evoInput{
+		font-size: 13px;
+	}
+	#evcal_list .fdes_list_event .event_description p, #evcal_list .fdes_list_event .event_description li, .evo_pop_body .evcal_evdata_row .evcal_evdata_cell p{
+		font-size: 12px;
+	}
+	/* cancelled event text */
+	.fdes_events_list .fdes_list_event .cancel_event .evo_event_headers{padding: 1px 5px; font-size: 10px;}
+
+	/* jumper */	
+	.ajde_evcal_calendar .calendar_header .evo_j_dates p.legend{font-size: 11px;}
+}
+@media only screen and (max-device-width : 480px){
+	.ajde_evcal_calendar .calendar_header p{
+		font-size:26px;
+	}
+	#evcal_sort_bar ul{
+		padding-left:10px
+	}
+}
+@media (max-width: 1024px){
+.evcal_evdata_img {max-height: 341px !important; }
+}
+@media (max-width: 768px){
+.evcal_evdata_img {max-height: 255px !important; }
+}
+@media (max-width: 568px){
+.evcal_evdata_img {max-height: 189px !important; }
+}
+@media (max-width: 480px){
+.evcal_evdata_img {max-height: 106px !important; }
+}

@@ -1,0 +1,2275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Central Iowa Regional Trails |  Des Moines Bicycle Collective</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="pingback" href="http://dsmbikecollective.org/xmlrpc.php" />
+	<meta name="google-site-verification" content="mcPle7Lihq0vSCXiTZw5tGu9UUW6WtnuRpHSURcDwIk" />
+    <link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Feed" href="http://dsmbikecollective.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Comments Feed" href="http://dsmbikecollective.org/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Des Moines Bicycle Collective &raquo; iCal Feed" href="http://dsmbikecollective.org/virtual-passport/?ical=1" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/dsmbikecollective.org\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href="http://dsmbikecollective.org/wp-content/plugins/contact-form-7/includes/css/styles.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='zilla-likes-css'  href="http://dsmbikecollective.org/wp-content/plugins/likes/styles/zilla-likes.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='seamless_donations_css-css'  href="http://dsmbikecollective.org/wp-content/plugins/seamless-donations/css/styles.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='easy-facebook-likebox-plugin-styles-css'  href="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/css/public.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='easy-facebook-likebox-popup-styles-css'  href="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/popup/magnific-popup.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-loom-raleway-font-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A400%2C300%2C500%2C600%2C700%2C800%2C900&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-bootstrap-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/css/bootstrap.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-owl-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/css/owl.carousel.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-fancybox-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/fancybox/jquery.fancybox.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-fancybox-thumbs-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.2&#038;ver=4.4.2&amp;fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-prettify-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/google-code-prettify/prettify.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-style-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/style.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-fontello-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/type/fontello.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-picons-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/type/picons.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-budicons-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/type/budicons.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='ebor-custom-css'  href="http://dsmbikecollective.org/wp-content/themes/loom-theme/custom.css?fdbc7c" type='text/css' media='all' />
+<link rel='stylesheet' id='wpoa-style-css'  href="http://dsmbikecollective.org/wp-content/plugins/wp-oauth/wp-oauth.css?fdbc7c" type='text/css' media='all' />
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-includes/js/jquery/jquery.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-includes/js/jquery/jquery-migrate.min.js?fdbc7c"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var zilla = {"ajaxurl":"http:\/\/dsmbikecollective.org\/wp-admin\/admin-ajax.php"};
+var zilla_likes = {"ajaxurl":"http:\/\/dsmbikecollective.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/likes/scripts/zilla-likes.js?fdbc7c"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dgxDonateAjax = {"ajaxurl":"http:\/\/dsmbikecollective.org\/wp-admin\/admin-ajax.php","nonce":"d1b2cf6eb8","postalCodeRequired":["AU","AT","BE","BR","CA","CN","CZ","DK","FO","FI","FR","DE","GR","GL","HU","IN","ID","IT","JP","KR","LI","LU","MY","MX","MC","NL","NO","PH","PL","PT","RU","SZ","ZA","ES","SE","CH","TH","TR","SG","GB","US"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/seamless-donations/js/script.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/seamless-donations/legacy/js/geo-selects.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/seamless-donations/js/paypalstd-script.js?fdbc7c"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dgxDonateAjax = {"ajaxurl":"http:\/\/dsmbikecollective.org\/wp-admin\/admin-ajax.php","nonce":"d1b2cf6eb8","postalCodeRequired":["AU","AT","BE","BR","CA","CN","CZ","DK","FO","FI","FR","DE","GR","GL","HU","IN","ID","IT","JP","KR","LI","LU","MY","MX","MC","NL","NO","PH","PL","PT","RU","SZ","ZA","ES","SE","CH","TH","TR","SG","GB","US"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/seamless-donations/js/seamless-donations.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/popup/jquery.magnific-popup.min.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/js/jquery.cookie.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/js/public.js?fdbc7c"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpoa_cvars = {"ajaxurl":"http:\/\/dsmbikecollective.org\/wp-admin\/admin-ajax.php","template_directory":"http:\/\/dsmbikecollective.org\/wp-content\/themes\/loom-theme","stylesheet_directory":"http:\/\/dsmbikecollective.org\/wp-content\/themes\/loom-theme","plugins_url":"http:\/\/dsmbikecollective.org\/wp-content\/plugins","plugin_dir_url":"http:\/\/dsmbikecollective.org\/wp-content\/plugins\/wp-oauth\/","url":"http:\/\/dsmbikecollective.org","logout_url":"http:\/\/dsmbikecollective.org\/wp-login.php?action=logout&_wpnonce=a72c6baed0","show_login_messages":"","logout_inactive_users":"0","logged_in":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/wp-oauth/cvars.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/wp-oauth/wp-oauth.js?fdbc7c"></script>
+<link rel='https://api.w.org/' href='http://dsmbikecollective.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dsmbikecollective.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dsmbikecollective.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="http://dsmbikecollective.org/programs/maps/central-iowa-regional-trails/" />
+<link rel='shortlink' href='http://dsmbikecollective.org/?p=1823' />
+<link rel="alternate" type="application/json+oembed" href="http://dsmbikecollective.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdsmbikecollective.org%2Fprograms%2Fmaps%2Fcentral-iowa-regional-trails%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://dsmbikecollective.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdsmbikecollective.org%2Fprograms%2Fmaps%2Fcentral-iowa-regional-trails%2F&#038;format=xml" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f9f9f9; }
+</style>
+	
+<style type="text/css">
+	
+	/**
+	 * Header
+	 */
+	.navbar-header {
+		background: #ffffff;
+		border-top: 3px solid #414141;
+	}
+	
+	.navbar.basic.fixed .navbar-header {
+		background: rgba(255,255,255,0.94);
+	}
+	
+	.navbar .dropdown-menu {
+		background: #414141;
+	}
+	
+	/**
+	 * Footer
+	 */
+	.footer {
+		background: #333333;
+	}
+	
+	.sub-footer {
+		background: #2d2d2d;
+	}
+	
+	/**
+	 * Page Wrappers Backgounds
+	 */
+	.light-wrapper,
+	#sub-header.sub-footer.social-light {
+	    background: #f9f9f9;
+	}
+	.dark-wrapper,
+	#sub-header.sub-footer.social-line {
+	    background: #f5f5f5;
+	}
+		
+	/**
+	 * Highlight Colours
+	 */
+	.spinner,
+	.tp-loader,
+	#fancybox-loading div {
+	    border-left: 3px solid rgba(111,198,55,.15) !important;
+	    border-right: 3px solid rgba(111,198,55,.15) !important;
+	    border-bottom: 3px solid rgba(111,198,55,.15) !important;
+	    border-top: 3px solid rgba(111,198,55,.8) !important;
+	}
+	a,
+	.colored,
+	.post-title a:hover,
+	ul.circled li:before,
+	.lead.lite a:hover,
+	.footer a:hover,
+	.nav > li > a:hover,
+	.nav > li.current > a,
+	.navbar .nav .open > a,
+	.navbar .nav .open > a:hover,
+	.navbar .nav .open > a:focus,
+	.navbar .dropdown-menu > li > a:hover,
+	.navbar .dropdown-menu > li > a:focus,
+	.navbar .dropdown-submenu:hover > a,
+	.navbar .dropdown-submenu:focus > a,
+	.navbar .dropdown-menu > .active > a,
+	.navbar .dropdown-menu > .active > a:hover,
+	.navbar .dropdown-menu > .active > a:focus,
+	.filter li a:hover,
+	.filter li a.active,
+	ul.circled li:before, 
+	.widget_categories ul li:before,
+	.post-content ul li:before,
+	.textwidget a,
+	#sub-header .pull-left i,
+	#sub-header.sub-footer.social-line .pull-left a:hover,
+	#sub-header.sub-footer.social-light .pull-left a:hover,
+	#menu-standard-navigation a.active  {
+	    color: #6fc637;
+	}
+	.lead.lite a {
+	    border-bottom: 1px solid #6fc637;
+	}
+	.btn,
+	.parallax .btn-submit,
+	.btn-submit,
+	.newsletter-wrapper #mc_embed_signup .button,
+	.widget_ns_mailchimp form input[type="submit"],
+	input[type="submit"],
+	.bonfire-slideout-content input[type="submit"],
+	input[type="button"] {
+	    background: #6fc637;
+	}
+	.btn:hover,
+	.btn:focus,
+	.btn:active,
+	.btn.active,
+	.parallax .btn-submit:hover,
+	input[type="submit"]:hover,
+	.bonfire-slideout-content input[type="submit"]:hover,
+	.widget_ns_mailchimp form input[type="submit"]:hover,
+	input[type="button"] {
+	    background: #6fc637;
+	}
+	.tooltip-inner {
+	    background-color: #6fc637;
+	}
+	.tooltip.top .tooltip-arrow,
+	.tooltip.top-left .tooltip-arrow,
+	.tooltip.top-right .tooltip-arrow {
+	    border-top-color: #6fc637	}
+	.tooltip.right .tooltip-arrow {
+	    border-right-color: #6fc637	}
+	.tooltip.left .tooltip-arrow {
+	    border-left-color: #6fc637	}
+	.tooltip.bottom .tooltip-arrow,
+	.tooltip.bottom-left .tooltip-arrow,
+	.tooltip.bottom-right .tooltip-arrow {
+	    border-bottom-color: #6fc637	}
+	.services-1 .col-wrapper:hover,
+	.services-1 .col-wrapper:hover:before {
+	    border-color: #6fc637	}
+	.services-3 .icon i.icn {
+	    color: #6fc637;
+	    border: 2px solid #6fc637;
+	}
+	.services-3 .col:hover i.icn {
+	    background-color: #6fc637;
+	}
+	.panel-title > a:hover {
+	    color: #6fc637	}
+	.progress-list li em {
+	    color: #6fc637;
+	}
+	.progress.plain {
+	    border: 1px solid #6fc637;
+	}
+	.progress.plain .bar {
+	    background: #6fc637;
+	}
+	.meta.tags a:hover {
+	    color: #6fc637	}
+	.owl-carousel .owl-controls .owl-prev:hover,
+	.owl-carousel .owl-controls .owl-next:hover {
+	    border: 1px solid #6fc637;
+	    color: #6fc637;
+	}
+	.navigation a:hover {
+	    border: 1px solid #6fc637;
+	    color: #6fc637;
+	}
+	.tp-caption a,
+	#testimonials .author,
+	.tabs-top .tab a:hover,
+	.tabs-top .tab.active a {
+	    color: #6fc637	}
+	.parallax a:hover {
+	    color: #6fc637	}
+	.pagination ul > li > a:hover,
+	.pagination ul > li > a:focus,
+	.pagination ul > .active > a,
+	.pagination ul > .active > span {
+	    border: 1px solid #6fc637;
+	    color: #6fc637;
+	}
+	.sidebox a:hover {
+	    color: #6fc637	}
+	#comments .info h2 a:hover {
+	    color: #6fc637	}
+	#comments a.reply-link:hover {
+	    color: #6fc637	}
+	.pricing .plan h4 span {
+	    color: #6fc637	}
+	.bonfire-slideout-button:hover {
+		color: #6fc637;
+	}
+	.bonfire-slideout-close:hover {
+		color: #6fc637;
+	}
+	.bonfire-slideout-content .btn-submit {
+	    background: #6fc637	}
+	@media (max-width: 991px) { 
+		.navbar-nav > li > a,
+		.navbar-nav > li > a:focus {
+		    color: #6fc637		}
+	}
+	
+		
+</style>
+	
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		  <!--[if lt IE 9]>
+			  <script src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/html5shiv.js?fdbc7c"></script>
+			  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		  <![endif]-->
+</head>
+
+
+<body class="page page-id-1823 page-child parent-pageid-1377 page-template-default custom-background tribe-bar-is-disabled centered-header">
+
+
+
+<div class="body-wrapper">
+
+  <div class="navbar basic default">
+    <div class="navbar-header">
+    
+    <div id="sub-header" class="sub-footer footer social-line">
+  <div class="container">
+    
+    <div class="pull-left">
+    	<i class="budicon-telephone"></i> <a href="tel:(515) 288-8022">(515) 288-8022</a><i class="budicon-mail"></i> <a href="mailto:info@dsmbikecollective.org">info@dsmbikecollective.org</a>    </div>
+    
+    <ul class="social pull-right">
+      <li><a href="https://twitter.com/dsmbikecoll" target="_blank">
+      					  <i class="icon-s-twitter"></i>
+      				  </a></li><li><a href="https://www.facebook.com/DSMBikeCollective/?ref=hl" target="_blank">
+      					  <i class="icon-s-facebook"></i>
+      				  </a></li><li><a href="https://www.instagram.com/dsmbikecollective/" target="_blank">
+      					  <i class="icon-s-instagram"></i>
+      				  </a></li><li><a href="http://dsmbikecollective.org/individual/" target="_blank">
+      					  <i class="icon-s-paypal"></i>
+      				  </a></li>    </ul>
+    
+  </div>
+</div>    
+      <div class="container">
+      
+        <div class="basic-wrapper"> 
+        
+        	<a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse">
+        		<i class='icon-menu-1'></i>
+        	</a> 
+        	
+        	<a class="navbar-brand" href="http://dsmbikecollective.org">
+        		        			<img src="http://dsmbikecollective.org/wp-content/uploads/2015/09/dsmbc-banner-logo.png?fdbc7c" alt="DSMBC" class="retina" />
+        		        	</a> 
+        	
+        </div>
+        
+        <div class="collapse navbar-collapse pull-right">
+			<ul id="menu-standard-navigation" class="nav navbar-nav"><li id="menu-item-1410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1410 dropdown"><a title="About" href="http://dsmbikecollective.org/about/public-records-2/" data-toggle="dropdown" class="dropdown-toggle js-activated">About</a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-1407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1407"><a title="Staff" href="http://dsmbikecollective.org/about/staff-2/">Staff</a></li>
+	<li id="menu-item-1408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1408"><a title="Board" href="http://dsmbikecollective.org/about/board/">Board</a></li>
+	<li id="menu-item-2226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2226"><a title="Who We are" href="http://dsmbikecollective.org/about/faces/">Who We are</a></li>
+</ul>
+</li>
+<li id="menu-item-1409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1409 dropdown"><a title="Community Bike Shop" href="http://dsmbikecollective.org/community-bike-shop/" data-toggle="dropdown" class="dropdown-toggle js-activated">Community Bike Shop</a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-1455" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1455"><a title="Volunteer" href="http://dsmbikecollective.org/volunteer/volunteer-opportunities/">Volunteer</a></li>
+	<li id="menu-item-1424" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1424"><a title="Maintenance Classes" href="http://www.eventbrite.com/o/the-des-moines-bicycle-collective-5624657913">Maintenance Classes</a></li>
+	<li id="menu-item-1556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1556"><a title="Bike Giveaway" href="http://dsmbikecollective.org/programs/bike-giveaway/">Bike Giveaway</a></li>
+	<li id="menu-item-1391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1391"><a title="Earn-A-Bike" href="http://dsmbikecollective.org/programs/earn-a-bike/">Earn-A-Bike</a></li>
+	<li id="menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2372"><a title="Bikes for Sale" href="http://dsmbikecollective.org/community-bike-shop/bikes-for-sale/">Bikes for Sale</a></li>
+</ul>
+</li>
+<li id="menu-item-2271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2271 dropdown"><a title="Bike Month" href="http://dsmbikecollective.org/bike-month-2/" data-toggle="dropdown" class="dropdown-toggle js-activated">Bike Month</a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-2520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2520"><a title="Events" href="http://dsmbikecollective.org/events/month">Events</a></li>
+	<li id="menu-item-1421" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1421"><a title="Bike Commute Challenge" href="http://challenge.bikemonthiowa.com/how_does_it_work/">Bike Commute Challenge</a></li>
+</ul>
+</li>
+<li id="menu-item-1452" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1452 dropdown"><a title="Programs" href="http://dsmbikecollective.org/programs/" data-toggle="dropdown" class="dropdown-toggle js-activated">Programs</a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-1453" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1453 dropdown-submenu active"><a title="Maps" href="http://dsmbikecollective.org/programs/maps/central-iowa-regional-trails/">Maps</a>
+	<ul role="menu" class=" dropdown-menu">
+		<li id="menu-item-2108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2108"><a title="Des Moines Area Trail Maps" href="http://dsmbikecollective.org/programs/maps/des-moines-area-trail-maps/">Des Moines Area Trail Maps</a></li>
+		<li id="menu-item-1828" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1823 current_page_item menu-item-1828 active"><a title="Central Iowa Regional Trails" href="http://dsmbikecollective.org/programs/maps/central-iowa-regional-trails/">Central Iowa Regional Trails</a></li>
+		<li id="menu-item-1829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1829"><a title="Des Moines Walk and Bike Guide" href="http://dsmbikecollective.org/programs/maps/des-moines-walk-and-bike-guide/">Des Moines Walk and Bike Guide</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1422" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1422"><a title="Bcycles" href="https://desmoines.bcycle.com/">Bcycles</a></li>
+	<li id="menu-item-1394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1394"><a title="Bike Valet" href="http://dsmbikecollective.org/programs/bike-valet/">Bike Valet</a></li>
+	<li id="menu-item-1393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1393"><a title="Bicycle Fleet" href="http://dsmbikecollective.org/programs/bicycle-fleet/">Bicycle Fleet</a></li>
+	<li id="menu-item-1390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1390"><a title="Bike Rodeo" href="http://dsmbikecollective.org/programs/bike-rodeo/">Bike Rodeo</a></li>
+</ul>
+</li>
+<li id="menu-item-1690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1690"><a title="Contact" href="http://dsmbikecollective.org/contact-6/">Contact</a></li>
+<li id="menu-item-1456" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1456 dropdown"><a title="Donate" href="http://dsmbikecollective.org/donate/individual/" data-toggle="dropdown" class="dropdown-toggle js-activated">Donate</a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-1404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1404"><a title="Individual" href="http://dsmbikecollective.org/individual/">Individual</a></li>
+	<li id="menu-item-1406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1406"><a title="Bikes &amp; Equipment" href="http://dsmbikecollective.org/bikes-equipment/">Bikes &#038; Equipment</a></li>
+</ul>
+</li>
+</ul>        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="offset"></div><div class="light-wrapper">
+	<div class="container inner">
+	<div class="post-content">
+		<h2 class="post-title entry-title">Central Iowa Regional Trails</h2>	
+	<style>		
+/***<add>***/
+ 
+
+	
+	  #huge_it_loading_image_ {
+		height:px;
+		width:px;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+	 }
+	  #huge_it_loading_image_.display {
+		display: table-cell;
+	 }
+	  #huge_it_loading_image_.nodisplay {
+		display: none;
+	 }
+	 #huge_it_loading_image_ img {
+		margin: auto 0;
+		width: 20% !important;
+		
+	 }
+	 
+	 .huge_it_slideshow_image_wrap_ {
+		height:px;
+		width:px;
+
+		position:relative;
+		display: block;
+		text-align: center;
+		/*HEIGHT FROM HEADER.PHP*/
+		clear:both;
+		
+				float:none; margin:0px auto;		
+		border-style:solid;
+		border-left:0px !important;
+		border-right:0px !important;
+	}
+	 .huge_it_slideshow_image_wrap1_.display {
+		 width: 100%;
+		 height:100%;
+	 }
+	 .huge_it_slideshow_image_wrap1_.display {
+		 display:block;
+	 }
+	 .huge_it_slideshow_image_wrap1_.nodisplay {
+		 display:none;
+	 }
+	.huge_it_slideshow_image_wrap_ * {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+		 
+
+	  .huge_it_slideshow_image_ {
+			/*width:100%;*/
+	  }
+
+	  #huge_it_slideshow_left_,
+	  #huge_it_slideshow_right_ {
+		cursor: pointer;
+		display:none;
+		display: block;
+		
+		height: 100%;
+		outline: medium none;
+		position: absolute;
+
+		/*z-index: 10130;*/
+		z-index: 13;
+		bottom:25px;
+		top:50%;		
+	  }
+	 
+
+	  #huge_it_slideshow_left-ico_,
+	  #huge_it_slideshow_right-ico_ {
+		z-index: 13;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+		cursor: pointer;
+		display: table;
+		left: -9999px;
+		line-height: 0;
+		margin-top: -15px;
+		position: absolute;
+		top: 50%;
+		/*z-index: 10135;*/
+	  }
+	  #huge_it_slideshow_left-ico_:hover,
+	  #huge_it_slideshow_right-ico_:hover {
+		cursor: pointer;
+	  }
+	  
+	  .huge_it_slideshow_image_container_ {
+		display: table;
+		position: relative;
+		top:0px;
+		left:0px;
+		text-align: center;
+		vertical-align: middle;
+		width:100%;
+	  }	  
+		
+	  .huge_it_slideshow_title_text_ {
+		text-decoration: none;
+		position: absolute;
+		z-index: 11;
+		display: inline-block;
+				
+		width:24%;
+		/*height:44%;*/
+		
+		right:3%;top:3%;		padding:2%;
+		text-align:right;  
+		font-weight:bold;
+		color:#000000;
+			
+		background:rgba(255,255,255,0.7)  !important;
+		border-style:solid;
+		font-size:13px;
+		border-width:0px;
+		border-color:#ffffff;
+		border-radius:4px;
+	  }
+	  	  
+	  .huge_it_slideshow_description_text_ {
+		text-decoration: none;
+		position: absolute;
+		z-index: 11;
+		border-style:solid;
+		display: inline-block;
+				
+		width:64%;
+		/*height:44%;*/
+		right:3%;bottom:3%;		padding:3%;
+		text-align:justify;  
+		color:#ffffff;
+		
+		background:rgba(0,0,0,0.7) !important;
+		border-style:solid;
+		font-size:13px;
+		border-width:0px;
+		border-color:#ffffff;
+		border-radius:0px;
+	  }
+	  
+	   .huge_it_slideshow_title_text_.none, .huge_it_slideshow_description_text_.none,
+	   .huge_it_slideshow_title_text_.hidden, .huge_it_slideshow_description_text_.hidden	   {display:none;}
+	      
+	   .huge_it_slideshow_title_text_ h1, .huge_it_slideshow_description_text_ h1,
+	   .huge_it_slideshow_title_text_ h2, .huge_it_slideshow_title_text_ h2,
+	   .huge_it_slideshow_title_text_ h3, .huge_it_slideshow_title_text_ h3,
+	   .huge_it_slideshow_title_text_ h4, .huge_it_slideshow_title_text_ h4,
+	   .huge_it_slideshow_title_text_ p, .huge_it_slideshow_title_text_ p,
+	   .huge_it_slideshow_title_text_ strong,  .huge_it_slideshow_title_text_ strong,
+	   .huge_it_slideshow_title_text_ span, .huge_it_slideshow_title_text_ span,
+	   .huge_it_slideshow_title_text_ ul, .huge_it_slideshow_title_text_ ul,
+	   .huge_it_slideshow_title_text_ li, .huge_it_slideshow_title_text_ li {
+			padding:2px;
+			margin:0px;
+	   }
+
+	  .huge_it_slide_container_ {
+		display: table-cell;
+		margin: 0 auto;
+		position: relative;
+		vertical-align: middle;
+		width:100%;
+		height:100%;
+		_width: inherit;
+		_height: inherit;
+	  }
+	  .huge_it_slide_bg_ {
+		margin: 0 auto;
+		width:100%;
+		height:100%;
+		_width: inherit;
+		_height: inherit;
+	  }
+	  .huge_it_slider_ {
+		width:100%;
+		height:100%;
+		display:table !important;
+		padding:0px !important;
+		margin:0px !important;
+		
+	  }
+	  .huge_it_slideshow_image_item_ {
+		width:100%;
+		height:100%;
+		_width: inherit;
+		_height: inherit;
+		display: table-cell;
+		filter: Alpha(opacity=100);
+		opacity: 1;
+		position: absolute;
+		top:0px !important;
+		left:0px !important;
+		vertical-align: middle;
+		z-index: 1;
+		margin:0px !important;
+		padding:0px  !important;
+		overflow: hidden !important;
+		border-radius: 0px !important;
+	  }
+	  .huge_it_slideshow_image_second_item_ {
+		width:100%;
+		height:100%;
+		_width: inherit;
+		_height: inherit;
+		display: table-cell;
+		filter: Alpha(opacity=0);
+		opacity: 0;
+		position: absolute;
+		top:0px !important;
+		left:0px !important;
+		vertical-align: middle;
+		overflow:hidden;
+		margin:0px !important;
+		visibility:visible !important;
+		padding:0px  !important;
+		border-radius: 0px !important;
+	  }  
+	   .huge_it_slideshow_image_second_item_ a, .huge_it_slideshow_image_item_ a {
+			display:block;
+			width:100%;
+			height:100%;	
+	   }
+	   
+	  .huge_it_grid_ {
+		display: none;
+		height: 100%;
+		overflow: hidden;
+		position: absolute;
+		width: 100%;
+	  }
+	  .huge_it_gridlet_ {
+		opacity: 1;
+		filter: Alpha(opacity=100);
+		position: absolute;
+	  }
+	  
+					
+	  .huge_it_slideshow_dots_container_ {
+		display: table;
+		position: absolute;
+		width:100% !important;
+		height:100% !important;
+	  }
+	  .huge_it_slideshow_dots_thumbnails_ {
+		margin: 0 auto;
+		overflow: hidden;
+		position: absolute;
+		width:100%;
+		height:30px;
+	  }
+	  
+	  .huge_it_slideshow_dots_ {
+		display: inline-block;
+		position: relative;
+		cursor: pointer;
+		box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1);
+		width:10px;
+		height: 10px;
+		border-radius: 10px;
+		background: #00f;
+		margin: 10px;
+		overflow: hidden;
+		z-index: 17;
+	  }
+	  
+	  .huge_it_slideshow_dots_active_ {
+		opacity: 1;
+		filter: Alpha(opacity=100);
+	  }
+	  .huge_it_slideshow_dots_deactive_ {
+	  
+	  }
+	  
+	
+		
+		.huge_it_slideshow_image_wrap_ {
+			background:#ffffff;
+			border-width:0px;
+			border-color:#ffffff;
+			border-radius:0px;
+		}
+		.huge_it_slideshow_image_wrap_.nocolor {
+			background: transparent;
+		}
+		
+		.huge_it_slideshow_dots_thumbnails_ {
+					}
+		
+		.huge_it_slideshow_dots_ {
+			background:#000000;
+		}
+		
+		.huge_it_slideshow_dots_active_ {
+			background:#ffffff;
+		}
+					
+		/*//////////////////////slider thunbnail styles start///////////////////////////*/
+
+		
+		.bx-viewport {
+		  height: 100px !important;
+		  -webkit-transform: translatez(0);
+		}
+		.entry-content .huge_it_slideshow_image_wrap_ a{
+			border-bottom: none !important;
+		}
+		.entry-content .huge_it_slideshow_image_wrap_ li{
+			margin:0px !important;
+			padding: 0px !important;
+		}
+		.entry-content .huge_it_slideshow_image_wrap_ ul{
+			list-style-type:none !important;
+			margin: 0px !important;
+			padding: 0px !important;
+		}
+		.bx-wrapper {
+		  position: relative;
+		  margin: 0 auto 0 auto;
+		  padding: 0;
+		  max-width: px !important;
+		  *zoom: 1;
+		  -ms-touch-action: pan-y;
+		  touch-action: pan-y;
+		}
+		.huge_it_slideshow_thumbs_container_{
+						}
+		.huge_it_slideshow_thumbs_{
+
+			
+		}
+		.huge_it_slideshow_thumbs_ li{
+			display: inline-block;
+			 
+		    height: 100px ;
+		    
+
+			
+		}
+		.huge_it_slideshow_thumbnails_ {
+		    display: inline-block;
+		    position: relative;
+		    cursor: pointer;
+		    background: #FFFFFF;
+		    z-index: 17;
+		}
+		.sl_thumb_img{
+		    width: 100% !important;
+		    height: 100% !important;
+		    display: block;
+		    margin: 0 auto;
+		}
+		.sl_thumb_img2{
+		    height: 100% !important;
+		    display: block;
+		    margin: 0 auto;
+		}
+		.trans_back{
+			width: 100%;
+			height: 100%;
+			top:0;
+			position: absolute;
+			background:rgba(255,255,255,0.5);
+			transition: 0.3s ease;
+		}
+		.trans_back:hover{
+			background:none !important;
+		}
+		.play-icon.youtube {background:url(http://dsmbikecollective.org/wp-content/plugins/slider-image/images/play.youtube.png) center center no-repeat;
+			width: 100%;
+			height: 100%;
+			top:0;
+			position: absolute;}
+
+		.play-icon.vimeo {background:url(http://dsmbikecollective.org/wp-content/plugins/slider-image/images/play.vimeo.png) center center no-repeat;
+			width: 100%;
+			height: 100%;
+			top:0;
+			position: absolute;
+		}
+		.bx-wrapper {
+		  
+		  border: 0px solid #fff;
+		  background: #fff;
+		}
+		
+		/*////////////slider thunbnail styles end//////////////*/
+		
+							#huge_it_slideshow_left_ {	
+						left:0px;
+						margin-top:-21px;
+						height:43px;
+						width:29px;
+						background:url(http://dsmbikecollective.org/wp-content/plugins/slider-image/Front_images/arrows/arrows.simple.png) left  top no-repeat; 
+						background-size: 200%;
+					}
+					
+					#huge_it_slideshow_right_ {
+						right:0px;
+						margin-top:-21px;
+						height:43px;
+						width:29px;
+						background:url(http://dsmbikecollective.org/wp-content/plugins/slider-image/Front_images/arrows/arrows.simple.png) right top no-repeat; 
+						background-size: 200%;
+
+					}
+				
+/***</add>***/
+
+	</style>
+
+
+
+		
+<h1><script>
+	var huge_video_playing={};
+	var autoplayMatch={};
+	
+	
+
+</script>
+
+
+
+<!--  #######ADD YOUTUBE IFRAME TWICE######## -->
+<script> 
+  	 	 	 
+	var YTdeferred = jQuery.Deferred();
+	window.onYouTubeIframeAPIReady = function() {
+		//resolve when youtube callback is called passing YT as a parameter
+		YTdeferred.resolve(window.YT);
+
+	};
+	YTdeferred.done(function(YT) {
+
+		jQuery('.huge-it-iframe').each(function(){
+			
+			var el_id = jQuery(this).attr('data-element-id');
+			var volume = HUGEIT_YT_IFRAMES['iframe'+el_id]['volume'];
+			
+			window['onPlayerReady'+el_id] = function(event) {
+				window['player_'+el_id]['setVolume'](volume);
+			}
+		});		
+
+		jQuery('.huge-it-iframe').each(function(){
+		
+			var id = jQuery(this).attr('id');
+			var el_id = jQuery(this).attr('data-element-id');
+			var controls = HUGEIT_YT_IFRAMES['iframe'+el_id]['controls'];
+			var showinfo = HUGEIT_YT_IFRAMES['iframe'+el_id]['showinfo'];
+			var url = HUGEIT_YT_IFRAMES['iframe'+el_id]['videoId'];
+			controls||(controls = 0);
+			showinfo||(showinfo = 0);
+			
+			window['player_'+el_id] = new YT.Player(id, {
+				height: '',
+				width: '',
+				videoId: url,
+				playerVars: {
+					'controls': controls,// 0,           
+					'showinfo': showinfo,//0,
+					'rel':0
+				},
+				events: {
+					'onError': window['onPlayerError'+el_id],
+					'onReady': window['onPlayerReady'+el_id],
+					'onStateChange': window['onPlayerStateChange'+el_id],
+					'loop':1
+				}
+			});			
+		})
+	});
+	
+	jQuery(function(){
+
+		jQuery('.huge-it-iframe').each(function(){
+			
+			var el_id = jQuery(this).attr('data-element-id');
+			var quality = HUGEIT_YT_IFRAMES['iframe'+el_id]['quality'];	
+		
+			window['onPlayerStateChange'+el_id] = function(event) {
+		
+				if (event.data == YT.PlayerState.PLAYING) {
+					HUGEIT_YT_IFRAMES['iframe'+el_id]['state']='played';
+					event.target.setPlaybackQuality(quality);
+				}
+			}
+		});
+	
+	});
+	function stopYoutubeVideo(currentVideo,nextVideo) {
+
+		if(currentVideo) {
+			(HUGEIT_YT_IFRAMES['iframe'+currentVideo]['state'])?currentVideo&&(window['player_'+currentVideo]['pauseVideo']()):currentVideo&&(window['player_'+currentVideo]['stopVideo']());
+		}
+		nextVideo&&HUGEIT_YT_IFRAMES['iframe'+nextVideo]['autoplay']&&(window['player_'+nextVideo]['playVideo']());
+	}	
+	
+	function stopVimeoVideo(currentVideo,nextVideo){
+		jQuery(currentVideo).vimeo('pause');
+		jQuery(nextVideo).vimeo('play');
+	}
+/*** <Vimeo> initialize And youtube autopay ***/ 
+
+	jQuery( window ).load(function() {	
+
+		(function VimeoOptionsReady(){ //calling funtion once
+				jQuery('.huge-it-iframe-vimeo').each(function(){
+					var el_id = jQuery(this).attr('data-element-id');
+					jQuery(this).vimeo('setColor',HUGEIT_VIMEOS['iframe'+el_id]['color']);
+					jQuery(this).vimeo('setVolume',HUGEIT_VIMEOS['iframe'+el_id]['volume']);
+				})
+		}());
+		
+		if('' == 'on') {
+							
+
+			if(jQuery('.huge-it-iframe-vimeo.autoplay').length) {
+								
+				(function AutoplayVimeo() {
+					var setplayVideo = setInterval(hugeitframe, 100);
+					function hugeitframe() {
+						var vimeo1 = jQuery('.huge_it_slider_ li').first().find('.autoplay')
+							if(vimeo1.length) {
+								vimeo1.vimeo('play');
+								clearInterval(setplayVideo);
+							}
+					};	
+				}());
+			};
+			
+			if(jQuery('.huge-it-iframe.autoplay').length) {
+									
+				(function AutoplayYoutube() {
+					var setplayVideo = setInterval(hugeitframe, 100);
+					function hugeitframe() {
+						jQuery('.huge-it-iframe.autoplay').each(function(){
+							
+						var el_id = jQuery(this).attr('data-element-id');
+						
+						if(window['player_'+el_id]) {
+							window['player_'+el_id]['playVideo']();
+							clearInterval(setplayVideo);
+						}
+						});	
+					}
+				}());
+			};		
+
+
+		}
+	});
+
+/*** </Vimeo> initialize***/ 
+
+</script>
+<!--  </#######ADD YOUTUBE IFRAME TWICE END########>-->
+		
+	
+<script>
+
+	jQuery(document).ready(function($) {
+
+  $('.thumb_wrapper').on('click', function(ev) {
+  	var hugeid=$(this).data('rowid');
+  	var myid=hugeid;
+  	myid=parseInt(myid);
+  	eval('player_'+myid+'.playVideo()')
+   ev.preventDefault();
+ 
+  });
+});
+
+	if(typeof sliderID_array =="undefined"){
+		var sliderID_array=[];
+	}
+	
+	var data_ = [];      
+	var event_stack_ = [];
+	//huge_video_playing['video_is_playing_'+]=false;
+	data_["0"]=[];data_["0"]["id"]="0";data_["0"]["image_url"]="http://dsmbikecollective.org/wp-content/uploads/2015/12/CountyRoad41-990x250.jpg";data_["0"]["description"]="";data_["0"]["alt"]="";data_["1"]=[];data_["1"]["id"]="1";data_["1"]["image_url"]="http://dsmbikecollective.org/wp-content/uploads/2015/12/examplephoto2.jpg";data_["1"]["description"]="";data_["1"]["alt"]="";data_["2"]=[];data_["2"]["id"]="2";data_["2"]["image_url"]="http://dsmbikecollective.org/wp-content/uploads/2015/12/HighTrestlen1-990x250.jpg";data_["2"]["description"]="";data_["2"]["alt"]="";	
+	
+
+      var huge_it_trans_in_progress_ = false;
+      var huge_it_transition_duration_ = ;
+      var huge_interval ={};
+      var id_array_index=sliderID_array.length
+
+	  
+      
+	  var ifhasthumb ="";
+	  sliderID_array[id_array_index] =       // Stop autoplay.
+      window.clearInterval(huge_interval['huge_it_playInterval_'+]);
+	  
+     var huge_it_current_key_ = '';
+	 function huge_it_move_dots_() {
+        var image_left = jQuery(".huge_it_slideshow_dots_active_").position().left;
+        var image_right = jQuery(".huge_it_slideshow_dots_active_").position().left + jQuery(".huge_it_slideshow_dots_active_").outerWidth(true);
+       
+      }
+      function huge_it_testBrowser_cssTransitions_() {
+        return huge_it_testDom_('Transition');
+      }
+      function huge_it_testBrowser_cssTransforms3d_() {
+        return huge_it_testDom_('Perspective');
+      }
+      function huge_it_testDom_(prop) {
+        // Browser vendor CSS prefixes.
+        var browserVendors = ['', '-webkit-', '-moz-', '-ms-', '-o-', '-khtml-'];
+        // Browser vendor DOM prefixes.
+        var domPrefixes = ['', 'Webkit', 'Moz', 'ms', 'O', 'Khtml'];
+        var i = domPrefixes.length;
+        while (i--) {
+          if (typeof document.body.style[domPrefixes[i] + prop] !== 'undefined') {
+            return true;
+          }
+        }
+        return false;
+      }
+		function huge_it_cube_(tz, ntx, nty, nrx, nry, wrx, wry, current_image_class, next_image_class, direction) {
+		
+        /* If browser does not support 3d transforms/CSS transitions.*/
+        if (!huge_it_testBrowser_cssTransitions_()) {
+			jQuery(".huge_it_slideshow_dots_").removeClass("huge_it_slideshow_dots_active_").addClass("huge_it_slideshow_dots_deactive_");
+        jQuery("#huge_it_dots_" + huge_it_current_key_ + "_").removeClass("huge_it_slideshow_dots_deactive_").addClass("huge_it_slideshow_dots_active_");
+          return huge_it_fallback_(current_image_class, next_image_class, direction);
+        }
+        if (!huge_it_testBrowser_cssTransforms3d_()) {
+          return huge_it_fallback3d_(current_image_class, next_image_class, direction);
+        }
+			//alert(current_image_class+' '+next_image_class);
+		  jQuery(current_image_class).css({'z-index': 'none'});
+          jQuery(next_image_class).css({'z-index' : 2});
+        huge_it_trans_in_progress_ = true;
+        /* Set active thumbnail.*/
+		jQuery(".huge_it_slideshow_dots_").removeClass("huge_it_slideshow_dots_active_").addClass("huge_it_slideshow_dots_deactive_");  
+		jQuery("#huge_it_dots_" + huge_it_current_key_ + "_").removeClass("huge_it_slideshow_dots_deactive_").addClass("huge_it_slideshow_dots_active_");
+        jQuery(".huge_it_slide_bg_").css('perspective', 1000);
+        jQuery(current_image_class).css({
+          transform : 'translateZ(' + tz + 'px)',
+          backfaceVisibility : 'hidden'
+        });
+		
+		 jQuery(".huge_it_slideshow_image_wrap_,.huge_it_slide_bg_,.huge_it_slideshow_image_item_,.huge_it_slideshow_image_second_item_ ").css('overflow', 'visible');
+		
+        jQuery(next_image_class).css({
+          opacity : 1,
+          filter: 'Alpha(opacity=100)',
+          backfaceVisibility : 'hidden',
+          transform : 'translateY(' + nty + 'px) translateX(' + ntx + 'px) rotateY('+ nry +'deg) rotateX('+ nrx +'deg)'
+        });
+        jQuery(".huge_it_slider_").css({
+          transform: 'translateZ(-' + tz + 'px)',
+          transformStyle: 'preserve-3d'
+        });
+        /* Execution steps.*/
+        setTimeout(function () {
+          jQuery(".huge_it_slider_").css({
+            transition: 'all ' + huge_it_transition_duration_ + 'ms ease-in-out',
+            transform: 'translateZ(-' + tz + 'px) rotateX('+ wrx +'deg) rotateY('+ wry +'deg)'
+          });
+        }, 20);
+        /* After transition.*/
+        jQuery(".huge_it_slider_").one('webkitTransitionEnd transitionend otransitionend oTransitionEnd mstransitionend', jQuery.proxy(huge_it_after_trans));
+        function huge_it_after_trans() {
+          /*if (huge_it_from_focus_) {
+            huge_it_from_focus_ = false;
+            return;
+          }*/
+		  jQuery(".huge_it_slide_bg_,.huge_it_slideshow_image_item_,.huge_it_slideshow_image_second_item_ ").css('overflow', 'hidden');
+		  jQuery(".huge_it_slide_bg_").removeAttr('style');
+          jQuery(current_image_class).removeAttr('style');
+          jQuery(next_image_class).removeAttr('style');
+          jQuery(".huge_it_slider_").removeAttr('style');
+		 // alert(current_image_class+' '+next_image_class);
+          jQuery(current_image_class).css({'opacity' : 0, filter: 'Alpha(opacity=0)', 'z-index': 1});
+          jQuery(next_image_class).css({'opacity' : 1, filter: 'Alpha(opacity=100)', 'z-index' : 2});
+         // huge_it_change_watermark_container_();
+          huge_it_trans_in_progress_ = false;
+          if (typeof event_stack_ !== 'undefined' && event_stack_.length > 0) {
+            key = event_stack_[0].split("-");
+            event_stack_.shift();
+            huge_it_change_image_(key[0], key[1], data_, true,false);
+          }
+        }
+      }
+      function huge_it_cubeH_(current_image_class, next_image_class, direction) {
+        /* Set to half of image width.*/
+        var dimension = jQuery(current_image_class).width() / 2;
+        if (direction == 'right') {
+          huge_it_cube_(dimension, dimension, 0, 0, 90, 0, -90, current_image_class, next_image_class, direction);
+        }
+        else if (direction == 'left') {
+          huge_it_cube_(dimension, -dimension, 0, 0, -90, 0, 90, current_image_class, next_image_class, direction);
+        }
+      }
+      function huge_it_cubeV_(current_image_class, next_image_class, direction) {
+        /* Set to half of image height.*/
+        var dimension = jQuery(current_image_class).height() / 2;
+        /* If next slide.*/
+        if (direction == 'right') {
+          huge_it_cube_(dimension, 0, -dimension, 90, 0, -90, 0, current_image_class, next_image_class, direction);
+        }
+        else if (direction == 'left') {
+          huge_it_cube_(dimension, 0, dimension, -90, 0, 90, 0, current_image_class, next_image_class, direction);
+        }
+      }
+      /* For browsers that does not support transitions.*/
+      function huge_it_fallback_(current_image_class, next_image_class, direction) {
+        huge_it_fade_(current_image_class, next_image_class, direction);
+      }
+      /* For browsers that support transitions, but not 3d transforms (only used if primary transition makes use of 3d-transforms).*/
+      function huge_it_fallback3d_(current_image_class, next_image_class, direction) {
+        huge_it_sliceV_(current_image_class, next_image_class, direction);
+      }
+      function huge_it_none_(current_image_class, next_image_class, direction) {
+        jQuery(current_image_class).css({'opacity' : 0, 'z-index': 1});
+        jQuery(next_image_class).css({'opacity' : 1, 'z-index' : 2});
+
+        /* Set active thumbnail.*/
+        jQuery(".huge_it_slideshow_dots_").removeClass("huge_it_slideshow_dots_active_").addClass("huge_it_slideshow_dots_deactive_");
+        jQuery("#huge_it_dots_" + huge_it_current_key_ + "_").removeClass("huge_it_slideshow_dots_deactive_").addClass("huge_it_slideshow_dots_active_");
+      }
+      function huge_it_fade_(current_image_class, next_image_class, direction) {
+		if (huge_it_testBrowser_cssTransitions_()) {
+			
+          jQuery(next_image_class).css('transition', 'opacity ' + huge_it_transition_duration_ + 'ms linear');
+		  jQuery(current_image_class).css('transition', 'opacity ' + huge_it_transition_duration_ + 'ms linear');
+          jQuery(current_image_class).css({'opacity' : 0, 'z-index': 1});
+          jQuery(next_image_class).css({'opacity' : 1, 'z-index' : 2});
+        }
+        else {
+		
+          jQuery(current_image_class).animate({'opacity' : 0, 'z-index' : 1}, huge_it_transition_duration_);
+          jQuery(next_image_class).animate({
+              'opacity' : 1,
+              'z-index': 2
+            }, {
+              duration: huge_it_transition_duration_,
+              complete: function () {return false;}
+            });
+          // For IE.
+          jQuery(current_image_class).fadeTo(huge_it_transition_duration_, 0);
+          jQuery(next_image_class).fadeTo(huge_it_transition_duration_, 1);
+        }
+
+		jQuery(".huge_it_slideshow_dots_").removeClass("huge_it_slideshow_dots_active_").addClass("huge_it_slideshow_dots_deactive_");
+		jQuery("#huge_it_dots_" + huge_it_current_key_ + "_").removeClass("huge_it_slideshow_dots_deactive_").addClass("huge_it_slideshow_dots_active_");
+      }
+      function huge_it_grid_(cols, rows, ro, tx, ty, sc, op, current_image_class, next_image_class, direction) {
+        /* If browser does not support CSS transitions.*/
+        if (!huge_it_testBrowser_cssTransitions_()) {
+			jQuery(".huge_it_slideshow_dots_").removeClass("huge_it_slideshow_dots_active_").addClass("huge_it_slideshow_dots_deactive_");
+        jQuery("#huge_it_dots_" + huge_it_current_key_ + "_").removeClass("huge_it_slideshow_dots_deactive_").addClass("huge_it_slideshow_dots_active_");
+          return huge_it_fallback_(current_image_class, next_image_class, direction);
+		  
+        }
+        huge_it_trans_in_progress_ = true;
+        /* Set active thumbnail.*/
+		jQuery(".huge_it_slideshow_dots_").removeClass("huge_it_slideshow_dots_active_").addClass("huge_it_slideshow_dots_deactive_");
+        jQuery("#huge_it_dots_" + huge_it_current_key_ + "_").removeClass("huge_it_slideshow_dots_deactive_").addClass("huge_it_slideshow_dots_active_");
+        /* The time (in ms) added to/subtracted from the delay total for each new gridlet.*/
+        var count = (huge_it_transition_duration_) / (cols + rows);
+        /* Gridlet creator (divisions of the image grid, positioned with background-images to replicate the look of an entire slide image when assembled)*/
+        function huge_it_gridlet(width, height, top, img_top, left, img_left, src, imgWidth, imgHeight, c, r) {
+          var delay = (c + r) * count;
+          /* Return a gridlet elem with styles for specific transition.*/
+          return jQuery('<div class="huge_it_gridlet_" />').css({
+            width : width,
+            height : height,
+            top : top,
+            left : left,
+            backgroundImage : 'url("' + src + '")',
+            backgroundColor: jQuery(".huge_it_slideshow_image_wrap_").css("background-color"),
+            /*backgroundColor: rgba(0, 0, 0, 0),*/
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition : img_left + 'px ' + img_top + 'px',
+            backgroundSize : imgWidth + 'px ' + imgHeight + 'px',
+            transition : 'all ' + huge_it_transition_duration_ + 'ms ease-in-out ' + delay + 'ms',
+            transform : 'none'
+          });
+        }
+        /* Get the current slide's image.*/
+        var cur_img = jQuery(current_image_class).find('img');
+        /* Create a grid to hold the gridlets.*/
+        var grid = jQuery('<div />').addClass('huge_it_grid_');
+        /* Prepend the grid to the next slide (i.e. so it's above the slide image).*/
+        jQuery(current_image_class).prepend(grid);
+        /* vars to calculate positioning/size of gridlets*/
+        var cont = jQuery(".huge_it_slide_bg_");
+        var imgWidth = cur_img.width();
+        var imgHeight = cur_img.height();
+        var contWidth = cont.width(),
+            contHeight = cont.height(),
+            imgSrc = cur_img.attr('src'),/*.replace('/thumb', ''),*/
+            colWidth = Math.floor(contWidth / cols),
+            rowHeight = Math.floor(contHeight / rows),
+            colRemainder = contWidth - (cols * colWidth),
+            colAdd = Math.ceil(colRemainder / cols),
+            rowRemainder = contHeight - (rows * rowHeight),
+            rowAdd = Math.ceil(rowRemainder / rows),
+            leftDist = 0,
+            img_leftDist = (jQuery(".huge_it_slide_bg_").width() - cur_img.width()) / 2;
+        /* tx/ty args can be passed as 'auto'/'min-auto' (meaning use slide width/height or negative slide width/height).*/
+        tx = tx === 'auto' ? contWidth : tx;
+        tx = tx === 'min-auto' ? - contWidth : tx;
+        ty = ty === 'auto' ? contHeight : ty;
+        ty = ty === 'min-auto' ? - contHeight : ty;
+        /* Loop through cols*/
+        for (var i = 0; i < cols; i++) {
+          var topDist = 0,
+              img_topDst = (jQuery(".huge_it_slide_bg_").height() - cur_img.height()) / 2,
+              newColWidth = colWidth;
+          /* If imgWidth (px) does not divide cleanly into the specified number of cols, adjust individual col widths to create correct total.*/
+          if (colRemainder > 0) {
+            var add = colRemainder >= colAdd ? colAdd : colRemainder;
+            newColWidth += add;
+            colRemainder -= add;
+          }
+          /* Nested loop to create row gridlets for each col.*/
+          for (var j = 0; j < rows; j++)  {
+            var newRowHeight = rowHeight,
+                newRowRemainder = rowRemainder;
+            /* If contHeight (px) does not divide cleanly into the specified number of rows, adjust individual row heights to create correct total.*/
+            if (newRowRemainder > 0) {
+              add = newRowRemainder >= rowAdd ? rowAdd : rowRemainder;
+              newRowHeight += add;
+              newRowRemainder -= add;
+            }
+            /* Create & append gridlet to grid.*/
+            grid.append(huge_it_gridlet(newColWidth, newRowHeight, topDist, img_topDst, leftDist, img_leftDist, imgSrc, imgWidth, imgHeight, i, j));
+            topDist += newRowHeight;
+            img_topDst -= newRowHeight;
+          }
+          img_leftDist -= newColWidth;
+          leftDist += newColWidth;
+        }
+        /* Set event listener on last gridlet to finish transitioning.*/
+        var last_gridlet = grid.children().last();
+        /* Show grid & hide the image it replaces.*/
+        grid.show();
+        cur_img.css('opacity', 0);
+        /* Add identifying classes to corner gridlets (useful if applying border radius).*/
+        grid.children().first().addClass('rs-top-left');
+        grid.children().last().addClass('rs-bottom-right');
+        grid.children().eq(rows - 1).addClass('rs-bottom-left');
+        grid.children().eq(- rows).addClass('rs-top-right');
+        /* Execution steps.*/
+        setTimeout(function () {
+          grid.children().css({
+            opacity: op,
+            transform: 'rotate('+ ro +'deg) translateX('+ tx +'px) translateY('+ ty +'px) scale('+ sc +')'
+          });
+        }, 1);
+        jQuery(next_image_class).css('opacity', 1);
+        /* After transition.*/
+        jQuery(last_gridlet).one('webkitTransitionEnd transitionend otransitionend oTransitionEnd mstransitionend', jQuery.proxy(huge_it_after_trans));
+        function huge_it_after_trans() {
+          jQuery(current_image_class).css({'opacity' : 0, 'z-index': 1});
+          jQuery(next_image_class).css({'opacity' : 1, 'z-index' : 2});
+          cur_img.css('opacity', 1);
+          grid.remove();
+          huge_it_trans_in_progress_ = false;
+          if (typeof event_stack_ !== 'undefined' && event_stack_.length > 0) {
+            key = event_stack_[0].split("-");
+            event_stack_.shift();
+            huge_it_change_image_(key[0], key[1], data_, true,false);
+          }
+        }
+      }
+      function huge_it_sliceH_(current_image_class, next_image_class, direction) {
+        if (direction == 'right') {
+          var translateX = 'min-auto';
+        }
+        else if (direction == 'left') {
+          var translateX = 'auto';
+        }
+        huge_it_grid_(1, 8, 0, translateX, 0, 1, 0, current_image_class, next_image_class, direction);
+      }
+      function huge_it_sliceV_(current_image_class, next_image_class, direction) {
+        if (direction == 'right') {
+          var translateY = 'min-auto';
+        }
+        else if (direction == 'left') {
+          var translateY = 'auto';
+        }
+        huge_it_grid_(10, 1, 0, 0, translateY, 1, 0, current_image_class, next_image_class, direction);
+      }
+      function huge_it_slideV_(current_image_class, next_image_class, direction) {
+        if (direction == 'right') {
+          var translateY = 'auto';
+        }
+        else if (direction == 'left') {
+          var translateY = 'min-auto';
+        }
+        huge_it_grid_(1, 1, 0, 0, translateY, 1, 1, current_image_class, next_image_class, direction);
+      }
+      function huge_it_slideH_(current_image_class, next_image_class, direction) {
+        if (direction == 'right') {
+          var translateX = 'min-auto';
+        }
+        else if (direction == 'left') {
+          var translateX = 'auto';
+        }
+        huge_it_grid_(1, 1, 0, translateX, 0, 1, 1, current_image_class, next_image_class, direction);
+      }
+      function huge_it_scaleOut_(current_image_class, next_image_class, direction) {
+        huge_it_grid_(1, 1, 0, 0, 0, 1.5, 0, current_image_class, next_image_class, direction);
+      }
+      function huge_it_scaleIn_(current_image_class, next_image_class, direction) {
+        huge_it_grid_(1, 1, 0, 0, 0, 0.5, 0, current_image_class, next_image_class, direction);
+      }
+      function huge_it_blockScale_(current_image_class, next_image_class, direction) {
+        huge_it_grid_(8, 6, 0, 0, 0, .6, 0, current_image_class, next_image_class, direction);
+      }
+      function huge_it_kaleidoscope_(current_image_class, next_image_class, direction) {
+        huge_it_grid_(10, 8, 0, 0, 0, 1, 0, current_image_class, next_image_class, direction);
+      }
+      function huge_it_fan_(current_image_class, next_image_class, direction) {
+        if (direction == 'right') {
+          var rotate = 45;
+          var translateX = 100;
+        }
+        else if (direction == 'left') {
+          var rotate = -45;
+          var translateX = -100;
+        }
+        huge_it_grid_(1, 10, rotate, translateX, 0, 1, 0, current_image_class, next_image_class, direction);
+      }
+      function huge_it_blindV_(current_image_class, next_image_class, direction) {
+        huge_it_grid_(1, 8, 0, 0, 0, .7, 0, current_image_class, next_image_class);
+      }
+      function huge_it_blindH_(current_image_class, next_image_class, direction) {
+        huge_it_grid_(10, 1, 0, 0, 0, .7, 0, current_image_class, next_image_class);
+      }
+      function huge_it_random_(current_image_class, next_image_class, direction) {
+        var anims = ['sliceH', 'sliceV', 'slideH', 'slideV', 'scaleOut', 'scaleIn', 'blockScale', 'kaleidoscope', 'fan', 'blindH', 'blindV'];
+        /* Pick a random transition from the anims array.*/
+        this["huge_it_" + anims[Math.floor(Math.random() * anims.length)] + "_"](current_image_class, next_image_class, direction);
+      }
+      
+      function iterator_() {
+        var iterator = 1;
+
+        return iterator;
+     }
+	 
+     function huge_it_change_image_(current_key, key, data_, from_effect,clicked) {
+		
+        if (data_[key]) {
+		
+			/*if(huge_video_playing['video_is_playing_'+] && !clicked){
+				return false;
+			}*/
+         
+		 
+		 
+          if (!from_effect) {
+            // Change image key.
+            jQuery("#huge_it_current_image_key_").val(key);
+             // if (current_key == '-2') { /* Dots.*/
+				current_key = jQuery(".huge_it_slideshow_dots_active_").attr("data-image_key");
+			//  }
+          }
+
+          if (huge_it_trans_in_progress_) {
+			//errorlogjQuery(".huge_it_slideshow_image_wrap_").after(" --IN TRANSACTION-- <br />");
+            event_stack_.push(current_key + '-' + key);
+            return;
+          }
+		  
+          var direction = 'right';
+          if (huge_it_current_key_ > key) {
+            var direction = 'left';
+          }
+          else if (huge_it_current_key_ == key) {
+            return false;
+          }
+         
+          // Set active thumbnail position.
+      
+          huge_it_current_key_ = key;
+          //Change image id, title, description.
+          jQuery("#huge_it_slideshow_image_").attr('data-image_id', data_[key]["id"]);
+		  
+		  
+		  jQuery(".huge_it_slideshow_title_text_").html(data_[key]["alt"]);
+          jQuery(".huge_it_slideshow_description_text_").html(data_[key]["description"]);
+        
+		  var current_image_class = "#image_id__" + data_[current_key]["id"];
+          var next_image_class = "#image_id__" + data_[key]["id"];
+          
+		  
+		
+		 if(jQuery(current_image_class).find('.huge_it_video_frame_').length>0) {
+			var streffect='';
+			if(streffect=="cubeV" || streffect=="cubeH" || streffect=="none" || streffect=="fade"){
+				huge_it__(current_image_class, next_image_class, direction);
+			}else{	
+				huge_it_fade_(current_image_class, next_image_class, direction);
+			}	
+		  }else{	
+				huge_it__(current_image_class, next_image_class, direction);
+		  }	
+		  
+		  
+		jQuery('.huge_it_slideshow_title_text_').removeClass('none');
+		if(jQuery('.huge_it_slideshow_title_text_').html()==""){jQuery('.huge_it_slideshow_title_text_').addClass('none');}
+
+		jQuery('.huge_it_slideshow_description_text_').removeClass('none');
+		if(jQuery('.huge_it_slideshow_description_text_').html()==""){jQuery('.huge_it_slideshow_description_text_').addClass('none');}
+	  
+		  
+		  
+		  jQuery(current_image_class).find('.huge_it_slideshow_title_text_').addClass('none');
+		  jQuery(current_image_class).find('.huge_it_slideshow_description_text_').addClass('none');
+		
+		
+
+		  
+		  //errorlogjQuery(".huge_it_slideshow_image_wrap_").after("--cur-key="+current_key+" --cur-img-class="+current_image_class+" nxt-img-class="+next_image_class+"--");
+			 huge_it_move_dots_();
+								/*** <vy api>  for vimeo and youtube stop pause play etc... ***/
+					var nextVideo = jQuery('#video_id__'+key).attr('data-element-id');
+					var currentVideo = jQuery('#video_id__'+current_key).attr('data-element-id');/*** add ***/
+					(currentVideo||nextVideo)&&stopYoutubeVideo(currentVideo,nextVideo);
+					if((jQuery('#player__'+current_key)).hasClass('huge-it-iframe-vimeo')) {
+						jQuery('#player__'+current_key).vimeo('pause');	
+					
+					}
+					if((jQuery('#player__'+key)).hasClass('huge-it-iframe-vimeo') && ('' == 'on')) {
+						jQuery('#player__'+key).vimeo('play');
+					}
+					/*** </vy api>***/					
+			window.clearInterval(huge_interval['huge_it_playInterval_'+]);
+			play_();
+        }
+
+      }
+	   var staticthumbWidth;
+      jQuery(window).load(function(){
+      	 staticthumbWidth=jQuery('#huge_it_thumb_slider>li').width()
+	  	
+      })
+     function huge_it_popup_resize_() {
+
+		var staticsliderwidth=;
+		var sliderwidth=;
+		
+		var thumbWidth=jQuery(".huge_it_slideshow_thumbnails_").width();
+		
+		//alert(thumbHeight)
+		//alert(thumbWidth/2)
+		var bodyWidth=jQuery(window).width();
+        var parentWidth = jQuery(".huge_it_slideshow_image_wrap_").parent().width();
+		//if responsive js late responsive.js @  take body size and not parent div
+		jQuery(".huge_it_slideshow_thumbnails_").css({height: 100});
+		if(sliderwidth>parentWidth){sliderwidth=parentWidth;}
+		if(sliderwidth>bodyWidth){sliderwidth=bodyWidth;}
+		var str=(/staticsliderwidth); 
+		
+			
+			jQuery(".huge_it_slideshow_thumbnails_").css({width: thumbWidth});
+			
+				var str2=(100/staticthumbWidth);
+			
+			jQuery(".huge_it_slideshow_thumbnails_").css({height: thumbWidth*str2});
+			jQuery(".bx-viewport").css({height: thumbWidth*str2});
+			
+			
+			
+		
+		
+		
+		jQuery(".huge_it_slideshow_image_wrap_").css({width: (sliderwidth)});
+		jQuery(".huge_it_slideshow_image_wrap_").css({height: ((sliderwidth) * str)});
+		
+		jQuery(".huge_it_slideshow_image_container_").css({width: (sliderwidth)});
+		jQuery(".huge_it_slideshow_image_container_").css({height: ((sliderwidth) * str)});
+			
+		if("top"=="middle"){var titlemargintopminus=jQuery(".huge_it_slideshow_title_text_").outerHeight()/2;}		
+		if("right"=="center"){var titlemarginleftminus=jQuery(".huge_it_slideshow_title_text_").outerWidth()/2;}		
+		jQuery(".huge_it_slideshow_title_text_").css({cssText: "margin-top:-" + titlemargintopminus + "px; margin-left:-"+titlemarginleftminus+"px;"});
+		
+		if("bottom"=="middle"){var descriptionmargintopminus=jQuery(".huge_it_slideshow_description_text_").outerHeight()/2;}	
+		if("right"=="center"){var descriptionmarginleftminus=jQuery(".huge_it_slideshow_description_text_").outerWidth()/2;}
+		jQuery(".huge_it_slideshow_description_text_").css({cssText: "margin-top:-" + descriptionmargintopminus + "px; margin-left:-"+descriptionmarginleftminus+"px;"});
+		        jQuery("#huge_it_loading_image_").css({display: "none"});
+                jQuery(".huge_it_slideshow_image_wrap1_").css({display: "block"});
+				jQuery(".huge_it_slideshow_image_wrap_").removeClass("nocolor");
+
+		
+		
+		if("resize"=="resize"){
+			jQuery(".huge_it_slideshow_image_,  .huge_it_slideshow_image_container_ img").css({
+				cssText: "width:" + sliderwidth + "px; height:" + ((sliderwidth) * str)	+"px;"
+			});
+		}else {
+			jQuery(".huge_it_slideshow_image_,.huge_it_slideshow_image_item2_").css({
+			cssText: "max-width: " + sliderwidth + "px !important; max-height: " + (sliderwidth * str) + "px !important;"
+		  });
+		}
+		
+		jQuery('.huge_it_video_frame_').each(function (e) {
+          jQuery(this).width(sliderwidth);
+          jQuery(this).height(sliderwidth * str);
+        });
+      }
+      
+      jQuery(window).load(function () {
+		jQuery(window).resize(function() {
+			huge_it_popup_resize_();
+		});
+		
+		jQuery('#huge_it_slideshow_left_').on('click',function(){
+			huge_it_change_image_(parseInt(jQuery('#huge_it_current_image_key_').val()), (parseInt(jQuery('#huge_it_current_image_key_').val()) - iterator_()) >= 0 ? (parseInt(jQuery('#huge_it_current_image_key_').val()) - iterator_()) % data_.length : data_.length - 1, data_,false,true);
+			return false;
+		});
+		
+		jQuery('#huge_it_slideshow_right_').on('click',function(){
+			huge_it_change_image_(parseInt(jQuery('#huge_it_current_image_key_').val()), (parseInt(jQuery('#huge_it_current_image_key_').val()) + iterator_()) % data_.length, data_,false,true);
+			return false;
+		});
+	
+
+		
+	
+		
+		huge_it_popup_resize_();
+        /* Disable right click.*/
+        jQuery('div[id^="huge_it_container"]').bind("contextmenu", function () {
+          return false;
+        });
+        			
+		/*HOVER SLIDESHOW*/
+		jQuery("#huge_it_slideshow_image_container_, .huge_it_slideshow_image_container_, .huge_it_slideshow_dots_container_,#huge_it_slideshow_right_,#huge_it_slideshow_left_").hover(function(){
+			//errorlogjQuery(".huge_it_slideshow_image_wrap_").after(" -- hover -- <br /> ");
+			jQuery("#huge_it_slideshow_right_").css({'display':'inline'});
+			jQuery("#huge_it_slideshow_left_").css({'display':'inline'});
+		},function(){
+			jQuery("#huge_it_slideshow_right_").css({'display':'none'});
+			jQuery("#huge_it_slideshow_left_").css({'display':'none'});
+		});
+		var pausehover="";
+		if(pausehover=="on"){
+			jQuery("#huge_it_slideshow_image_container_, .huge_it_slideshow_image_container_").hover(function(){
+				window.clearInterval(huge_interval['huge_it_playInterval_'+]);
+			},function(){
+				window.clearInterval(huge_interval['huge_it_playInterval_'+]);
+				play_();
+			});		
+		}	
+          play_();        
+      });
+		//var huge_play={};
+
+      function play_(){	   
+        /* Play.*/
+		//errorlogjQuery(".huge_it_slideshow_image_wrap_").after(" -- paly  ---- ");
+        huge_interval['huge_it_playInterval_'+] = setInterval(function () {
+			//errorlogjQuery(".huge_it_slideshow_image_wrap_").after(" -- time left ---- ");
+          var iterator = 1;
+          huge_it_change_image_(parseInt(jQuery('#huge_it_current_image_key_').val()), (parseInt(jQuery('#huge_it_current_image_key_').val()) + iterator) % data_.length, data_,false,false);
+        }, '0');
+      }
+	  
+      jQuery(window).focus(function() {
+       /*event_stack_ = [];*/
+        var i_ = 0;
+        jQuery(".huge_it_slider_").children("div").each(function () {
+          if (jQuery(this).css('opacity') == 1) {
+            jQuery("#huge_it_current_image_key_").val(i_);
+          }
+          i_++;
+        });
+      });
+      jQuery(window).blur(function() {
+    //    event_stack_ = [];
+	console.log(event_stack_);
+        window.clearInterval(huge_interval['huge_it_playInterval_'+]);
+      });  
+      jQuery(window).focus(function() {
+    //    event_stack_ = [];
+		play_()      
+	});     
+    </script>
+<style>
+	.thumb_image{
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  top: 0;
+		  left:0;
+	}
+	.entry-content a{
+		border-bottom: none !important;
+	}
+	.play-button-slider{
+		top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+	}
+	.youtube-icon { position: absolute;
+    
+    background:url(http://dsmbikecollective.org/wp-content/plugins/slider-image/images/play.youtube.png) center center no-repeat;background-size:14%;}
+</style>
+	
+<div class="huge_it_slideshow_image_wrap_ ">
+			<div id="huge_it_loading_image_" class="nodisplay"> <img src="http://dsmbikecollective.org/wp-content/plugins/slider-image/Front_images/loading/loading1.gif?fdbc7c"  alt="" width="100" height="100" style=" margin: 0px auto;" /> </div>
+		<div class="huge_it_slideshow_image_wrap1_" class="display">
+	            
+		<!-- ##########################DOTS######################### -->
+        <div class="huge_it_slideshow_dots_container_">
+			  <div class="huge_it_slideshow_dots_thumbnails_">
+												<div id="huge_it_dots_0_" class="huge_it_slideshow_dots_ huge_it_slideshow_dots_active_" onclick="if(jQuery(this).hasClass('huge_it_slideshow_dots_active_')) { return false; } huge_it_change_image_(parseInt(jQuery('#huge_it_current_image_key_').val()), '0', data_,false,true);return false;" data-image_id="24" data-image_key="0"></div>
+															<div id="huge_it_dots_1_" class="huge_it_slideshow_dots_ huge_it_slideshow_dots_deactive_" onclick="if(jQuery(this).hasClass('huge_it_slideshow_dots_active_')) { return false; } huge_it_change_image_(parseInt(jQuery('#huge_it_current_image_key_').val()), '1', data_,false,true);return false;" data-image_id="25" data-image_key="1"></div>
+															<div id="huge_it_dots_2_" class="huge_it_slideshow_dots_ huge_it_slideshow_dots_deactive_" onclick="if(jQuery(this).hasClass('huge_it_slideshow_dots_active_')) { return false; } huge_it_change_image_(parseInt(jQuery('#huge_it_current_image_key_').val()), '2', data_,false,true);return false;" data-image_id="26" data-image_key="2"></div>
+										  </div>
+			
+							<a id="huge_it_slideshow_left_" href="#">
+					<div id="huge_it_slideshow_left-ico_">
+					<div><i class="huge_it_slideshow_prev_btn_ fa"></i></div></div>
+				</a>
+				
+				<a id="huge_it_slideshow_right_" href="#">
+					<div id="huge_it_slideshow_right-ico_">
+					<div><i class="huge_it_slideshow_next_btn_ fa"></i></div></div>
+				</a>
+					</div>
+	  <!-- ##########################IMAGES######################### -->
+
+      <div id="huge_it_slideshow_image_container_" class="huge_it_slideshow_image_container_">        
+        <div class="huge_it_slide_container_">
+          <div class="huge_it_slide_bg_">
+            <ul class="huge_it_slider_">
+			  					  <li class="huge_it_slideshow_image_item_" id="image_id__0">      
+						                                                						<img id="huge_it_slideshow_image__0" class="huge_it_slideshow_image_" src="http://dsmbikecollective.org/wp-content/uploads/2015/12/CountyRoad41-990x250.jpg?fdbc7c"  alt="" data-image_id="24" />
+								
+						<div class="huge_it_slideshow_title_text_ none">
+													</div>
+						<div class="huge_it_slideshow_description_text_ none">
+													</div>
+					  </li>
+					  					  <li class="huge_it_slideshow_image_second_item_" id="image_id__1">      
+						                                                						<img id="huge_it_slideshow_image__1" class="huge_it_slideshow_image_" src="http://dsmbikecollective.org/wp-content/uploads/2015/12/examplephoto2.jpg?fdbc7c"  alt="" data-image_id="25" />
+								
+						<div class="huge_it_slideshow_title_text_ none">
+													</div>
+						<div class="huge_it_slideshow_description_text_ none">
+													</div>
+					  </li>
+					  					  <li class="huge_it_slideshow_image_second_item_" id="image_id__2">      
+						                                                						<img id="huge_it_slideshow_image__2" class="huge_it_slideshow_image_" src="http://dsmbikecollective.org/wp-content/uploads/2015/12/HighTrestlen1-990x250.jpg?fdbc7c"  alt="" data-image_id="26" />
+								
+						<div class="huge_it_slideshow_title_text_ none">
+													</div>
+						<div class="huge_it_slideshow_description_text_ none">
+													</div>
+					  </li>
+					              </ul>
+          </div>
+		  <input  type="hidden" id="huge_it_current_image_key_" value="0" />
+        </div>
+      </div>
+	</div>
+<!-- slider thumbs  -->
+
+<script>
+jQuery(document).ready(function($) {
+
+		
+	setInterval(function() {
+	jQuery('.huge_it_slider_').find("li").each(function (){
+		
+  		if($(this).css("opacity") == "1"){
+
+  			var img_id=$(this).attr('id');
+  			jQuery('.huge_it_slideshow_thumbs_').each(function (){
+  				//if ($(this).hasClass('bx-clone')){$(this).removeAttr('id')}
+  				var allListElements = $( 'li[id='+img_id+']' );
+  				
+  				$(this).find(allListElements).not(".bx-clone").each(function() {
+  					
+
+  					jQuery('.huge_it_slideshow_thumbs_ li').find(".trans_back").css('background','rgba(255,255,255,0.3)');
+  					$(this).find('.trans_back').css('background','none');
+
+  						
+  					
+  				})
+  				
+
+  			
+  			})
+			
+  		}
+		
+	})
+},100)
+
+
+	
+
+})
+</script>
+
+	
+</div>
+
+
+	  </h1>
+<h1>Central Iowa Regional Trails</h1>
+<p>Here you will find over 1,200 miles of multi-use trails in all corners of the state, and<br />
+over 670 miles just in Central Iowa. Our paved county road system also offers opportunities<br />
+to bicycle and explore our beautiful land, small towns, and to meet many friendly people.</p>
+<p><a href="http://dsmbikecollective.org/full-map/"><img class="alignright wp-image-1831 size-medium" src="http://dsmbikecollective.org/wp-content/uploads/2015/11/Map-300x226.png?fdbc7c" alt="Map" width="300" height="226" srcset="http://dsmbikecollective.org/wp-content/uploads/2015/11/Map-300x226.png 300w, http://dsmbikecollective.org/wp-content/uploads/2015/11/Map.png 376w" sizes="(max-width: 300px) 100vw, 300px" /></a>A downtown guide created by the Des Moines Bicycle Collective.</p>
+<p>1. <a href="http://dsmbikecollective.org/2011/10/26/scandinavians-and-the-skunk/">Scandinavians and The Skunk</a> (49 miles, paved roads)<br />
+2. <a href="http://dsmbikecollective.org/2011/08/01/the-not-long-and-wine-ding-road/">Not Long and Wine-ding Road</a> (40 miles, paved roads and trails)<br />
+3. <a href="http://dsmbikecollective.org/2011/10/26/two-covered-bridges-and-a-winery/">Two Covered Bridges and a Winery</a> (31 miles, paved and gravel)<br />
+4. <a href="http://dsmbikecollective.org/2011/10/26/middle-raccoon-ride/">Middle Raccoon Ride</a> (49 miles, paved roads and trails)<br />
+5. <a href="http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/">Duke, Clint and Meryl</a> (37 miles, paved roads)<br />
+6. <a href="http://dsmbikecollective.org/2011/10/24/scenic-6-pack-of-iowa-towns/">Scenic 6-Pack of Iowa Towns</a> (54 miles, paved roads and trails)<br />
+7. <a href="http://dsmbikecollective.org/2011/10/19/badger-creek-loop/">Badger Creek Loop</a> (41 miles, gravel and dirt roads)<br />
+8. <a href="http://dsmbikecollective.org/2011/10/26/the-brewery-loop">Brewery Loop</a> (30 miles, paved roads and trails)<br />
+9. <a href="http://dsmbikecollective.org/2011/10/19/chuggin-along-the-chichaqua/">Chuggin’ Along the Chichaqua</a> (20 miles, paved roads and trails)<br />
+10. <a href="http://dsmbikecollective.org/2011/10/26/heart-of-nature-heart-of-iowa/">Heart of Nature, Heart of Iowa</a> (33 miles, paved roads)<br />
+11. <a href="http://dsmbikecollective.org/2011/10/26/three-tickets-to-paradise/">Three Tickets to Paradise</a> (30, 44 or 65 miles, paved and trails)<br />
+12. <a href="http://dsmbikecollective.org/2011/10/24/hilly-40/">Hilly 40</a> (40 miles, paved roads and trails)<br />
+13. <a href="http://dsmbikecollective.org/2011/10/24/river-valleys-and-trail-art/">River Valleys and Trail Art</a> (57 miles, paved roads and trails)<br />
+14. <a href="http://dsmbikecollective.org/2011/10/20/dutch-treat/">Dutch Treat</a> (70 miles, paved roads)<br />
+15. <a href="http://dsmbikecollective.org/2011/10/26/iowa-isnt-flat/">Iowa Isn’t Flat</a> (41 miles, paved roads)<br />
+16. <a href="http://dsmbikecollective.org/2011/10/24/loopin-marshalltown/">Loopin’ Marshalltown</a> (17 or 19-miles, paved roads and trails)<br />
+17. <a href="http://dsmbikecollective.org/2011/10/24/state-center-loop/">State Center Loop </a>(34 miles, paved roads)<br />
+18. <a href="http://dsmbikecollective.org/2011/10/19/chucks-urban-18-miler/">Chuck’s Urban 18-Miler</a> (18 miles, paved trails and city streets)</p>
+<p>Bonus routes not shown on printed map:<br />
+19. <a href="http://dsmbikecollective.org/2011/10/26/high-trestle-bridge-via-gravel/">High Trestle Bridge via Gravel</a> (47 miles, mostly gravel)<br />
+20. <a href="http://dsmbikecollective.org/2011/10/26/maffit-lake-picnic-loop/">Maffitt Lake Picnic Loop</a> (22 miles, paved roads and trails)<br />
+21. <a href="http://dsmbikecollective.org/2011/10/26/warren-hospitality/">Warren Hospitality</a> (22 miles, paved roads and trails)</p>
+	</div>
+
+	</div>
+</div><footer class="footer">
+
+			<div class="container inner">
+		  <div class="row">
+		  	
+		  	<div id="text-4" class="widget clearfix widget_text">			<div class="textwidget"><iframe src="https://entry.donorsnap.com/forms/oForms.aspx?id=NmFiZGRlNDAtZDAwNy00ZjNlLTk5OGQtYWY5OGEzZDg1Yzll" height="215" width="605" frameborder="0" style="margin:5px;" ></iframe><div style="margin:5px; text-align:center;"><a href="http://www.donorsnap.com"  rel="nofollow" target="_blank" title="Online Forms Powered by DonorSnap"></a></div></div><!-- End DonorSnap form --></div>
+		</div>		    
+		  </div><!-- /.row --> 
+		</div><!-- .container -->
+		
+	<div class="sub-footer">
+	  <div class="container">
+	    
+	    <div class="pull-left">
+	    	<p>&copy copyright 2016 Des Moines Bicycle Collective</p>
+	    </div>
+	    
+	    <ul id="menu-des-moines-bicycle-collective" class="footer-menu pull-right"><li id="menu-item-1258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1258"><a title="Home" href="http://dsmbikecollective.org/">Home</a></li>
+<li id="menu-item-2277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2277"><a href="http://dsmbikecollective.org/community-bike-shop/">Hours</a></li>
+<li id="menu-item-1684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1684"><a href="http://dsmbikecollective.org/contact-6/">Contact</a></li>
+<li id="menu-item-1235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1235"><a href="http://dsmbikecollective.org/events-4/dsmove-open-streets/">Events</a></li>
+</ul>	    
+	  </div>
+	</div>
+
+</footer>  
+</div><!-- /.body-wrapper --> 
+
+<a href="#" class="bonfire-slideout-button ebor-slideout-right"> 
+	<i class="budicon-bicycle"></i> 
+</a>
+
+<div class="bonfire-slideout-button-triangle-background"></div>
+
+<div class="bonfire-slideout">
+  <div class="bonfire-slideout-inner">
+    <div class="bonfire-slideout-inner-inner"> 
+    
+      <div class="bonfire-slideout-close ebor-slideout-right"></div>
+      
+      <div class="bonfire-slideout-content container">
+      
+	      <div class="thin">
+		      <div class="row">
+		      
+		     		<div id="aq-block-1449-1" class="aq-block aq-block-aq_spacer_block col-sm-12 aq-first ">		
+		<div style="clear: both; width: 100%; height: 0px;"></div>
+		<hr class="none" />
+		<div style="clear: both; width: 100%; height: 0px;"></div>
+	
+	</div><div id="aq-block-1449-2" class="aq-block aq-block-aq_ebor_text_block col-sm-12 aq-first "><h3>In 2015 your financial support made possible:</h3><p>Empower<br />
+More than 350 bicycles and helmets were donated to children in need by partnering with community nonprofits and public schools. </p>
+<p>Share<br />
+With over 6,000 trips and four new stations, Des Moines BCycle has more than doubled the number of rides over last year.</p>
+<p>Reuse<br />
+Thousands of donated tubes, tires, frames and other bike parts were kept out of overburdened landfills.</p>
+<p>Accessibility<br />
+Our community workspace is now open to the public six days a week – including Sundays!  </p>
+<p>Educate<br />
+Over 2,000 people visited the Collective and learned something about keeping their bicycles working properly. </p>
+</div>		     		
+		      </div>
+	      </div>
+
+      </div>
+      
+    </div>
+  </div>
+</div><div id='wpoa-result'></div>	
+	<style>		
+/***<add>***/
+ 
+
+	
+	  #huge_it_loading_image_ {
+		height:px;
+		width:px;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+	 }
+	  #huge_it_loading_image_.display {
+		display: table-cell;
+	 }
+	  #huge_it_loading_image_.nodisplay {
+		display: none;
+	 }
+	 #huge_it_loading_image_ img {
+		margin: auto 0;
+		width: 20% !important;
+		
+	 }
+	 
+	 .huge_it_slideshow_image_wrap_ {
+		height:px;
+		width:px;
+
+		position:relative;
+		display: block;
+		text-align: center;
+		/*HEIGHT FROM HEADER.PHP*/
+		clear:both;
+		
+				float:none; margin:0px auto;		
+		border-style:solid;
+		border-left:0px !important;
+		border-right:0px !important;
+	}
+	 .huge_it_slideshow_image_wrap1_.display {
+		 width: 100%;
+		 height:100%;
+	 }
+	 .huge_it_slideshow_image_wrap1_.display {
+		 display:block;
+	 }
+	 .huge_it_slideshow_image_wrap1_.nodisplay {
+		 display:none;
+	 }
+	.huge_it_slideshow_image_wrap_ * {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+		 
+
+	  .huge_it_slideshow_image_ {
+			/*width:100%;*/
+	  }
+
+	  #huge_it_slideshow_left_,
+	  #huge_it_slideshow_right_ {
+		cursor: pointer;
+		display:none;
+		display: block;
+		
+		height: 100%;
+		outline: medium none;
+		position: absolute;
+
+		/*z-index: 10130;*/
+		z-index: 13;
+		bottom:25px;
+		top:50%;		
+	  }
+	 
+
+	  #huge_it_slideshow_left-ico_,
+	  #huge_it_slideshow_right-ico_ {
+		z-index: 13;
+		-moz-box-sizing: content-box;
+		box-sizing: content-box;
+		cursor: pointer;
+		display: table;
+		left: -9999px;
+		line-height: 0;
+		margin-top: -15px;
+		position: absolute;
+		top: 50%;
+		/*z-index: 10135;*/
+	  }
+	  #huge_it_slideshow_left-ico_:hover,
+	  #huge_it_slideshow_right-ico_:hover {
+		cursor: pointer;
+	  }
+	  
+	  .huge_it_slideshow_image_container_ {
+		display: table;
+		position: relative;
+		top:0px;
+		left:0px;
+		text-align: center;
+		vertical-align: middle;
+		width:100%;
+	  }	  
+		
+	  .huge_it_slideshow_title_text_ {
+		text-decoration: none;
+		position: absolute;
+		z-index: 11;
+		display: inline-block;
+				
+		width:24%;
+		/*height:44%;*/
+		
+		right:3%;top:3%;		padding:2%;
+		text-align:right;  
+		font-weight:bold;
+		color:#000000;
+			
+		background:rgba(255,255,255,0.7)  !important;
+		border-style:solid;
+		font-size:13px;
+		border-width:0px;
+		border-color:#ffffff;
+		border-radius:4px;
+	  }
+	  	  
+	  .huge_it_slideshow_description_text_ {
+		text-decoration: none;
+		position: absolute;
+		z-index: 11;
+		border-style:solid;
+		display: inline-block;
+				
+		width:64%;
+		/*height:44%;*/
+		right:3%;bottom:3%;		padding:3%;
+		text-align:justify;  
+		color:#ffffff;
+		
+		background:rgba(0,0,0,0.7) !important;
+		border-style:solid;
+		font-size:13px;
+		border-width:0px;
+		border-color:#ffffff;
+		border-radius:0px;
+	  }
+	  
+	   .huge_it_slideshow_title_text_.none, .huge_it_slideshow_description_text_.none,
+	   .huge_it_slideshow_title_text_.hidden, .huge_it_slideshow_description_text_.hidden	   {display:none;}
+	      
+	   .huge_it_slideshow_title_text_ h1, .huge_it_slideshow_description_text_ h1,
+	   .huge_it_slideshow_title_text_ h2, .huge_it_slideshow_title_text_ h2,
+	   .huge_it_slideshow_title_text_ h3, .huge_it_slideshow_title_text_ h3,
+	   .huge_it_slideshow_title_text_ h4, .huge_it_slideshow_title_text_ h4,
+	   .huge_it_slideshow_title_text_ p, .huge_it_slideshow_title_text_ p,
+	   .huge_it_slideshow_title_text_ strong,  .huge_it_slideshow_title_text_ strong,
+	   .huge_it_slideshow_title_text_ span, .huge_it_slideshow_title_text_ span,
+	   .huge_it_slideshow_title_text_ ul, .huge_it_slideshow_title_text_ ul,
+	   .huge_it_slideshow_title_text_ li, .huge_it_slideshow_title_text_ li {
+			padding:2px;
+			margin:0px;
+	   }
+
+	  .huge_it_slide_container_ {
+		display: table-cell;
+		margin: 0 auto;
+		position: relative;
+		vertical-align: middle;
+		width:100%;
+		height:100%;
+		_width: inherit;
+		_height: inherit;
+	  }
+	  .huge_it_slide_bg_ {
+		margin: 0 auto;
+		width:100%;
+		height:100%;
+		_width: inherit;
+		_height: inherit;
+	  }
+	  .huge_it_slider_ {
+		width:100%;
+		height:100%;
+		display:table !important;
+		padding:0px !important;
+		margin:0px !important;
+		
+	  }
+	  .huge_it_slideshow_image_item_ {
+		width:100%;
+		height:100%;
+		_width: inherit;
+		_height: inherit;
+		display: table-cell;
+		filter: Alpha(opacity=100);
+		opacity: 1;
+		position: absolute;
+		top:0px !important;
+		left:0px !important;
+		vertical-align: middle;
+		z-index: 1;
+		margin:0px !important;
+		padding:0px  !important;
+		overflow: hidden !important;
+		border-radius: 0px !important;
+	  }
+	  .huge_it_slideshow_image_second_item_ {
+		width:100%;
+		height:100%;
+		_width: inherit;
+		_height: inherit;
+		display: table-cell;
+		filter: Alpha(opacity=0);
+		opacity: 0;
+		position: absolute;
+		top:0px !important;
+		left:0px !important;
+		vertical-align: middle;
+		overflow:hidden;
+		margin:0px !important;
+		visibility:visible !important;
+		padding:0px  !important;
+		border-radius: 0px !important;
+	  }  
+	   .huge_it_slideshow_image_second_item_ a, .huge_it_slideshow_image_item_ a {
+			display:block;
+			width:100%;
+			height:100%;	
+	   }
+	   
+	  .huge_it_grid_ {
+		display: none;
+		height: 100%;
+		overflow: hidden;
+		position: absolute;
+		width: 100%;
+	  }
+	  .huge_it_gridlet_ {
+		opacity: 1;
+		filter: Alpha(opacity=100);
+		position: absolute;
+	  }
+	  
+					
+	  .huge_it_slideshow_dots_container_ {
+		display: table;
+		position: absolute;
+		width:100% !important;
+		height:100% !important;
+	  }
+	  .huge_it_slideshow_dots_thumbnails_ {
+		margin: 0 auto;
+		overflow: hidden;
+		position: absolute;
+		width:100%;
+		height:30px;
+	  }
+	  
+	  .huge_it_slideshow_dots_ {
+		display: inline-block;
+		position: relative;
+		cursor: pointer;
+		box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1);
+		width:10px;
+		height: 10px;
+		border-radius: 10px;
+		background: #00f;
+		margin: 10px;
+		overflow: hidden;
+		z-index: 17;
+	  }
+	  
+	  .huge_it_slideshow_dots_active_ {
+		opacity: 1;
+		filter: Alpha(opacity=100);
+	  }
+	  .huge_it_slideshow_dots_deactive_ {
+	  
+	  }
+	  
+	
+		
+		.huge_it_slideshow_image_wrap_ {
+			background:#ffffff;
+			border-width:0px;
+			border-color:#ffffff;
+			border-radius:0px;
+		}
+		.huge_it_slideshow_image_wrap_.nocolor {
+			background: transparent;
+		}
+		
+		.huge_it_slideshow_dots_thumbnails_ {
+					}
+		
+		.huge_it_slideshow_dots_ {
+			background:#000000;
+		}
+		
+		.huge_it_slideshow_dots_active_ {
+			background:#ffffff;
+		}
+							/*//////////////////////slider thunbnail styles start///////////////////////////*/
+
+		
+		.bx-viewport {
+		  height: 100px !important;
+		  -webkit-transform: translatez(0);
+		}
+		.entry-content .huge_it_slideshow_image_wrap_ a{
+			border-bottom: none !important;
+		}
+		.entry-content .huge_it_slideshow_image_wrap_ li{
+			margin:0px !important;
+			padding: 0px !important;
+		}
+		.entry-content .huge_it_slideshow_image_wrap_ ul{
+			list-style-type:none !important;
+			margin: 0px !important;
+			padding: 0px !important;
+		}
+		.bx-wrapper {
+		  position: relative;
+		  margin: 0 auto 0 auto;
+		  padding: 0;
+		  max-width: px !important;
+		  *zoom: 1;
+		  -ms-touch-action: pan-y;
+		  touch-action: pan-y;
+		}
+		.huge_it_slideshow_thumbs_container_{
+						}
+		.huge_it_slideshow_thumbs_{
+
+			
+		}
+		.huge_it_slideshow_thumbs_ li{
+			display: inline-block;
+			 
+		    height: 100px ;
+		    
+
+			
+		}
+		.huge_it_slideshow_thumbnails_ {
+		    display: inline-block;
+		    position: relative;
+		    cursor: pointer;
+		    background: #FFFFFF;
+		    z-index: 17;
+		}
+		.sl_thumb_img{
+		    width: 100% !important;
+		    height: 100% !important;
+		    display: block;
+		    margin: 0 auto;
+		}
+		.sl_thumb_img2{
+		    height: 100% !important;
+		    display: block;
+		    margin: 0 auto;
+		}
+		.trans_back{
+			width: 100%;
+			height: 100%;
+			top:0;
+			position: absolute;
+			background:rgba(255,255,255,0.5);
+			transition: 0.3s ease;
+		}
+		.trans_back:hover{
+			background:none !important;
+		}
+		.play-icon.youtube {background:url(http://dsmbikecollective.org/wp-content/plugins/slider-image/images/play.youtube.png) center center no-repeat;
+			width: 100%;
+			height: 100%;
+			top:0;
+			position: absolute;}
+
+		.play-icon.vimeo {background:url(http://dsmbikecollective.org/wp-content/plugins/slider-image/images/play.vimeo.png) center center no-repeat;
+			width: 100%;
+			height: 100%;
+			top:0;
+			position: absolute;
+		}
+		.bx-wrapper {
+		  
+		  border: 0px solid #fff;
+		  background: #fff;
+		}
+		
+		/*////////////slider thunbnail styles end//////////////*/
+		
+							#huge_it_slideshow_left_ {	
+						left:0px;
+						margin-top:-21px;
+						height:43px;
+						width:29px;
+						background:url(http://dsmbikecollective.org/wp-content/plugins/slider-image/Front_images/arrows/arrows.simple.png) left  top no-repeat; 
+						background-size: 200%;
+					}
+					
+					#huge_it_slideshow_right_ {
+						right:0px;
+						margin-top:-21px;
+						height:43px;
+						width:29px;
+						background:url(http://dsmbikecollective.org/wp-content/plugins/slider-image/Front_images/arrows/arrows.simple.png) right top no-repeat; 
+						background-size: 200%;
+
+					}
+				
+/***</add>***/
+
+	</style>
+
+
+
+		
+<link rel='stylesheet' id='bxSlidercss-css'  href="http://dsmbikecollective.org/wp-content/plugins/slider-image/style/jquery.bxslider.css?fdbc7c" type='text/css' media='all' />
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?fdbc7c"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/dsmbikecollective.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/bootstrap.min.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/twitter-bootstrap-hover-dropdown.min.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/jquery.fancybox.pack.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.2&#038;ver=4.4.2&amp;fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.0&#038;ver=4.4.2&amp;fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/jquery.isotope.min.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/jquery.easytabs.min.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/owl.carousel.min.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/jquery.fitvids.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/jquery.sticky.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/google-code-prettify/prettify.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/retina.js?fdbc7c"></script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&#038;v=3.exp&#038;ver=4.4.2'></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/gomap.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/canvas.js?fdbc7c"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wp_data = {"fixed_header":"1","site_version":"multipage"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/scripts.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-includes/js/wp-embed.min.js?fdbc7c"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var huge_it_obj = {"slideCount":"3","pauseTime":"0","width_thumbs":"0","speed":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/slider-image/js/jquery.bxslider.js?fdbc7c"></script>
+<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/slider-image/js/bxslider.setup.js?fdbc7c"></script>
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Content Delivery Network via N/A
+
+ Served from: dsmbikecollective.org @ 2016-03-04 20:08:52 by W3 Total Cache -->

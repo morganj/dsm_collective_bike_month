@@ -1,0 +1,54 @@
+/*
+This file is part of IK Facebook.
+
+IK Facebook is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+IK Facebook is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with IK Facebook.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* Based On Color Style: Base Theme */
+@import url('color_style_base.css');
+
+
+
+#ik_fb_widget {
+    border: 1px solid #CCCCCC;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#ik_fb_widget .ik_fb_profile_picture {
+    background: none repeat scroll 0 0 #42A113;
+}
+
+
+#ik_fb_widget .ik_fb_profile_picture img {
+    border: 2px solid #555;
+    border: 2px solid rgba(0, 0, 0, 0.24);
+    border-radius: 30px 30px 30px 30px;
+    margin: -2px 15px 4px 0;
+}
+
+#ik_fb_widget .ik_fb_profile_picture > a,
+#ik_fb_widget .ik_fb_profile_picture .ik_fb_name {
+    color: #FFFFFF;
+}
+
+#ik_fb_widget_top {
+    background-color: #E3E3E3;
+}
+
+#ik_fb_widget .ik_fb_feed_window a,
+#ik_fb_widget .ik_fb_feed_window a:visited {
+    color: #008000;
+}
+

@@ -1,0 +1,65 @@
+/*
+This file is part of IK Facebook.
+
+IK Facebook is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+IK Facebook is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with IK Facebook.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* Based On Color Style: Base Theme */
+@import url('color_style_base.css');
+@import url(//fonts.googleapis.com/css?family=Happy+Monkey);
+
+
+#ik_fb_widget .ik_fb_profile_picture {
+    background: none repeat scroll 0 0 #5C4190;
+}
+
+#ik_fb_widget .ik_fb_profile_picture > a,
+#ik_fb_widget .ik_fb_profile_picture .ik_fb_name {
+    color: #FFFFFF;
+	font-family: 'Happy Monkey', Arial, sans-sarif;
+}
+
+
+#ik_fb_widget_top {
+    background-color: #EEEEEE;
+    height: 128px;
+}
+
+#ik_fb_widget .ik_fb_feed_window {
+    height: 182px;
+}
+
+#ik_fb_widget .ik_fb_feed_window a,
+#ik_fb_widget .ik_fb_feed_window a:visited {
+    color: #5C4190;
+}
+
+#like_button {
+	height: 45px;
+    width: 93%;
+}
+
+#ik_fb_widget {
+    border-radius: 0;
+    box-shadow: none;
+	border-color: #ccc;
+}
+
+#ik_fb_widget .ik_fb_profile_picture img {
+    border: 3px solid rgba(255,255,255.8);
+    border: 3px solid #FFFFFF;
+    border-radius: 50px 50px 50px 50px;
+    float: left;
+    margin: -3px 15px 4px 0;
+}

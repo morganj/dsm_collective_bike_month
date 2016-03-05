@@ -1,0 +1,214 @@
+/*
+This file is part of IK Facebook.
+
+IK Facebook is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+IK Facebook is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with IK Facebook.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+@import url(//fonts.googleapis.com/css?family=Happy+Monkey);
+
+p.ik_fb_error{
+	color: red;
+	font-style: italic;
+	font-size: 12px;
+}
+
+#ik_fb_widget {
+    height: 310px;
+    overflow: hidden;
+    width: 100%;
+}
+#ik_fb_widget .ik_fb_feed_item {
+	border-bottom: 1px dotted #DDDDDD;
+	clear: both;
+	height: auto !important;
+	margin: 0 0 5px;
+	padding: 0 5px;
+	width: auto;
+}
+#ik_fb_widget .ik_fb_feed_item img {
+    float: none;
+    margin: 0;
+}
+#ik_fb_widget .ik_fb_profile_picture {
+    padding: 10px 4px 0;
+    position: relative;
+}
+#ik_fb_widget .ik_fb_profile_picture img {
+    float: left;
+    margin: 0 4px 4px 0;
+}
+#ik_fb_widget .ik_fb_profile_picture .ik_fb_facebook_like {
+    float: left;
+    margin: 15px 0 0 10px;
+}
+#ik_fb_widget .ik_fb_profile_picture a {
+    color: black;
+    display: block;
+    padding-top: 2px;
+    text-decoration: none;
+}
+#ik_fb_widget .ik_fb_profile_picture a:hover {
+    text-decoration: underline;
+}
+#ik_fb_widget .ik_fb_profile_picture .ik_fb_name {
+    font-size: 14px;
+    font-weight: bold;
+	font-family: 'Happy Monkey';
+}
+#ik_fb_widget .ik_fb_feed_window {
+	border-top: 1px solid #DDDDDD;
+    height: 199px;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    width: auto;
+	border-bottom: 10px solid orange;
+}
+#ik_fb_widget .ik_fb_feed_window a, #ik_fb_widget .ik_fb_feed_window a:visited {
+    color: #29509E;
+    font-weight: bold;
+}
+#ik_fb_widget .ik_fb_feed_window a:hover {
+    text-decoration: underline;
+}
+#ik_fb_widget .ik_fb_feed_window .ik_fb_facebook_link {
+}
+#ik_fb_widget .ik_fb_feed_window .ik_fb_facebook_link a {
+    font-size: 10px;
+}
+#ik_fb_widget p {
+    font-size: 11px;
+    padding: 0 0 4px;
+}
+#ik_fb_widget p {
+    font-size: 11px;
+    margin: 0;
+    padding: 4px 0;
+    width: auto !important;
+}
+#ik_fb_widget .ik_fb_facebook_image {
+    margin: 0 5px 0 0;
+    text-align: center;
+}
+#ik_fb_widget p.facebook_description {
+    color: #999999;
+}
+
+#like_button{
+	border:none; 
+	overflow:hidden; 
+	width:99%; 
+	height: 45px; 
+	margin-left:4px;
+}
+
+#ik_fb_widget {
+    border: 1px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 15px #000000;
+    height: 339px;
+    margin-bottom: 30px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+#ik_fb_widget_top {
+	height: 112px;
+	background-color: orange;
+}
+#ik_fb_widget .ik_fb_profile_picture{
+    background: none repeat scroll 0 0 #FA6900;
+    xborder-bottom: 1px solid seashell;
+    height: 50px;
+    margin-bottom: 9px;
+    padding: 10px;
+    position: relative;
+}
+
+#ik_fb_widget .ik_fb_profile_picture img {
+    border: 1px solid #555555;
+    border-radius: 7px 7px 7px 7px;
+    float: left;
+    margin: 0 15px 4px 0;
+}
+
+#like_button{
+    border: medium none;
+    height: 31px;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 97%;
+}
+
+
+#ik_fb_widget .ik_fb_feed_window {
+    border: 1px solid #DDDDDD;
+	border-width: 1px 0px;
+    height: 196px;
+    margin: 0 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    width: auto;
+}
+#ik_fb_widget .ik_fb_feed_window li:first-child {
+
+}
+
+#ik_fb_widget .ik_fb_feed_window:after { /* pumpkin! */
+    background-color: transparent;
+    background-image: url("css_imgs/pumpkin-trans-small.png");
+    background-repeat: no-repeat;
+    background-size: 75px auto;
+    bottom: -18%;
+    color: #333333;
+    content: "";
+    display: block;
+    height: 110px;
+    left: -34px;
+    padding: 4px 8px;
+    position: absolute;
+    white-space: nowrap;
+    width: 100px;
+}
+
+#ik_fb_widget .ik_fb_profile_picture:after { /* scary bat! ooooh! */
+    background-color: transparent;
+    background-image: url("css_imgs/bat.png");
+    background-repeat: no-repeat;
+    background-size: 75px auto;
+    color: #333333;
+    content: "";
+    display: block;
+    height: 110px;
+    padding: 4px 8px;
+    position: absolute;
+    right: -60px;
+    top: 5%;
+    white-space: nowrap;
+    width: 100px;
+    z-index: 1000;
+}
+
+
+#sidebar #ik_fb_widget .ik_fb_profile_picture a {
+    line-height: 17px;
+}
+
+#ik_fb_widget .ikfb_read_more{
+	font-size: 12px;
+}
