@@ -4,6 +4,10 @@
  Version:      1.0.0
 */
 
+.sneaky{
+    display: none;
+}
+
 /* Events calendar */
 #tribe-events li:before{
     list-style: none;
@@ -72,7 +76,7 @@ body {
 .unlock-section {
     background-color: #efefef;
     padding: 20px;
-    min-height: 170px;
+    min-height: 200px;
 }
 .unlock-copy {
     width: 275px;
@@ -107,21 +111,60 @@ body {
     display: block;
     text-align: center;
 }
-.unlock-button{
+input[type="text"].input-pill,
+select.input-pill,
+.input-pill{
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px 20px;
+    color: #333;
+    text-decoration: none;
+    border: 0px;
+    background-color: #fff;
+}
+input[type="text"].input-pill.error,
+select.input-pill.error,
+.input-pill.error{
+    border: 2px solid #f44336;
+}
+#user-modal input[type="text"].input-pill{
+    border-radius: 5px;
+}
+#user-modal .wrapper{
+    width: 100%;
+    text-align: center;
+}
+.pill{
     display: inline-block;
     max-width: 200px;
+    min-width: 200px;
     margin-top: 15px;
     padding: 15px 50px;
     color: #fff;
-    background-color: #66bb6a;
     border-radius: 30px;
     text-decoration: none;
+    border: 0px;
+}
+.green-pill{
+    background-color: #66bb6a;
+}
+.red-pill{
+    background-color: #f44336;
 }
 .unlock-button:hover,
 .unlock-button:active,
 .unlock-button:visited{
     color: #fff;
     text-decoration: none;
+}
+#confirmation{
+    display: none;
+    padding: 15px;
+}
+#code-error{
+    display: none;
+    padding: 15px;
 }
 .social-section > div {
     border-radius: 50%;
@@ -137,4 +180,17 @@ body {
 
 .twitter-share {
     background-color: #00adef;
+}
+
+/* User modal */
+#user-modal {
+    display: none;
+    position: fixed;
+    padding: 50px;
+    height: 75%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(129,212,250, 1);
 }
