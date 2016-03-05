@@ -70,9 +70,7 @@ jQuery(document).ready(function () {
 	}
 
 });
-console.log('before');
 jQuery(document).ready(function() {
-console.log('after');
 "use strict";
 	var $offset = jQuery('.offset'),
 		$navbar = jQuery('.navbar'),
