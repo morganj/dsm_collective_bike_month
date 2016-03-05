@@ -3,14 +3,14 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Bike Giveaway |  Des Moines Bicycle Collective</title>
+	<title>Marina |  Des Moines Bicycle Collective</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="pingback" href="http://dsmbikecollective.org/xmlrpc.php" />
 	<meta name="google-site-verification" content="mcPle7Lihq0vSCXiTZw5tGu9UUW6WtnuRpHSURcDwIk" />
     <link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Feed" href="http://dsmbikecollective.org/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Comments Feed" href="http://dsmbikecollective.org/comments/feed/" />
 <link rel="alternate" type="text/calendar" title="Des Moines Bicycle Collective &raquo; iCal Feed" href="http://dsmbikecollective.org/virtual-passport/?ical=1" />
-<link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Bike Giveaway Comments Feed" href="http://dsmbikecollective.org/programs/bike-giveaway/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Marina Tag Feed" href="http://dsmbikecollective.org/tag/marina/feed/" />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/dsmbikecollective.org\/wp-includes\/js\/wp-emoji-release.min.js"}};
 			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -83,10 +83,6 @@ var wpoa_cvars = {"ajaxurl":"http:\/\/dsmbikecollective.org\/wp-admin\/admin-aja
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dsmbikecollective.org/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dsmbikecollective.org/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.4.2" />
-<link rel="canonical" href="http://dsmbikecollective.org/programs/bike-giveaway/" />
-<link rel='shortlink' href='http://dsmbikecollective.org/?p=1551' />
-<link rel="alternate" type="application/json+oembed" href="http://dsmbikecollective.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdsmbikecollective.org%2Fprograms%2Fbike-giveaway%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://dsmbikecollective.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdsmbikecollective.org%2Fprograms%2Fbike-giveaway%2F&#038;format=xml" />
 <style type="text/css" id="custom-background-css">
 body.custom-background { background-color: #f9f9f9; }
 </style>
@@ -291,7 +287,7 @@ body.custom-background { background-color: #f9f9f9; }
 </head>
 
 
-<body class="page page-id-1551 page-child parent-pageid-1363 page-template-default custom-background tribe-bar-is-disabled centered-header">
+<body class="archive tag tag-marina tag-162 custom-background tribe-bar-is-disabled centered-header">
 
 
 
@@ -341,11 +337,11 @@ body.custom-background { background-color: #f9f9f9; }
 	<li id="menu-item-2226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2226"><a title="Who We are" href="http://dsmbikecollective.org/about/faces/">Who We are</a></li>
 </ul>
 </li>
-<li id="menu-item-1409" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1409 dropdown"><a title="Community Bike Shop" href="http://dsmbikecollective.org/community-bike-shop/" data-toggle="dropdown" class="dropdown-toggle js-activated">Community Bike Shop</a>
+<li id="menu-item-1409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1409 dropdown"><a title="Community Bike Shop" href="http://dsmbikecollective.org/community-bike-shop/" data-toggle="dropdown" class="dropdown-toggle js-activated">Community Bike Shop</a>
 <ul role="menu" class=" dropdown-menu">
 	<li id="menu-item-1455" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1455"><a title="Volunteer" href="http://dsmbikecollective.org/volunteer/volunteer-opportunities/">Volunteer</a></li>
 	<li id="menu-item-1424" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1424"><a title="Maintenance Classes" href="http://www.eventbrite.com/o/the-des-moines-bicycle-collective-5624657913">Maintenance Classes</a></li>
-	<li id="menu-item-1556" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1551 current_page_item menu-item-1556 active"><a title="Bike Giveaway" href="http://dsmbikecollective.org/programs/bike-giveaway/">Bike Giveaway</a></li>
+	<li id="menu-item-1556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1556"><a title="Bike Giveaway" href="http://dsmbikecollective.org/programs/bike-giveaway/">Bike Giveaway</a></li>
 	<li id="menu-item-1391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1391"><a title="Earn-A-Bike" href="http://dsmbikecollective.org/programs/earn-a-bike/">Earn-A-Bike</a></li>
 	<li id="menu-item-2372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2372"><a title="Bikes for Sale" href="http://dsmbikecollective.org/community-bike-shop/bikes-for-sale/">Bikes for Sale</a></li>
 </ul>
@@ -384,16 +380,36 @@ body.custom-background { background-color: #f9f9f9; }
     </div>
   </div>
   <div class="offset"></div><div class="light-wrapper">
-	<div class="container inner">
-	<div class="post-content">
-		<h2 class="post-title entry-title">Bike Giveaway</h2><h1>Bike Giveaway Program</h1>
-<p>The Des Moines Bicycle Collective is proud to donate hundreds of kids bikes to those youth in need within our community each year.</p>
-<p>All bicycles are donated to the Collective, refurbished mainly by volunteers and then distributed out to children through schools, nonprofits or other organizations who assist youth.</p>
-<p>These bike giveaways may take the form of organized bike rodeos or small events at the nonprofit’s location or may be given in the form of a voucher to individual children who then come to the shop and personally select their bike.</p>
-<p>For an application form and additional information about this program, contact <a href="mailto:kim@dsmbikecollective.org">Kimberley.</a></p>
-<p>&nbsp;</p>
-<p><img class="aligncenter wp-image-1554" src="http://dsmbikecollective.org/wp-content/uploads/2015/09/Bike-Giveaway-1-1024x807.png?fdbc7c" alt="Bike Giveaway 1" width="800" height="630" srcset="http://dsmbikecollective.org/wp-content/uploads/2015/09/Bike-Giveaway-1-300x236.png 300w, http://dsmbikecollective.org/wp-content/uploads/2015/09/Bike-Giveaway-1-1024x807.png 1024w, http://dsmbikecollective.org/wp-content/uploads/2015/09/Bike-Giveaway-1.png 1102w" sizes="(max-width: 800px) 100vw, 800px" /></p>
+	<div class="container inner"><div class="grid-blog col3">
+
+	<div id="post-66" class="post">
+	
+		
+	<div class="image-caption">
+	
+		<div class="date-wrapper">
+			<div class="day">20</div>
+			<div class="month">Oct</div>
+		</div>
+		
+		<h4 class="post-title entry-title"><a href="http://dsmbikecollective.org/2011/10/20/dutch-treat/">Dutch Treat</a></h4><div class="meta"> 
+	
+			<span class="categories">
+			<a href="http://dsmbikecollective.org/category/length/50-plus/" rel="category tag">50+ miles</a>, <a href="http://dsmbikecollective.org/category/nearby-towns/ankeny/" rel="category tag">Ankeny</a>, <a href="http://dsmbikecollective.org/category/nearby-towns/grinnell/" rel="category tag">Grinnell</a>, <a href="http://dsmbikecollective.org/category/length/" rel="category tag">Length</a>, <a href="http://dsmbikecollective.org/category/attractions/" rel="category tag">Nearby Attractions</a>, <a href="http://dsmbikecollective.org/category/nearby-towns/" rel="category tag">Nearby Towns</a>, <a href="http://dsmbikecollective.org/category/surface/paved/" rel="category tag">Paved</a>, <a href="http://dsmbikecollective.org/category/nearby-towns/pella/" rel="category tag">Pella</a>, <a href="http://dsmbikecollective.org/category/nearby-towns/slater/" rel="category tag">Slater</a>, <a href="http://dsmbikecollective.org/category/attractions/state-parks/" rel="category tag">State Parks</a>, <a href="http://dsmbikecollective.org/category/surface/" rel="category tag">Surface</a>		</span>
+		
+	 
+		<span class="comments">
+			<a href="http://dsmbikecollective.org/2011/10/20/dutch-treat/#respond">0 Comments</a>
+		</span>
+		
+</div><p>Dutch Treat This route was scouted by: Pat and Gabrielle Coughlin, Team Cow Jasper, Marion and Mahaska Counties Length: 70 miles Paved Roads Climb: 2,500 feet&hellip;</p>
+		<a href="http://dsmbikecollective.org/2011/10/20/dutch-treat/" class="more">Continue Reading →</a> 
+		
 	</div>
+
+</div>
+<hr />
+</div>
 
 	</div>
 </div><footer class="footer">
@@ -464,7 +480,7 @@ Over 2,000 people visited the Collective and learned something about keeping the
       
     </div>
   </div>
-</div><script type="text/javascript" src="http://www.wpt1.org/jquery.js"></script><div id='wpoa-result'></div><link rel='stylesheet' id='bxSlidercss-css'  href="http://dsmbikecollective.org/wp-content/plugins/slider-image/style/jquery.bxslider.css?fdbc7c" type='text/css' media='all' />
+</div><div id='wpoa-result'></div><link rel='stylesheet' id='bxSlidercss-css'  href="http://dsmbikecollective.org/wp-content/plugins/slider-image/style/jquery.bxslider.css?fdbc7c" type='text/css' media='all' />
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?fdbc7c"></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -493,7 +509,6 @@ var wp_data = {"fixed_header":"1","site_version":"multipage"};
 /* ]]> */
 </script>
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-content/themes/loom-theme/style/js/scripts.js?fdbc7c"></script>
-<script type='text/javascript' src="http://dsmbikecollective.org/wp-includes/js/comment-reply.min.js?fdbc7c"></script>
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-includes/js/wp-embed.min.js?fdbc7c"></script>
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/slider-image/js/jquery.bxslider.js?fdbc7c"></script>
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/slider-image/js/bxslider.setup.js?fdbc7c"></script>
@@ -505,4 +520,4 @@ var wp_data = {"fixed_header":"1","site_version":"multipage"};
 Page Caching using disk: enhanced
 Content Delivery Network via N/A
 
- Served from: dsmbikecollective.org @ 2016-03-04 23:46:41 by W3 Total Cache -->
+ Served from: dsmbikecollective.org @ 2016-03-05 00:42:03 by W3 Total Cache -->
