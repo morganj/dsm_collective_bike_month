@@ -18,21 +18,6 @@ function create_bikes_sponsors() {
 }
 add_action( 'init', 'create_bikes_sponsors' );
 
-
-// Initialize styles and scripts with info they need
-function bikes_js_init(){
-
-    // Get info to send
-    $args = bikes_event_details();
-    $args = array_merge($args, ['ajax_url' => admin_url( 'admin-ajax.php' )]);
-
-    // Initialize
-    wp_enqueue_script('bike_event_code', get_stylesheet_directory_uri().'/includes/event-redeemer/event-redeemer.js');
-    wp_localize_script('bike_event_code', 'event_redeemer', $args);
-    wp_enqueue_style('event_redeemer_style', get_stylesheet_directory_uri().'/includes/event-redeemer/event-redeemer.css');
-}
-add_action('wp_enqueue_scripts', 'bikes_js_init');
-
 // Check if user has already filled out demographics
 function user_valid(){
     if(!is_user_logged_in())
@@ -128,6 +113,20 @@ function bikes_event_details(){
     return $details;
 }
 add_action('wp_head', 'bikes_event_details');
+
+// Initialize styles and scripts with info they need
+function bikes_js_init(){
+
+    // Get info to send
+    $args = bikes_event_details();
+    $args = array_merge($args, ['ajax_url' => admin_url( 'admin-ajax.php' )]);
+
+    // Initialize
+    wp_enqueue_script('bike_event_code', get_stylesheet_directory_uri().'/includes/event-redeemer/event-redeemer.js');
+    wp_localize_script('bike_event_code', 'event_redeemer', $args);
+    wp_enqueue_style('event_redeemer_style', get_stylesheet_directory_uri().'/includes/event-redeemer/event-redeemer.css');
+}
+add_action('wp_enqueue_scripts', 'bikes_js_init');
 
 // Get class to add to event redeemer div
 /*function bikes_event_classes(){

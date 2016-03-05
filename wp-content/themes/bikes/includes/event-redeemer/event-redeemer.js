@@ -4,16 +4,15 @@
 
 jQuery(document).ready( function($){
 
-    console.log(event_redeemer.user_logged_in);
-
   if(event_redeemer != null) {
 
     var eventCode = event_redeemer.event_code;
     var eventID = event_redeemer.event_id;
     var eventYear = event_redeemer.event_year;
-    var eventComplete = event_redeemer.event_status;
     var userValid = event_redeemer.user_valid;
     var userLoggedIn = event_redeemer.user_logged_in;
+
+    console.log(userLoggedIn);
 
     var age, zipcode, selectVal;
 
