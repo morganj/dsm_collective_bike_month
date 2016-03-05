@@ -4,8 +4,6 @@
 
 jQuery(document).ready( function($){
 
-    console.log(event_redeemer.user_logged_in);
-
   if(event_redeemer != null) {
 
     var eventCode = event_redeemer.event_code;
