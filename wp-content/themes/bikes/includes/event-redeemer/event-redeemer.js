@@ -4,7 +4,7 @@
 
 jQuery(document).ready( function($){
 
-    console.log(event_redeemer.user_logged_in == undefined);
+    console.log(event_redeemer.user_logged_in);
 
   if(event_redeemer != null) {
 
@@ -53,12 +53,14 @@ jQuery(document).ready( function($){
 
     $('#unlock-button').click(function(){
 
-        console.log(userLoggedIn);
-
-        if(!userLoggedIn){
+        if(userLoggedIn == 0){
             $('#user-register').fadeIn();
 
+            $('#user-register .cancel-button').click(function(){
+                $('#user-register').fadeOut();
+            });
 
+            return;
         }
 
         if(!userValid){
@@ -91,7 +93,7 @@ jQuery(document).ready( function($){
                 });
             });
 
-            $('#cancel-button').click(function(){
+            $('#user-modal .cancel-button').click(function(){
                 $('#user-modal').fadeOut();
             });
             return;

@@ -86,7 +86,7 @@ function bikes_event_details(){
             'event_year' => $event_year,
             'event_status' => null,
             'user_valid' => $user_valid,
-            'user_logged_in' => is_user_logged_in()
+            'user_logged_in' => 0
         );
         return $details;
     }
