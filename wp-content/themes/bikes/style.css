@@ -300,3 +300,10 @@ select.input-pill.error,
 .centered-header #menu-standard-navigation {
     padding-top: 70px;
 }
+
+.virtual-passport-title {
+    text-align: center;
+    color: #4e4039;
+    font-size: 40px;
+    font-weight: 700;
+}

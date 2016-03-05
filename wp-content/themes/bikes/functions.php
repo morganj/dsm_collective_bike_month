@@ -99,6 +99,7 @@ function dsmbc_sponsor_markup(){
 ob_start();
  if( have_rows('tier_1_sponsors', 'option') ): ?>
  
+    <h1 class="virtual-passport-title">Virtual Passport</h1>
     <div>
  
     <?php while( have_rows('tier_1_sponsors', 'option') ): the_row(); ?>
