@@ -58,4 +58,6 @@
     <a class="forgot-password" href="<?php echo wp_lostpassword_url(); ?>">
         <?php _e( 'Forgot your password?', 'personalize-login' ); ?>
     </a>
+    <br />
+    <a href="http://dsmbikecollective.org/member-register">Register an Account</a>
 </div>
