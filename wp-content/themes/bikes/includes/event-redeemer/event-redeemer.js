@@ -56,7 +56,7 @@ jQuery(document).ready( function($){
                     return;
 
                 $.ajax({
-                    url: 'http://localhost:8888/bikes/wp-admin/admin-ajax.php',
+                    url: 'wp-admin/admin-ajax.php',
                     type: 'POST',
                     dataType: 'json',
                     data:{
@@ -92,7 +92,7 @@ jQuery(document).ready( function($){
         }
 
         $.ajax({
-            url: 'http://localhost:8888/bikes/wp-admin/admin-ajax.php',
+            url: '/wp-admin/admin-ajax.php',
             type: 'POST',
             dataType: 'json',
             data:{

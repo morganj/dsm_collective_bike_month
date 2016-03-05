@@ -64,52 +64,82 @@ body {
     color: #8d8480;
 }
 
-.title-container {
-    border-bottom: 5px solid #4e4039;
-    padding: 20px 0;
-}
-
-.intro-container {
-    padding: 20px 0;
-}
-
-.unlock-section {
-    background-color: #efefef;
+/* Bike month containers */
+.bm-section{
     padding: 20px;
     min-height: 200px;
 }
-.unlock-copy {
+.bm-header{
+    background-color: #efefef;
+    border-top: 5px solid #4e4039;
+}
+.bm-header > h3 {
+    color: #4e4039 ;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px){
+    .bm-text-wrapper{
+        padding:0;
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+.bm-text {
     width: 275px;
     height: 100%;
+    min-height: 140px;
     margin-left: 145px;
-    padding: 15px 20px;
+    padding: 0 20px;
+}
+@media only screen and (max-width: 600px){
+    .bm-text{
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
+        min-height: auto;
+    }
+}
+.bm-image-wrapper {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.event-container .bm-image {
+    position: absolute;
+    max-width: 140px;
+    top: 0;
+    left: 0;
+}
+@media only screen and (max-width: 600px){
+    .event-container .bm-image{
+        position: static;
+        display: inline;
+    }
+}
+@media only screen and (max-width: 600px){
+    .bm-image{
+        display: block;
+    }
+}
+
+/* User modal and badge unlock*/
+.unlock-section .wrapper{
+    display: block;
+    text-align: center;
+}
+.unlock-section {
+    background-color: #efefef;
 }
 @media only screen and (max-width: 600px){
     .unlock-copy {
         width: 100%;
         margin-left: 0;
     }
-}
-.event-badge {
-    position: absolute;
-}
-@media only screen and (max-width: 600px){
-    .event-badge{
-        position: static;
-    }
-}
-.unlock-section .badge-wrapper {
-    display: inline-block;
-    text-align: center;
-}
-@media only screen and (max-width: 600px){
-    .unlock-section .badge-wrapper{
-        display: block;
-    }
-}
-.unlock-section .wrapper{
-    display: block;
-    text-align: center;
 }
 input[type="text"].input-pill,
 select.input-pill,
@@ -186,6 +216,7 @@ select.input-pill.error,
 #user-modal {
     display: none;
     position: fixed;
+    z-index: 9999;
     padding: 50px;
     height: 75%;
     width: 60%;
