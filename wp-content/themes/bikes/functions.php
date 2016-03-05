@@ -85,23 +85,30 @@ function dsmbc_register_fields($user) {
   <?php echo ob_get_clean();
 }
 
-add_shortcode('user_data_export', 'generate_content');
-function generate_content() {
-	global $wpdb;
-	$results = $wpdb->get_results( 'select u.ID, u.user_email from wp_users u', ARRAY_N );
-	var_dump($results);
-	
-	$output = '';
-	foreach ($results as $row) {
-		$output .= "<pre>ID: " . $row[0] . ", email: " . $row[1] ."</pre>";		
-	}
-
-    return $output;
-}
 
 add_action('wp_loaded', 'dsmbc_add_acf_options');
 function dsmbc_add_acf_options() {
   if( function_exists('acf_add_options_page') ) {
   	acf_add_options_page(['page_title' => 'Site-Wide Sponsors']);
   }
+}
+
+add_action('tribe_events_before_template', 'dsmbc_sponsor_markup');
+
+function dsmbc_sponsor_markup(){
+ob_start();
+ if( have_rows('tier_1_sponsors', 'option') ): ?>
+ 
+    <ul>
+ 
+    <?php while( have_rows('tier_1_sponsors', 'option') ): the_row(); ?>
+ 
+        <li><a href="<?php the_sub_field('sponsor_link'); ?>"><?php echo wp_get_attachment_image(get_sub_field('sponsor_logo')); ?> <br /><h2><?php the_sub_field('sponsor_title'); ?></h2></a></li>
+        
+    <?php endwhile; ?>
+ 
+    </ul>
+ 
+<?php endif;
+echo ob_get_clean();
 }
