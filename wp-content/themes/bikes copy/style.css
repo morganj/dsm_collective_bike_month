@@ -1,0 +1,267 @@
+/*
+ Theme Name:   DSM Hack Child Theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Loom child theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     loom-theme
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  loom-child-theme
+*/
+
+.sneaky{
+    display: none;
+}
+
+/* Events calendar */
+#tribe-events li:before{
+    list-style: none;
+    display: none;
+}
+.month-nav [rel="next"]{
+    float: right;
+}
+
+/* Single event posts */
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+
+body {
+    font-family: 'Raleway';
+    font-weight: 600;
+    letter-spacing: .04em;
+    line-height: 1.2em;
+    color: #4e4039;
+    background-color: #ededed;
+}
+
+.event-container{
+    height: 100%;
+    width: 540px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 600px){
+    .event-container{
+        width: 100%;
+        padding: 20px 0;
+    }
+}
+
+.event-date {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.event-title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+}
+
+.event-location {
+    font-weight: bold;
+    font-size: 25px;
+    color: #8d8480;
+}
+
+/* Bike month containers */
+.bm-section{
+    padding: 20px;
+    min-height: 200px;
+}
+.bm-header{
+    background-color: #efefef;
+    border-top: 5px solid #4e4039;
+}
+.bm-header > h3 {
+    color: #4e4039 ;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px){
+    .bm-text-wrapper{
+        padding:0;
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+.bm-text {
+    width: 275px;
+    height: 100%;
+    min-height: 140px;
+    margin-left: 145px;
+    padding: 0 20px;
+}
+@media only screen and (max-width: 600px){
+    .bm-text{
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
+        min-height: auto;
+    }
+}
+.bm-image-wrapper {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.event-container .bm-image {
+    position: absolute;
+    max-width: 140px;
+    top: 0;
+    left: 0;
+}
+@media only screen and (max-width: 600px){
+    .event-container .bm-image{
+        position: static;
+        display: inline;
+    }
+}
+@media only screen and (max-width: 600px){
+    .bm-image{
+        display: block;
+    }
+}
+
+/*/member-login*/
+
+
+
+/* User register redirect */
+#user-register{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding: 50px;
+    height: 50%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(129,212,250, 1);
+}
+
+
+
+
+/* User modal and badge unlock */
+#user-modal{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding: 50px;
+    height: 75%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(129,212,250, 1);
+}
+
+#user-modal{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding: 50px;
+    height: 75%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(129,212,250, 1);
+}
+.unlock-section .wrapper{
+    display: block;
+    text-align: center;
+}
+.unlock-section {
+    background-color: #efefef;
+}
+@media only screen and (max-width: 600px){
+    .unlock-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+input[type="text"].input-pill,
+select.input-pill,
+.input-pill{
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px 20px;
+    color: #333;
+    text-decoration: none;
+    border: 0px;
+    background-color: #fff;
+}
+input[type="text"].input-pill.error,
+select.input-pill.error,
+.input-pill.error{
+    border: 2px solid #f44336;
+}
+#user-modal input[type="text"].input-pill{
+    border-radius: 5px;
+}
+#user-modal .wrapper{
+    width: 100%;
+    text-align: center;
+}
+.pill{
+    display: inline-block;
+    max-width: 200px;
+    min-width: 200px;
+    margin-top: 15px;
+    padding: 15px 50px;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 0px;
+}
+.green-pill{
+    background-color: #66bb6a;
+}
+.red-pill{
+    background-color: #f44336;
+}
+.unlock-button:hover,
+.unlock-button:active,
+.unlock-button:visited{
+    color: #fff;
+    text-decoration: none;
+}
+#confirmation{
+    display: none;
+    padding: 15px;
+}
+#code-error{
+    display: none;
+    padding: 15px;
+}
+.social-section > div {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 5px 5px 0 0;
+    display: inline-block;
+}
+
+.facebook-share {
+    background-color: #005b8a;
+}
+
+.twitter-share {
+    background-color: #00adef;
+}
