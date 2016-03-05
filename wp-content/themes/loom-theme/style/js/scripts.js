@@ -4,7 +4,7 @@
 jQuery(document).ready(function ($) {
 
 	$('p:empty').remove();
-	
+
 	/**
 	 * Newsletter widget Fixes
 	 */
@@ -13,7 +13,7 @@ jQuery(document).ready(function ($) {
 		text = text.replace(':','');
 		$(this).next().attr('placeholder', text);
 	});
-	
+
 	/**
 	 * One Page Version Stuff
 	 */
@@ -37,24 +37,24 @@ jQuery(document).ready(function ($) {
 			return false;
 		});
 	}
-	
+
 });
 /*-----------------------------------------------------------------------------------*/
 /*	STICKY NAVIGATION
 /*-----------------------------------------------------------------------------------*/
 jQuery(document).ready(function () {
 "use strict";
-	
+
 	/**
 	 * Check that we're going to use the fixed header
 	 * @var wp_data.fixed_header
 	 * @type boolean
 	 */
 	if( wp_data.fixed_header == 1 ){
-	
+
 	    var menu = jQuery('.navbar'),
 	        pos = menu.offset();
-	
+
 	    jQuery(window).scroll(function () {
 	        if (jQuery(this).scrollTop() > pos.top + menu.height() && menu.hasClass('default') && jQuery(this).scrollTop() > 150) {
 	            menu.fadeOut('fast', function () {
@@ -66,7 +66,7 @@ jQuery(document).ready(function () {
 	            });
 	        }
 	    });
-	    
+
 	}
 
 });
@@ -75,21 +75,21 @@ jQuery(document).ready(function() {
 	var $offset = jQuery('.offset'),
 		$navbar = jQuery('.navbar'),
 		$navbarHeight = jQuery('.navbar').height();
-	
+
 	if( $navbarHeight < 103 )
 		$navbarHeight = 103;
-		
-	$offset.css('padding-top', $navbarHeight + 'px'); 
-	
+
+	$offset.css('padding-top', $navbarHeight + 'px');
+
 	jQuery(window).resize(function() {
-		$offset.css('padding-top', $navbarHeight + 'px');        
-	}); 
-}); 
+		$offset.css('padding-top', $navbarHeight + 'px');
+	});
+});
 /*-----------------------------------------------------------------------------------*/
 /*	OWL CAROUSEL
 /*-----------------------------------------------------------------------------------*/
 jQuery(document).ready(function () {
-"use strict";    
+"use strict";
      jQuery(".owlcarousel").owlCarousel({
         navigation: true,
         navigationText : ['<i class="icon-left-open"></i>','<i class="icon-right-open"></i>'],
@@ -116,7 +116,7 @@ jQuery(document).ready(function () {
         pagination: false
 
     });
-    
+
     var owl = jQuery(".owl-portfolio-slider");
 
     owl.owlCarousel({
@@ -142,7 +142,7 @@ jQuery(document).ready(function () {
             owl.trigger('owl.next');
         }
     });
-    
+
 
 });
 /*-----------------------------------------------------------------------------------*/
@@ -246,7 +246,7 @@ jQuery(window).load(function () {
             }
         }
     });
-    
+
     jQuery(window).trigger('resize').trigger( 'smartresize' );
 
     jQuery('.filter li a').click(function () {
@@ -261,11 +261,11 @@ jQuery(window).load(function () {
 
         return false;
     });
-    
+
     setTimeout(function(){
     	$container.isotope('layout');
     }, 300);
-    
+
 });
 /*-----------------------------------------------------------------------------------*/
 /*	ISOTOPE CLASSIC PORTFOLIO
@@ -273,7 +273,7 @@ jQuery(window).load(function () {
 jQuery(window).load(function () {
 "use strict";
     var $container = jQuery('.fix-portfolio .items');
-    
+
     $container.isotope({
         itemSelector: '.fix-portfolio .item',
         layoutMode: 'fitRows'
@@ -291,7 +291,7 @@ jQuery(window).load(function () {
 
         return false;
     });
-    
+
     setTimeout(function(){
     	$container.isotope('layout');
     }, 300);
@@ -384,5 +384,5 @@ jQuery(document).ready(function($) {
 		window.location.href = url;
 		return true;
 	});
-		
+
 });
