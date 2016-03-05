@@ -265,3 +265,30 @@ select.input-pill.error,
 .twitter-share {
     background-color: #00adef;
 }
+
+.light-wrapper {
+  background-color: #fff;
+}
+
+.hero-container h2 {
+    padding-top: 0px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.hero-container {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    margin: 2%;
+}
+
+@media screen only and (max-width:710px) {
+  .hero-container {
+    width: 100%;
+  }
+}
+
+.sponsors a {
+  line-height: 20px;
+}
