@@ -9,7 +9,6 @@ jQuery(document).ready( function($){
     var eventCode = event_redeemer.event_code;
     var eventID = event_redeemer.event_id;
     var eventYear = event_redeemer.event_year;
-    var eventComplete = event_redeemer.event_status;
     var userValid = event_redeemer.user_valid;
     var userLoggedIn = event_redeemer.user_logged_in;
 
