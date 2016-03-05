@@ -24,7 +24,7 @@ function bikes_js_init(){
 
     // Get info to send
     $args = bikes_event_details();
-    array_merge($args, ['ajax_url' => admin_url( 'admin-ajax.php' )]);
+    $args = array_merge($args, ['ajax_url' => admin_url( 'admin-ajax.php' )]);
 
     // Initialize
     wp_enqueue_script('bike_event_code', get_stylesheet_directory_uri().'/includes/event-redeemer/event-redeemer.js');
