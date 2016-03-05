@@ -159,21 +159,7 @@ body {
     position: fixed;
     z-index: 9999;
     padding: 50px;
-    height: 75%;
-    width: 60%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(129,212,250, 1);
-}
-
-#user-modal{
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    padding: 50px;
-    height: 75%;
-    width: 60%;
+    max-width: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -280,7 +266,7 @@ select.input-pill.error,
     margin: 2%;
 }
 
-@media screen only and (max-width:710px) {
+@media only screen and (max-width:710px) {
   .hero-container {
     width: 100%;
   }
