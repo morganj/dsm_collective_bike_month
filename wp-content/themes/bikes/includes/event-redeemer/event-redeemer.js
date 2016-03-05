@@ -65,7 +65,8 @@ jQuery(document).ready( function($){
                         action: 'bikes_submit_user_data',
                         user_age: age.val(),
                         user_gender: selectVal,
-                        user_zipcode: zipcode.val()
+                        user_zipcode: zipcode.val(),
+                        user: $('input[name="current-user"]').val()
                     },
                     success: function(html) {
                         userValid = true;

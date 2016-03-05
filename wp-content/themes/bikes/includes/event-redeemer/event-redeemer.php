@@ -49,10 +49,10 @@ add_action('wp_head', 'user_valid');
 
 // Submit user data
 function bikes_submit_user_data(){
-
-    update_user_meta(get_current_user_id(), 'dsm_bike_age', intval($_POST['user_age']));
-    update_user_meta(get_current_user_id(), 'dsm_bike_gender', sanitize_text_field($_POST['user_gender']));
-    update_user_meta(get_current_user_id(), 'dsm_bike_zip', sanitize_text_field($_POST['user_zipcode']));
+    $user_id = $_POST['user'];
+    update_user_meta($user_id, 'dsm_bike_age', intval($_POST['user_age']));
+    update_user_meta($user_id, 'dsm_bike_gender', sanitize_text_field($_POST['user_gender']));
+    update_user_meta($user_id, 'dsm_bike_zip', sanitize_text_field($_POST['user_zipcode']));
 
     exit();
 }
