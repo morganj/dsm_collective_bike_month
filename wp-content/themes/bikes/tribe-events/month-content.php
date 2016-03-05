@@ -47,6 +47,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<!-- Month Grid -->
 	<?php tribe_get_template_part( 'month/loop', 'grid' ) ?>
 
+    <a href="http://challenge.bikemonthiowa.com/" rel="attachment wp-att-2643">
+        <img src="http://dsmbikecollective.org/wp-content/uploads/2016/03/BIKE-COMMUTER-green-222x300.png" alt="BIKE-COMMUTER-green" width="222" height="300" class="aligncenter size-medium wp-image-2643" />
+    </a>
+
+    <a href=“dsmbikecollective.org/virtual-passport-sponsors/" rel="attachment wp-att-2643”>Thanks to all of our sponsors!</a>
+
 	<!-- Month Footer -->
 	<?php do_action( 'tribe_events_before_footer' ) ?>
 	<div id="tribe-events-footer">

@@ -75,6 +75,14 @@
         <p id="unlocked" class="<?php echo $unlocked; ?>">Congratulations! You earned the <b><i><?php the_title(); ?></i></b> badge!</p>
     </div>
 
+    <div id="user-register">
+        <p>It looks like you're not logged!</p>
+        <div class="wrapper">
+            <button id="submit-button" class="green-pill pill">Log in or sign up here.</button>
+            <div class="wrapper"><button id="cancel-button" class="red-pill pill">Cancel</button></div>
+        </div>
+    </div>
+
     <div id="user-modal">
         <p>Please provide some information before redeeming your first badge!</p>
         <input type="text" id="user-age" class="input-pill" placeholder="age">

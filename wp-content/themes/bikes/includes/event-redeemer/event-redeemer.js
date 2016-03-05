@@ -4,6 +4,8 @@
 
 jQuery(document).ready( function($){
 
+    console.log(event_redeemer.user_logged_in == undefined);
+
   if(event_redeemer != null) {
 
     var eventCode = event_redeemer.event_code;
@@ -11,6 +13,7 @@ jQuery(document).ready( function($){
     var eventYear = event_redeemer.event_year;
     var eventComplete = event_redeemer.event_status;
     var userValid = event_redeemer.user_valid;
+    var userLoggedIn = event_redeemer.user_logged_in;
 
     var age, zipcode, selectVal;
 
@@ -49,6 +52,14 @@ jQuery(document).ready( function($){
     }
 
     $('#unlock-button').click(function(){
+
+        console.log(userLoggedIn);
+
+        if(!userLoggedIn){
+            $('#user-register').fadeIn();
+
+
+        }
 
         if(!userValid){
             $('#user-modal').fadeIn();
