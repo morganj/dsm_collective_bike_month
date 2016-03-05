@@ -276,3 +276,8 @@ select.input-pill.error,
 .sponsors a {
   line-height: 20px;
 }
+
+/* Overwrites to parent theme */
+.centered-header #menu-standard-navigation {
+    padding-top: 70px;
+}
