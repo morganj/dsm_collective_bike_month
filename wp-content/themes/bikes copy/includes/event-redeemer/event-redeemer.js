@@ -67,7 +67,6 @@ jQuery(document).ready( function($){
             $('#user-modal').fadeIn();
 
             $('#submit-button').click(function(){
-              console.log(checkFields());
                 if(!checkFields())
                     return;
 
@@ -101,6 +100,7 @@ jQuery(document).ready( function($){
             });
             return;
         }
+
 
         if($('#event-code').val() != eventCode){
             $('#event-code').addClass('error');
