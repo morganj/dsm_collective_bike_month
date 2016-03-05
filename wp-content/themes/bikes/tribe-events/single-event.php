@@ -57,7 +57,7 @@
 
     <div class="unlock-section bm-section">
         <div class="bm-image-wrapper">
-            <img class="bm-image" src="http://dannymaller.com/wp-content/uploads/2016/03/Untitled-1.png">
+            <img class="bm-image" src="<?php echo get_stylesheet_directory_uri().'/assets/images/badge-locked.png' ?>">
         </div>
         <div class="bm-text-wrapper">
             <div id="unlockable" class="<?php echo $unlockable; ?>">
@@ -90,7 +90,7 @@
         </div>
     </div>
 
-    <div class="social-section">
+    <div class="social-section hidden">
         <p class="social-text">Interested in this event? Attend on Facebook or Tweet it to your friends.</p>
         <div class="facebook-share"></div>
         <div class="twitter-share"></div>
