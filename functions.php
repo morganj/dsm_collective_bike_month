@@ -37,3 +37,9 @@ function calendar_widget_init() {
     ) );
 }
 add_action( 'widgets_init', 'calendar_widget_init' );
+
+// Create modal when badge is clicked
+function collect_demographic(){
+
+}
+add_action('wp_head', 'collect_demographic');
