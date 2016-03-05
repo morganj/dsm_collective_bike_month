@@ -1,0 +1,83 @@
+.fdes_events_list .fdes_list_event .desc_trig{background-color:#fafafa}
+.fdes_events_list .fdes_list_event .desc_trig:hover{background-color:#f4f4f4}
+.ajde_evcal_calendar .calendar_header p, 
+			.fdes_events_list .fdes_list_event .evcal_cblock, .evcal_cblock, .fdes_events_list .fdes_list_event .evcal_desc span.evcal_desc2, .evcal_desc span.evcal_desc2, .evcal_evdata_row .evcal_evdata_cell h2, .evcal_evdata_row .evcal_evdata_cell h3.evo_h3, .evcal_month_line p, .evo_clik_row .evo_h3, .fdes_events_list .fdes_list_event .evcal_desc span.evcal_event_subtitle, .evo_pop_body .evcal_desc span.evcal_event_subtitle{font-family:oswald, 'arial narrow'}
+			.ajde_evcal_calendar .evo_sort_btn, .fdes_sf_field p, .evo_srt_sel p.fa{color:#B8B8B8}
+			.ajde_evcal_calendar .evo_sort_btn:hover{color:#d8d8d8}
+			#evcal_list .fdes_list_event .evcal_desc em{color:#8c8c8c}
+			#evcal_list .fdes_list_event .evcal_desc em a{color:#c8c8c8}
+			#evcal_list .fdes_list_event .event_description .evcal_btn, .evo_pop_body .evcal_btn{color:#ffffff;background:#237ebd;}
+			#evcal_list .fdes_list_event .event_description .evcal_btn:hover, .evo_pop_body .evcal_btn:hover{color:#ffffff;background:#237ebd;}
+			.evcal_evdata_row .evcal_evdata_icons i, .evcal_evdata_row .evcal_evdata_custometa_icons i{color:#6B6B6B;font-size:20px;}
+			#fdes_loadbar{background-color:#C6C6C6}
+			.evcal_evdata_row .evcal_evdata_cell h3, .evo_clik_row .evo_h3{font-size:16px}
+			#evcal_list .fdes_list_event .evcal_cblock{color:#ABABAB}
+			.evcal_evdata_row .evcal_evdata_cell h2, .evcal_evdata_row .evcal_evdata_cell h3{color:#6B6B6B}
+			#evcal_list .fdes_list_event .evcal_eventcard p, .ajde_evcal_calendar .fdes_events_list .fdes_desc_in ul{color:#656565}
+			.ajde_evcal_calendar #evcal_head.calendar_header #evcal_cur, .ajde_evcal_calendar .evcal_month_line p{color:#C6C6C6}
+			.fdes_events_list .fdes_list_event .evcal_eventcard, .evcal_evdata_row, .evorow .tbrow, .dark1, .evo_pop_body{background-color:#eaeaea}
+			.dark1:hover{background-color:#d8d8d8}
+			.event_description .bordb, #evcal_list .bordb, .fdes_events_list .fdes_list_event .event_description, .bordr, #evcal_list, .evo_pop_body .bordb{border-color:#cdcdcd}
+			.fdes_events_list .fdes_list_event .evcal_list_a:after,  .evcal_list_a:after{background-color:#e5e5e5}
+			.fdes_events_list .fdes_list_event .evcal_list_a.featured_event{background-color:#F9ECE4}
+			.fdes_events_list .fdes_list_event .evcal_list_a.featured_event:hover{background-color:#FAE4D7}
+			#fdes_loadbar_section{border-color:#e5e5e5}.event_description .evcal_close{background-color:#eaeaea}
+			.event_description .evcal_close:hover{background-color:#c7c7c7}
+			#evcal_list .evorow.getdirections, .evo_pop_body .evorow.getdirections{background-color:#ffffff}
+			#evcal_list .evorow.getdirections .evoInput, .evo_pop_body .evorow.getdirections .evoInput{color:#888888}
+			#evcal_list .evorow.getdirections .evcalicon_9 i, .evo_pop_body .evorow.getdirections .evcalicon_9 i{color:#858585}
+			#evcal_list .fdes_list_event .evcal_desc span.evcal_event_title{color:#6B6B6B}
+			.fdes_events_list .fdes_list_event .evcal_desc span.evcal_event_subtitle, .evo_pop_body .evcal_desc span.evcal_event_subtitle{color:#6B6B6B}
+			.fp_popup_option i{color:#999;font-size:22px;}
+			.evo_cal_above span{color:#ffffff;background-color:#ADADAD;}
+			.evo_cal_above span:hover{color:#ffffff;background-color:#d3d3d3;}
+			.evo_cal_above span.evo-gototoday-btn{color:#ffffff;background-color:#ADADAD;}
+			.evo_cal_above span.evo-gototoday-btn:hover{color:#ffffff;background-color:#d3d3d3;}
+			.ajde_evcal_calendar .calendar_header .evo_j_dates p a{color:#ffffff;background-color:#ECECEC;}
+			.ajde_evcal_calendar .calendar_header .evo_j_dates p a:hover{color:#ffffff;background-color:#c3c3c3;}
+			.ajde_evcal_calendar .calendar_header .evo_j_dates p a.current{color:#ffffff;background-color:#CFCFCF;}
+			.ajde_evcal_calendar .calendar_header .evo_j_dates p a.set{color:#ffffff;background-color:#888888;}
+			.ajde_evcal_calendar .calendar_header .evo_j_dates p.legend{color:#6e6e6e;}
+			.ajde_evcal_calendar .calendar_header .evcal_arrows{color:#e2e2e2;border-color:#e2e2e2;background-color:#ffffff;}
+			.ajde_evcal_calendar .calendar_header .evcal_arrows:hover{color:#e2e2e2;border-color:#e2e2e2;background-color:#ededed;}
+			.ajde_evcal_calendar .calendar_header .evcal_arrows .fa{color:#e2e2e2}
+			.ajde_evcal_calendar .calendar_header .evcal_arrows:hover .fa{color:#ffffff}
+			.fdes_events_list .fdes_list_event .cancel_event .evo_event_headers{color:#ffffff;background-color:#F79191;}
+			.fdes_events_list .fdes_list_event .cancel_event.evcal_list_a{color:#ffffff;background:repeating-linear-gradient(45deg,#FDF2F2,#FDF2F2 10px,#FAFAFA 10px,#FAFAFA 20px);}
+			.fdes_weeklyview{background-color:#D2988A;color:#ffffff;}
+			.fdes_weeklyview p.evoWV_top{color:#ffffff;}
+			.evoWV_days .evo_wv_day span.num_events{background-color:#ffffff;color:#A15F4F;}
+			.fdes_weeklyview p.evoWV_top span i{color:#ffffff}
+			.fdes_weeklyview p.evoWV_top span{border-color:#ffffff}
+			.fdes_daily_list .evcal_arrows{color:#919191}
+			.fdes_daily_list .evcal_arrows:hover{color:#919191}
+			.fdes_daily_in .evo_day{background-color:#ffffff;color:#e8e8e8;}
+			.fdes_daily_in .evo_day:hover{background-color:#fbfbfb;color:#d4d4d4;}
+			.fdes_daily_in .evo_day.has_events{background-color:#ffffff;color:#d5c3ac;}
+			.fdes_daily_in .evo_day.has_events:hover{background-color:#fbfbfb;color:#d5c3ac;}
+			.fdes_daily_in .evo_day.on_focus{background-color:#f7f7f7;color:#a4a4a4;border-color:#747474;}
+			.evo_day.on_focus:hover{background-color:#f7f7f7;color:#a4a4a4;}
+			.evodv_current_day{background-color:#d5c3ac;color:#ffffff;}
+			.evodv_current_day p{color:#ffffff}
+			.fdes_fc_days .evo_fc_day{background-color:#ffffff;color:#d4d4d4;}
+			.fdes_fc_days .evo_fc_day:hover{background-color:#fbfbfb;color:#9e9e9e;}
+			.fdes_fc_days .evo_fc_day.has_events{background-color:#ffffff;color:#dfa872;}
+			.fdes_fc_days .evo_fc_day.has_events:hover{background-color:#fbfbfb;color:#9e9e9e;}.
+			fdes_fc_days .evo_fc_day.on_focus{background-color:#f7f7f7;color:#d4d4d4;}
+			.fdes_fc_days .evo_fc_day.on_focus:hover{background-color:#fbfbfb;color:#9e9e9e;}.
+			fdes_fc_daynames .evo_fc_day{color:#9e9e9e}
+			.fdes_fc_daynames .evo_fc_day:hover{color:#d4d4d4}
+			.evo_metarow_tix .tx_wc_notic{background-color:#abbba1}#evcal_list .fdes_list_event .evo_metarow_tix .tx_wc_notic p{color:#ffffff}#evcal_list .fdes_list_event .event_description .tx_wc_notic .evcal_btn.view_cart{background-color:#237ebd;color:#ffffff;}#evcal_list .fdes_list_event .event_description .tx_wc_notic .evcal_btn.checkout{background-color:#237ebd;color:#ffffff;}.evcal_evdata_cell h3.orating .orating_stars{color:#6B6B6B}.evcal_evdata_cell h3.orating .orating_data{background-color:#6B6B6B;color:#ffffff;}.evcal_evdata_cell h3.orating .extra_data{background-color:#6B6B6B;color:#ffffff;}.evcal_evdata_cell .rating_data .rating{color:#656565}.evcal_evdata_cell .rating_data .bar em{background-color:#4DA5E2}.evcal_evdata_cell .rating_data .count{color:#656565}.evcal_evdata_cell .review_list .review.show .rating{color:#656565}.evcal_evdata_cell .review_list .review.show .description{background-color:#DEDEDE;color:#656565;}.evcal_evdata_cell .review_list .reviewer{color:#656565}.evcal_evdata_cell .review_list_control span{color:#141412}.evore_popup:before{background-color:#9AB37F}#evore_form_section, #evore_form h3{color:#ffffff}#submit_review_form{background-color:#ffffff;color:#9ab37f;}.evors_whos_coming span{background-color:#A7A7A7;color:#ffffff;}#evorsvp_form a.evcal_btn{background-color:#ffffff;color:#9AB37F;}#evorsvp_form .rsvp_status span.set{color:#9AB37F}#evorsvp_form .form_row select, #evorsvp_form .form_row input{color:#ffffff}#evorsvp_form .form_row input::-webkit-input-placeholder{color:#141412}#evorsvp_form .form_row input:-moz-input-placeholder{color:#141412}#evorsvp_form .form_row input::-moz-input-placeholder{color:#141412}#evorsvp_form .form_row input:-ms-input-placeholder{color:#141412}#evors_form_section, #evorsvp_form h3{color:#ffffff}.evors_popup:before{background-color:#9AB37F}.evoRS_status_option_selection span:hover{background-color:#ffffff}.evoRS_status_option_selection span{border-color:#cdcdcd;background-color:#EAEAEA;}.evo_metarow_socialmedia a.evo_ss{background-color:#eaeaea;}.evo_metarow_socialmedia a.evo_ss:hover{background-color:#9e9e9e;}.evo_metarow_socialmedia a.evo_ss i{color:#888686;}.evo_metarow_socialmedia a.evo_ss:hover i{color:#ffffff;}.evo_metarow_socialmedia .evo_sm{border-color:#cdcdcd}
+			.evcal_event_details .evcal_evdata_cell .fdes_details_shading_bot{
+		background: -moz-linear-gradient(top,  rgba(234,234,234,0) 0%, rgba(234,234,234,0.01) 1%, rgba(234,234,234,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,234,234,0)), color-stop(1%,rgba(234,234,234,0.01)), color-stop(100%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(234,234,2344,0) 0%,rgba(234,234,234,0.01) 1%,rgba(234,234,234,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(234,234,234,0) 0%,rgba(234,234,234,0.01) 1%,rgba(234,234,234,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(234,234,234,0) 0%,rgba(234,234,234,0.01) 1%,rgba(234,234,234,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(234,234,234,0) 0%,rgba(234,234,234,0.01) 1%,rgba(234,234,234,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00eaeaea', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+	}
+	.evcal_evdata_img{height:230px}
+	#evcal_widget .fdes_events_list .fdes_list_event .evcal_desc .evcal_desc_info em{
+				color:#8c8c8c
+			}

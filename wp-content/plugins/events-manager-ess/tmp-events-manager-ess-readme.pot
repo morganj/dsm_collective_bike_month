@@ -1,0 +1,288 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Events Manager ESS"
+msgstr ""
+
+#. Short description.
+msgid "Extends Events Manager Wordpress plugin to import, export and sync events through ESS feeds."
+msgstr ""
+
+#. Screenshot description.
+msgid "Configure ESS Feeds settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Configure ESS Feeds visibility"
+msgstr ""
+
+#. Screenshot description.
+msgid "Definition of the event's organizer"
+msgstr ""
+
+#. Screenshot description.
+msgid "Definition of the external events pages in relation with wordpress events"
+msgstr ""
+
+#. Screenshot description.
+msgid "Section import or syndicate to 3rd party ESS feeds"
+msgstr ""
+
+#. Screenshot description.
+msgid "ESS Feed rendered in the client browser"
+msgstr ""
+
+#. Found in description header.
+msgid "Main Features"
+msgstr ""
+
+#. Found in description header.
+msgid "Benefits of ESS"
+msgstr ""
+
+#. Found in description list item.
+msgid "ESS extension gives the ability to import and export ESS feeds"
+msgstr ""
+
+#. Found in description list item.
+msgid "<p>ESS facilitate SEO and the event's broadcast.</p>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<p><a href=\"http://essfeed.org\">ESS Documentation</a></p>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Import single event throught ESS Feed format"
+msgstr ""
+
+#. Found in description list item.
+msgid "Syndicate to 3rd party ESS feeds to automaticaly have the events updated."
+msgstr ""
+
+#. Found in description list item.
+msgid "Export events into ESS format"
+msgstr ""
+
+#. Found in description list item.
+msgid "Auto submit events to Search Engines."
+msgstr ""
+
+#. Found in description list item.
+msgid "ESS increases user web traffic on event portal."
+msgstr ""
+
+#. Found in description list item.
+msgid "ESS structures and organizes crucial event information to broadcast them efficiently."
+msgstr ""
+
+#. Found in description list item.
+msgid "ESS prevents the duplication of content by centralizing event information in one website."
+msgstr ""
+
+#. Found in description list item.
+msgid "ESS provide automatic transmition of events all over the web."
+msgstr ""
+
+#. Found in description list item.
+msgid "ESS reduces the cost of event promotion thanks to centralization and automatization."
+msgstr ""
+
+#. Found in description list item.
+msgid "With ESS, event information is not distorted or lost as it is by RSS and iCalendar feeds."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"ESS for Event Standard Syndication is The Events Feed.\n"
+"ESS is a free and open-source XML feed dedicated to describe events. This feed is read by search engines and robot crawlers to index your event pages and forward the web users to the your event URL."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>EVENTS MANAGER PLUGIN IS REQUIRED TO BE INSTALLED TO USE THIS PLUGIN</strong>\n"
+"<a href=\"http://wordpress.org/plugins/events-manager/\">Events Manager Plugin</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin add several crucial SEO optimisations to <strong>Events Manager</strong> Plugin:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "ESS facilitate SEO and the event's broadcast."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://essfeed.org\">ESS Documentation</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube http://www.youtube.com/watch?v=OGi0U3Eqs6E]"
+msgstr ""
+
+#. Found in installation header.
+msgid "Installing"
+msgstr ""
+
+#. Found in installation header.
+msgid "Upgrading"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<a href=\"http://wordpress.org/plugins/events-manager/\">Events Manager</a>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click install, once installed, activate it."
+msgstr ""
+
+#. Found in installation list item.
+msgid "<a href=\"http://wordpress.org/plugins/events-manager-ess/\">Events Manager ESS</a>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click install, once installed, activate it, and that it!"
+msgstr ""
+
+#. Found in installation list item.
+msgid "When upgrading, visit the plugins page in your admin area, scroll down to events manager and click upgrade."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Wordpress will help you upgrade automatically."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid ""
+"Events Manager ESS Extension requiered Events Manager plugin to be installed, then it works like any standard Wordpress plugin, and requires little configuration. If you get stuck, visit the our documentation and support forums.\n"
+"Whenever installing or upgrading any plugin, or even Wordpress itself, it is always recommended you back up your database first!"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Once installed, you can start adding events straight away and broadcat them to the world."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the feed daily auto update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the XML PCDATA invalid Char value 3 with Wordpress 4.3.x"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add a \"source link\" at the end of the event description to get a back-link and improve the SEO"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "prevent the duplication of category's name in the ESS feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix the CRON auto update of syndicated feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add a ESS to schema.org/Event binding to boost the google indexation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "update PHP 5.5 functions support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "set the ESS icon display as optional, ca be custom on the admin settings section."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix the duplicated 'exerpt' field in case of multiple events aggregation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "update date calculation if the 'unit' attribute is provided within the important feed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "update the category detection with the 'name' instead of the 'slug' because some languages have special chars that are url encoded."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "update the url encoding."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improve the existing event detection in case of feed update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "force country code transcription from 'xe' to 'gb' for england."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "leave HTML comments in the description of the ESS feed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "set 'hour' as default value for every durations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "handle PHP &lt; 5.4 with ENT_XML1 native constant that doesn't exists"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "prevent PHP E_STRICT and E_WARNINGS to be displayed on user screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "correct importation with multiple events in one feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "correct some encoder in XTML and XML to be retrocompatible with php &lt;= 5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "update the search engine push"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "events automaticaly visible on https://www.hypecal.com/search"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "combine GitHub repository with Worpress SVN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add banner in Wordpress home page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add FAQ in GitHub: https://github.com/essfeed/wordpress-events-manager-ess/issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add HTTP Request alternative to cURL to push events to search engines"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add screenshot images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add plugin description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "submit first release"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Frequently Asked Question"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "You'll find the bug tracking in: <a href=\"https://github.com/essfeed/wordpress-events-manager-ess/issues\">github.com issues</a>"
+msgstr ""

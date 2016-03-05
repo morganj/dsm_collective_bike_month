@@ -1,0 +1,525 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-10-08 15:50-0400\n"
+"PO-Revision-Date: 2015-10-08 15:50-0400\n"
+"Last-Translator: Richard Gabriel <richard@illuminatikarate.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: include/js\n"
+"X-Poedit-SearchPathExcluded-1: include/lib/BikeShed\n"
+
+#: ik_facebook.php:381
+msgid "Click to View Full Sized Photo"
+msgstr ""
+
+#: ik_facebook.php:392
+msgid "IK FB: Unable to load photos."
+msgstr ""
+
+#: ik_facebook.php:653
+msgid "IK FB: Unable to load feed."
+msgstr ""
+
+#: ik_facebook.php:801 ik_facebook.php:1073 ik_facebook.php:1122
+#: ik_facebook.php:1163
+msgid "... "
+msgstr ""
+
+#: ik_facebook.php:878
+msgid "Read More..."
+msgstr "Lee mas..."
+
+#: ik_facebook.php:952
+msgid "Posted By "
+msgstr "Publicado por"
+
+#: ik_facebook.php:970
+msgid " ago"
+msgstr ""
+
+#: ik_facebook.php:1059 ik_facebook.php:1098
+msgid "Click for fullsize photo"
+msgstr "Haga clic para tamaño completo foto"
+
+#: ik_facebook.php:1189
+msgid "year"
+msgstr ""
+
+#: ik_facebook.php:1190
+msgid "month"
+msgstr ""
+
+#: ik_facebook.php:1191
+msgid "week"
+msgstr ""
+
+#: ik_facebook.php:1192
+msgid "day"
+msgstr ""
+
+#: ik_facebook.php:1193
+msgid "hour"
+msgstr ""
+
+#: ik_facebook.php:1194
+msgid "minute"
+msgstr ""
+
+#: ik_facebook.php:1195
+msgid "second"
+msgstr ""
+
+#: ik_facebook.php:1215
+msgid "Powered By IK Facebook Plugin"
+msgstr ""
+
+#: include/ik_facebook_options.php:45
+msgid "Social Settings"
+msgstr "Ajustes sociales"
+
+#: include/ik_facebook_options.php:47
+msgid "IK FB Settings"
+msgstr "Ajustes IK FB"
+
+#: include/ik_facebook_options.php:51
+msgid "Social Plugin Settings"
+msgstr ""
+
+#: include/ik_facebook_options.php:53 include/ik_facebook_options.php:267
+msgid "IK Facebook Plugin Settings"
+msgstr ""
+
+#: include/ik_facebook_options.php:100
+msgid "Please enter your Facebook App ID and Secret Key. "
+msgstr ""
+
+#: include/ik_facebook_options.php:101
+msgid ""
+"This is required for the plugin to be able to access your Facebook page and "
+"display your latest posts."
+msgstr ""
+
+#: include/ik_facebook_options.php:102
+#, php-format
+msgid ""
+"To get your App ID and Secret Key from Facebook, please visit the <a href="
+"\"%1$s\">Facebook Developer portal</a>."
+msgstr ""
+
+#: include/ik_facebook_options.php:103
+#, php-format
+msgid ""
+"As this process can be somewhat confusing for new users, we have created a "
+"<a href=\"%1$s\">video tutorial for you to follow</a>, which explains the "
+"process in detail</a>."
+msgstr ""
+
+#: include/ik_facebook_options.php:108
+msgid "IK Facebook is almost ready. "
+msgstr ""
+
+#: include/ik_facebook_options.php:108
+#, php-format
+msgid "You must <a href=\"%1$s\">configure IK Facebook</a> for it to work."
+msgstr ""
+
+#: include/ik_facebook_options.php:117
+msgid "Basic Configuration"
+msgstr ""
+
+#: include/ik_facebook_options.php:117 include/ik_facebook_options.php:418
+msgid "Style Options"
+msgstr ""
+
+#: include/ik_facebook_options.php:117 include/ik_facebook_options.php:594
+msgid "Display Options"
+msgstr ""
+
+#: include/ik_facebook_options.php:117 include/ik_facebook_options.php:724
+msgid "Event Options"
+msgstr ""
+
+#: include/ik_facebook_options.php:117
+msgid "Custom HTML Options"
+msgstr ""
+
+#: include/ik_facebook_options.php:117
+msgid "Shortcode Generator"
+msgstr ""
+
+#: include/ik_facebook_options.php:117
+msgid "Plugin Status &amp; Help"
+msgstr ""
+
+#: include/ik_facebook_options.php:264
+msgid "Facebook Settings"
+msgstr ""
+
+#: include/ik_facebook_options.php:265
+msgid "Facebook Settings Updated."
+msgstr ""
+
+#: include/ik_facebook_options.php:268
+msgid "IK Facebook Plugin Settings Updated."
+msgstr ""
+
+#: include/ik_facebook_options.php:318
+msgid "Save Changes"
+msgstr ""
+
+#: include/ik_facebook_options.php:333
+msgid "Facebook API Settings"
+msgstr ""
+
+#: include/ik_facebook_options.php:334
+msgid ""
+"These options tell the plugin how to access your Facebook Page. They are "
+"required for the plugin to work."
+msgstr ""
+
+#: include/ik_facebook_options.php:340
+msgid ""
+"<strong>Important:</strong> You'll need to <a href=\"http://goldplugins.com/"
+"documentation/wp-social-pro-documentation/how-to-get-an-app-id-and-secret-"
+"key-from-facebook/\">create a free Facebook app</a> so that your plugin can "
+"access your feed. Don't worry - it only takes 2 minutes, and we've even got "
+"<a href=\"http://goldplugins.com/documentation/wp-social-pro-documentation/"
+"how-to-get-an-app-id-and-secret-key-from-facebook/\">a video explaining the "
+"process</a>."
+msgstr ""
+
+#: include/ik_facebook_options.php:371
+msgid "WP Social Pro Registration"
+msgstr ""
+
+#: include/ik_facebook_options.php:419
+msgid ""
+"These options control the style of the Facebook Feed displayed on your "
+"website. You can change fonts, colors, image sizes, and even add your own "
+"custom CSS."
+msgstr ""
+
+#: include/ik_facebook_options.php:431
+msgid "Feed Images"
+msgstr ""
+
+#: include/ik_facebook_options.php:458
+msgid "Feed Window Color and Dimensions"
+msgstr ""
+
+#: include/ik_facebook_options.php:505
+msgid "Font Styling"
+msgstr ""
+
+#: include/ik_facebook_options.php:595
+msgid ""
+"These options control the type and amount of content that is displayed in "
+"your Facebook Feed."
+msgstr ""
+
+#: include/ik_facebook_options.php:672
+msgid "Pro Display Options"
+msgstr ""
+
+#: include/ik_facebook_options.php:696
+msgid "Branding Options"
+msgstr ""
+
+#: include/ik_facebook_options.php:831
+msgid "Custom HTML"
+msgstr ""
+
+#: include/ik_facebook_options.php:1132
+msgid "Plugin Status"
+msgstr ""
+
+#: include/ik_facebook_options.php:1135
+msgid ""
+"We're running some quick tests, to help you troubleshoot any issues you "
+"might be running into while setting up your Facebook feed."
+msgstr ""
+
+#: include/ik_facebook_options.php:1141
+msgid "<h2>Configuration Settings</h2>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1142
+msgid ""
+"<p>If you need to contact us for help, please be sure to include these "
+"settings in your message, as well as a functional description of how you "
+"have the feed implemented on your site.</p>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1144
+msgid "<tr><td align='right'>Page ID:</td><td>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1145
+msgid "<tr><td align='right'>App ID:</td><td>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1146
+msgid "<tr><td align='right'>Secret Key:</td><td>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1153
+msgid "<h3>Get Help From A Human</h3>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1154
+msgid ""
+"<p>Still having trouble? Sometimes talking to another person is the best way "
+"to get moving again.</p>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1155
+msgid "<p>There are two great ways to get help from another human being:</p>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1157
+msgid ""
+"<li><a href=\"https://wordpress.org/support/plugin/ik-facebook\">Leave a "
+"message on the WordPress Support Forums</a>, and see if another member of "
+"the community can help.</li>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1159
+msgid ""
+"<li><a href=\"http://goldplugins.com/our-plugins/wp-social-pro/upgrade-to-wp-"
+"social-pro/?utm_source=help_from_a_human\">Upgrade to WP Social Pro</a>, and "
+"get support directly from the developers.</li>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1161
+msgid ""
+"<li><a href=\"http://goldplugins.com/contact/\">Contact Gold Plugins "
+"Support</a>. Please include the email address you used to purchase, and the "
+"address of this website.</li>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1164
+msgid ""
+"<p>If nothing else works, you might also try taking a 15 minute break. You'd "
+"be surprised how well it can work!</p>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1175
+msgid "Example Shortcodes"
+msgstr ""
+
+#: include/ik_facebook_options.php:1178
+msgid "Jump to:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1179
+msgid "Facebook Feed Shortcodes"
+msgstr ""
+
+#: include/ik_facebook_options.php:1180
+msgid "Like Button Shortcodes"
+msgstr ""
+
+#: include/ik_facebook_options.php:1181
+msgid "Photo Gallery Shortcodes"
+msgstr ""
+
+#: include/ik_facebook_options.php:1188
+msgid ""
+"Tip: try mixing and matching the attributes in these examples! These are "
+"only suggestions meant ot get you thinking, not an exhaustive list of what "
+"the plugin can do."
+msgstr ""
+
+#: include/ik_facebook_options.php:1190
+msgid "<h3 id=\"fb_feed_shortcodes\">Facebook Feed Shortcodes</h3>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1191
+msgid ""
+"To output a custom feed of your own posts, place the following shortcode in "
+"the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1193
+msgid ""
+"To show a feed from another page, for example NatGeo's page, use the id "
+"attribute:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1195
+msgid "This shortcode will output a feed that's 500px wide and 300px tall:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1197
+msgid "This shortcode will output a feed using the light color scheme:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1199
+msgid ""
+"This shortcode will output a feed using the dark color scheme (the default "
+"is light):"
+msgstr ""
+
+#: include/ik_facebook_options.php:1201
+msgid ""
+"This shortcode will output a feed which includes your Facebook Profile "
+"Picture:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1203
+msgid ""
+"This shortcode will output a feed <em>without</em> your Facebook Profile "
+"Picture:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1205
+msgid "This shortcode will output only your most recent post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1207
+msgid "This shortcode will output your 5 most recent posts: "
+msgstr ""
+
+#: include/ik_facebook_options.php:1209
+msgid ""
+"<em>Tip: you can change 5 to any number you wish, up to 100, and your feed "
+"will always show that many posts.</em>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1214
+msgid "<h3 id=\"fb_like_button_shortcodes\">Like Button Shortcodes</h3>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1215
+msgid ""
+"To output a Like Button for your website, place the following shortcode in "
+"the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1217
+msgid ""
+"To output a Like Button for a specific page on your website, place the "
+"following shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1219
+msgid ""
+"To output a Like Button using the light color scheme, place the following "
+"shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1221
+msgid ""
+"To output a Like Button using the dark color scheme, place the following "
+"shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1223
+msgid ""
+"Valid attributes include: <code>url=\"\" height=\"\" colorscheme=\"light\"</"
+"code>."
+msgstr ""
+
+#: include/ik_facebook_options.php:1224
+msgid ""
+"<em>Valid options for colorscheme are \"light\" and \"dark\".  Valid values "
+"for height are integers.  URL must be a valid website URL.</em>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1227
+msgid "<h3 id=\"fb_photo_gallery_shortcodes\">Photo Gallery Shortcodes</h3>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1228
+msgid "Important"
+msgstr ""
+
+#: include/ik_facebook_options.php:1229
+msgid ""
+"The id attribute is always required for photo galleries. It corresponds to "
+"your photo gallery's ID on Facebook. You can find it by visiting the photo "
+"gallery on Facebook, and then examining the URL."
+msgstr ""
+
+#: include/ik_facebook_options.php:1230
+msgid "More Information"
+msgstr ""
+
+#: include/ik_facebook_options.php:1234
+msgid ""
+"To output a Photo Gallery, place the following shortcode in the body of any "
+"page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1236
+msgid ""
+"To output a Photo Gallery limited to 25 items, place the following shortcode "
+"in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1238
+msgid ""
+"To output a Photo Gallery with thumbnails that are 130px wide and 73px tall, "
+"place the following shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1240
+msgid ""
+"To output a Photo Gallery with thumbnails that are 320px wide and 180px "
+"tall, place the following shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1242
+msgid ""
+"To output a Photo Gallery with thumbnails that are 480px wide and 270px "
+"tall, place the following shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1244
+msgid ""
+"To output a Photo Gallery with thumbnails that are 600px wide and 337px "
+"tall, place the following shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1246
+msgid ""
+"To output a Photo Gallery with thumbnails that are 720px wide and 405px "
+"tall, place the following shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1248
+msgid ""
+"To output a Photo Gallery with thumbnails that are 960px wide and 540px "
+"tall, place the following shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1250
+msgid ""
+"To output a Photo Gallery with thumbnails that are 2048px wide and 1152px "
+"tall, place the following shortcode in the body of any page or post:"
+msgstr ""
+
+#: include/ik_facebook_options.php:1252
+msgid ""
+"<em>If no size is passed, it will default to 320 x 180.  Size options are "
+"2048x1152, 960x540, 720x405, 600x337, 480x270, 320x180, and 130x73.  If "
+"num_photos is not passed, the Gallery will default to the amount set on the "
+"Dashboard - if no amount is set there, it will display up to 25 photos.  The "
+"ID number is found by looking at the URL of the link to the Album on "
+"Facebook - you can read more on our FAQs <a href=\"http://goldplugins.com/"
+"documentation/wp-social-pro-documentation/frequently-asked-questions/"
+"\">here</a>.</em>"
+msgstr ""
+
+#: include/ik_facebook_options.php:1442
+msgid "Upgrade to WP Social Pro now</a> to remove banners like this one."
+msgstr ""

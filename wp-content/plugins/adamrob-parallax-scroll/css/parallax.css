@@ -1,0 +1,43 @@
+/********************************
+** adamrob.co.uk - 20JAN2015
+** Parallax Scroll Wordpress Plugin
+**
+** CSS Styles
+********************************/
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.adamrob_pcontainer {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+
+
+
+section.adamrob_parallax {
+  /*height: 600px; Set in PHP */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-size: cover;*/
+  /*background-size: 500px;*/
+}
+
+
+
+
+/* ============================================================
+  FULL WIDTH CLASS
+============================================================ */
+.adamrob_parallax_fullwidth{
+  /*Used when in full screen mode */
+  position: absolute;
+  left: 0;
+  width: 100%;
+}

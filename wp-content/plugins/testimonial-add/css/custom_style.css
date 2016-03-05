@@ -1,0 +1,96 @@
+<style type="text/css">
+
+
+     #tss_mpsp_slider_settings{
+        border-top:  10px solid #FF9918 !important;
+    }
+    .formLayout
+    {
+        
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .formLayout label 
+    {
+        display: block;
+        width: 225px;
+        float: left;
+        margin-bottom: 30px;
+        margin-right: 40px;
+        text-align: left !important;
+    }
+
+    .formLayout input{
+        width: 130px;
+        margin-bottom: 30px;
+
+    }
+     .formLayout select{
+        display: block;
+        width: 130px;
+        float: left;
+        margin-bottom: 30px;
+
+    }
+ 
+    .formLayout label
+    {
+        text-align: right;
+        font-size: 16px;
+        font-weight: bold;
+        
+    }
+ 
+    br
+    {
+        clear: left;
+    }
+
+    #mpsp__slider_settings{
+        width: 99%;
+        padding: 10px;
+        background: #fff;
+
+
+    }
+    .slide_hed{
+        width: 500px;
+        height: 30px;
+        background-color: #000;
+        color: white;
+        text-align:center;
+        position: relative;
+        top: 17px;
+        padding-top: 10px;
+
+    }
+
+    #mpsp_posts_settings{
+        width: 98%;
+
+      }
+#tss_mpsp_slider_posts_settings{
+    background-color: #34495e;
+}
+
+        .slide_hed_posts{
+        width: 500px;
+        height: 30px;
+        background-color: #000;
+        color: white;
+        text-align:center;
+        position: relative;
+        top: -1055px;
+        padding-top: 10px;
+        left: 520px;
+
+    }
+  .layout_label{
+    color: #fff;
+    }
+
+    #tss_mpsp_slider_posts_settings > h2{
+        color: #fff !important;
+    }
+    </style>

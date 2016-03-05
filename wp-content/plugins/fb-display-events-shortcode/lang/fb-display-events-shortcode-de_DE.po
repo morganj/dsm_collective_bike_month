@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FB Display Events Shortcode\n"
+"POT-Creation-Date: 2015-11-13 10:36+0100\n"
+"PO-Revision-Date: 2015-11-13 10:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: fb-display-events-shortcode.php\n"
+"X-Poedit-SearchPath-1: admin/admin.php\n"
+"X-Poedit-SearchPath-2: classes/FB_event.php\n"
+
+#: admin/admin.php:19
+msgid "Settings"
+msgstr "Einstellung"
+
+#: classes/FB_event.php:49 classes/FB_event.php:54
+msgid "Details"
+msgstr " Einzelheiten"
+
+#: classes/FB_event.php:52
+msgid "Less"
+msgstr " Weniger"
+
+#: classes/FB_event.php:52
+msgid "Show More"
+msgstr "Mehr Anzeigen"
+
+#: classes/FB_event.php:68
+msgid "Time"
+msgstr "Zeit"
+
+#: classes/FB_event.php:76
+msgid "Location"
+msgstr "Platz"
+
+#: classes/FB_event.php:89
+msgid "Go to facebook"
+msgstr "Klicken um in Facebook zu sehen"
+
+#: fb-display-events-shortcode.php:124
+msgid "Incorrect fb_time value"
+msgstr "Falsche fb_time wert"
+
+#: fb-display-events-shortcode.php:155 fb-display-events-shortcode.php:251
+msgid "Connection error"
+msgstr "Problem mit der Verbindung"
+
+#: fb-display-events-shortcode.php:159
+msgid "Bad Request. Your fb_user_name or access token is not valid."
+msgstr "Ungültige Anforderung. Ihre fb_user_name oder Zugriffstoken ist ungültig."
+
+#: fb-display-events-shortcode.php:165 fb-display-events-shortcode.php:262
+msgid "Caught Exception:"
+msgstr "Gefangen Ausnahme:"
+
+#: fb-display-events-shortcode.php:176
+msgid "fb_user_name is not valid"
+msgstr "fb_user_name ist ungültig"
+
+#: fb-display-events-shortcode.php:255
+msgid "Bad Request. Yours id_value or access token is not valid."
+msgstr "Ungültige Anforderung. Mit freundlichen id_value oder Zugriffstoken ist ungültig."
+
+#: fb-display-events-shortcode.php:281
+msgid "Wrong id_number"
+msgstr "Ffalsche id_number"
+
+#: fb-display-events-shortcode.php:285
+msgid "Location not fully set"
+msgstr "Lage nicht vollständig eingestellt"
+
+#: fb-display-events-shortcode.php:385
+msgid "No events"
+msgstr "Keine Termine"
+
+#: fb-display-events-shortcode.php:423
+msgid "Please use only one shortcode: fb_user_id or fb_event_id"
+msgstr "Bitte benutzen Sie nur eine Kurzwahl : fb_user_id oder fb_event_id"
+
+#: fb-display-events-shortcode.php:430
+msgid "Please set in shortcode: fb_user_id or fb_event_id"
+msgstr "Bitte stellen Sie in Shortcode : fb_user_id oder fb_event_id"

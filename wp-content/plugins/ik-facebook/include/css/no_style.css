@@ -1,0 +1,101 @@
+/*
+This file is part of IK Facebook.
+
+IK Facebook is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+IK Facebook is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with IK Facebook.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+p.ik_fb_error{
+	color: red;
+	font-style: italic;
+	font-size: 12px;
+}
+
+#ik_fb_widget {
+}
+#ik_fb_widget .ik_fb_feed_item {
+}
+#ik_fb_widget .ik_fb_feed_item img {
+}
+#ik_fb_widget .ik_fb_profile_picture {
+}
+#ik_fb_widget .ik_fb_profile_picture img {
+}
+#ik_fb_widget .ik_fb_profile_picture .ik_fb_facebook_like {
+}
+#ik_fb_widget .ik_fb_profile_picture a {
+}
+#ik_fb_widget .ik_fb_profile_picture a:hover {
+}
+#ik_fb_widget .ik_fb_profile_picture .ik_fb_name {
+}
+#ik_fb_widget .ik_fb_feed_window {
+}
+#ik_fb_widget .ik_fb_feed_window a, #ik_fb_widget .ik_fb_feed_window a:visited {
+}
+#ik_fb_widget .ik_fb_feed_window a:hover {
+}
+#ik_fb_widget .ik_fb_feed_window .ik_fb_facebook_link {
+}
+#ik_fb_widget .ik_fb_feed_window .ik_fb_facebook_link a {
+}
+#ik_fb_widget p {
+}
+#ik_fb_widget .ik_fb_facebook_image {
+}
+#ik_fb_widget p.facebook_description {
+}
+
+#like_button{
+}
+
+#ikfb_powered_by{
+}
+
+#ik_fb_widget .ikfb_read_more{
+}
+
+.ikfb_user_avatar,
+#ik_fb_widget .ik_fb_feed_item  .ikfb_user_avatar{
+}
+
+/* Comments */
+
+.ikfb_user_avatar,
+#ik_fb_widget .ik_fb_feed_item  .ikfb_user_avatar{
+}
+
+.ikfb_comments,
+.ikfb_likes{
+}
+
+.ikfb_comment_list{
+}
+
+.ikfb_comment{
+}
+
+#ik_fb_widget .ik_fb_feed_item .ikfb_user_comment_avatar{
+}
+
+.ikfb_comment_author{
+}
+
+.ikfb_comment_message{
+}
+
+.ikfb_comment_date{
+}
+
+.ikfb_clear{
+}
