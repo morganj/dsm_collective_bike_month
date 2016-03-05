@@ -4,6 +4,8 @@
 
 jQuery(document).ready( function($){
 
+  if(event_redeemer != null) {
+
     var eventCode = event_redeemer.event_code;
     var eventID = event_redeemer.event_id;
     var eventYear = event_redeemer.event_year;
@@ -112,4 +114,5 @@ jQuery(document).ready( function($){
         });
 
     });
+  }
 });

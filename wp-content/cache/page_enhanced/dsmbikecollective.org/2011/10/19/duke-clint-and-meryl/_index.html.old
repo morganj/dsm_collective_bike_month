@@ -3,14 +3,14 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Upcoming Events |  Test Event |  Des Moines Bicycle Collective</title>
+	<title>Duke, Clint, and Meryl |  Des Moines Bicycle Collective</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="pingback" href="http://dsmbikecollective.org/xmlrpc.php" />
 	<meta name="google-site-verification" content="mcPle7Lihq0vSCXiTZw5tGu9UUW6WtnuRpHSURcDwIk" />
     <link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Feed" href="http://dsmbikecollective.org/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Comments Feed" href="http://dsmbikecollective.org/comments/feed/" />
 <link rel="alternate" type="text/calendar" title="Des Moines Bicycle Collective &raquo; iCal Feed" href="http://dsmbikecollective.org/virtual-passport/?ical=1" />
-<link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Test Event Comments Feed" href="http://dsmbikecollective.org/virtual-passport/test-event-2/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Des Moines Bicycle Collective &raquo; Duke, Clint, and Meryl Comments Feed" href="http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/feed/" />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/dsmbikecollective.org\/wp-includes\/js\/wp-emoji-release.min.js"}};
 			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -32,11 +32,6 @@ img.emoji {
 <link rel='stylesheet' id='contact-form-7-css'  href="http://dsmbikecollective.org/wp-content/plugins/contact-form-7/includes/css/styles.css?fdbc7c" type='text/css' media='all' />
 <link rel='stylesheet' id='zilla-likes-css'  href="http://dsmbikecollective.org/wp-content/plugins/likes/styles/zilla-likes.css?fdbc7c" type='text/css' media='all' />
 <link rel='stylesheet' id='seamless_donations_css-css'  href="http://dsmbikecollective.org/wp-content/plugins/seamless-donations/css/styles.css?fdbc7c" type='text/css' media='all' />
-<link rel='stylesheet' id='tribe-events-custom-jquery-styles-css'  href="http://dsmbikecollective.org/wp-content/plugins/the-events-calendar/vendor/jquery/smoothness/jquery-ui-1.8.23.custom.css?fdbc7c" type='text/css' media='all' />
-<link rel='stylesheet' id='tribe-events-full-calendar-style-css'  href="http://dsmbikecollective.org/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full.min.css?fdbc7c" type='text/css' media='all' />
-<link rel='stylesheet' id='tribe-events-calendar-style-css'  href="http://dsmbikecollective.org/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-theme.min.css?fdbc7c" type='text/css' media='all' />
-<link rel='stylesheet' id='tribe-events-calendar-full-mobile-style-css'  href="http://dsmbikecollective.org/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full-mobile.min.css?fdbc7c" type='text/css' media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='tribe-events-calendar-mobile-style-css'  href="http://dsmbikecollective.org/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-theme-mobile.min.css?fdbc7c" type='text/css' media='only screen and (max-width: 768px)' />
 <link rel='stylesheet' id='easy-facebook-likebox-plugin-styles-css'  href="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/css/public.css?fdbc7c" type='text/css' media='all' />
 <link rel='stylesheet' id='easy-facebook-likebox-popup-styles-css'  href="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/popup/magnific-popup.css?fdbc7c" type='text/css' media='all' />
 <link rel='stylesheet' id='ebor-loom-raleway-font-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A400%2C300%2C500%2C600%2C700%2C800%2C900&#038;ver=4.4.2' type='text/css' media='all' />
@@ -74,13 +69,6 @@ var dgxDonateAjax = {"ajaxurl":"http:\/\/dsmbikecollective.org\/wp-admin\/admin-
 /* ]]> */
 </script>
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/seamless-donations/js/seamless-donations.js?fdbc7c"></script>
-<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/the-events-calendar/vendor/jquery-resize/jquery.ba-resize.min.js?fdbc7c"></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var tribe_js_config = {"permalink_settings":"\/%year%\/%monthnum%\/%day%\/%postname%\/","events_post_type":"tribe_events","events_base":"http:\/\/dsmbikecollective.org\/virtual-passport\/"};
-/* ]]> */
-</script>
-<script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/the-events-calendar/src/resources/js/tribe-events.min.js?fdbc7c"></script>
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/popup/jquery.magnific-popup.min.js?fdbc7c"></script>
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/js/jquery.cookie.js?fdbc7c"></script>
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/easy-facebook-likebox/public/assets/js/public.js?fdbc7c"></script>
@@ -94,15 +82,17 @@ var wpoa_cvars = {"ajaxurl":"http:\/\/dsmbikecollective.org\/wp-admin\/admin-aja
 <link rel='https://api.w.org/' href='http://dsmbikecollective.org/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dsmbikecollective.org/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dsmbikecollective.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Chuggin&#8217; Along the Chichaqua' href='http://dsmbikecollective.org/2011/10/19/chuggin-along-the-chichaqua/' />
+<link rel='next' title='Dutch Treat' href='http://dsmbikecollective.org/2011/10/20/dutch-treat/' />
 <meta name="generator" content="WordPress 4.4.2" />
-<link rel="canonical" href="http://dsmbikecollective.org/virtual-passport/test-event-2/" />
-<link rel='shortlink' href='http://dsmbikecollective.org/?p=2518' />
-<link rel="alternate" type="application/json+oembed" href="http://dsmbikecollective.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdsmbikecollective.org%2Fvirtual%5C-passport%2Ftest-event-2%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://dsmbikecollective.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdsmbikecollective.org%2Fvirtual%5C-passport%2Ftest-event-2%2F&#038;format=xml" />
+<link rel="canonical" href="http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/" />
+<link rel='shortlink' href='http://dsmbikecollective.org/?p=59' />
+<link rel="alternate" type="application/json+oembed" href="http://dsmbikecollective.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdsmbikecollective.org%2F2011%2F10%2F19%2Fduke-clint-and-meryl%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://dsmbikecollective.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdsmbikecollective.org%2F2011%2F10%2F19%2Fduke-clint-and-meryl%2F&#038;format=xml" />
 <style type="text/css" id="custom-background-css">
 body.custom-background { background-color: #f9f9f9; }
 </style>
-<script type="application/ld+json">[{"@context":"http://schema.org","@type":"Event","name":"Test Event","description":"","url":"http://dsmbikecollective.org/virtual-passport/test-event-2/","startDate":"2016-03-24T13:00:00+00:00","endDate":"2016-03-24T22:00:00+00:00"}]</script>	
+	
 <style type="text/css">
 	
 	/**
@@ -303,7 +293,7 @@ body.custom-background { background-color: #f9f9f9; }
 </head>
 
 
-<body class="single single-tribe_events postid-2518 custom-background tribe-bar-is-disabled centered-header events-single tribe-events-style-full tribe-events-style-theme tribe-theme-loom-theme page-template-page-php singular">
+<body class="single single-post postid-59 single-format-standard custom-background tribe-bar-is-disabled centered-header">
 
 
 
@@ -396,94 +386,132 @@ body.custom-background { background-color: #f9f9f9; }
     </div>
   </div>
   <div class="offset"></div><div class="light-wrapper">
-	<div class="container inner">
-	<div class="post-content">
-		<div id="tribe-events" class="tribe-no-js" data-live_ajax="0" data-datepicker_format="0" data-category=""><div class="tribe-events-before-html"></div><span class="tribe-events-ajax-loading"><img class="tribe-events-spinner-medium" src="http://dsmbikecollective.org/wp-content/plugins/the-events-calendar/src/resources/images/tribe-loading.gif?fdbc7c" alt="Loading Events" /></span>
-<div id="tribe-events-content" class="tribe-events-single">
-
-	<p class="tribe-events-back">
-		<a href="http://dsmbikecollective.org/virtual-passport/"> &laquo; All Events</a>
-	</p>
-
-	<!-- Notices -->
+	<div class="container inner">	
+	<div class="row">
 	
-	<h1 class="tribe-events-single-event-title">Test Event</h1>
-	<div class="tribe-events-schedule tribe-clearfix">
-		<h2><span class="tribe-event-date-start">March 24 @ 8:00 am</span> - <span class="tribe-event-time">5:00 pm</span></h2>			</div>
-
-	<!-- Event header -->
-	<div id="tribe-events-header"  data-title="Upcoming Events &#8211; Test Event &#8211; Des Moines Bicycle Collective">
-		<!-- Navigation -->
-		<h3 class="tribe-events-visuallyhidden">Event Navigation</h3>
-		<ul class="tribe-events-sub-nav">
-			<li class="tribe-events-nav-previous"></li>
-			<li class="tribe-events-nav-next"></li>
-		</ul>
-		<!-- .tribe-events-sub-nav -->
-	</div>
-	<!-- #tribe-events-header -->
-
-			<div id="post-2518" class="post-2518 tribe_events type-tribe_events status-publish hentry tribe_events_cat-bike-month-iowa cat_bike-month-iowa">
-			<!-- Event featured image, but exclude link -->
+		<div class=" content">
+		
+			<div class="classic-blog">
 			
-			<!-- Event content -->
-						<div class="tribe-events-single-event-description tribe-events-content">
-							</div>
-			<!-- .tribe-events-single-event-description -->
-			<div class="tribe-events-cal-links"><a class="tribe-events-gcal tribe-events-button" href="http://www.google.com/calendar/event?action=TEMPLATE&#038;text=Test+Event&#038;dates=20160324T080000/20160324T170000&#038;details&#038;location=Array&#038;trp=false&#038;sprop=website:http://dsmbikecollective.org&#038;ctz=America%2FChicago" title="Add to Google Calendar">+ Google Calendar</a><a class="tribe-events-ical tribe-events-button" href="http://dsmbikecollective.org/virtual-passport/test-event-2/?ical=1" title="Download .ics file" >+ iCal Export</a></div><!-- .tribe-events-cal-links -->
-			<!-- Event meta -->
+				<div id="post-59" class="post-59 post type-post status-publish format-standard hentry category-25-49 category-ames category-length category-attractions category-nearby-towns category-paved category-surface category-winterset tag-clint-eastwood tag-delicious-apple tag-east-peru tag-john-wayne tag-liz-porter tag-love-of-quilts tag-madison-county tag-madison-county-cycle-club tag-marianne-fons tag-meryl-streep tag-northside-cafe tag-patterson tag-quilts tag-the-bridges-of-madison-county">
+				
+										
+						<div class="post-content image-caption">
 						
-	<div class="tribe-events-single-section tribe-events-event-meta primary tribe-clearfix">
+							<h2 class="post-title entry-title">Duke, Clint, and Meryl</h2><div class="meta">
 
-
-<div class="tribe-events-meta-group tribe-events-meta-group-details">
-	<h3 class="tribe-events-single-section-title"> Details </h3>
-	<dl>
-
+	<span class="date">
+		Posted on <a href="#">October 19, 2011</a>
+	</span> 
+	
+			<span class="category">
+			Under <a href="http://dsmbikecollective.org/category/length/25-49/" rel="category tag">25-49 miles</a>, <a href="http://dsmbikecollective.org/category/nearby-towns/ames/" rel="category tag">Ames</a>, <a href="http://dsmbikecollective.org/category/length/" rel="category tag">Length</a>, <a href="http://dsmbikecollective.org/category/attractions/" rel="category tag">Nearby Attractions</a>, <a href="http://dsmbikecollective.org/category/nearby-towns/" rel="category tag">Nearby Towns</a>, <a href="http://dsmbikecollective.org/category/surface/paved/" rel="category tag">Paved</a>, <a href="http://dsmbikecollective.org/category/surface/" rel="category tag">Surface</a>, <a href="http://dsmbikecollective.org/category/nearby-towns/winterset/" rel="category tag">Winterset</a>		</span> 
 		
-			<dt> Date: </dt>
-			<dd>
-				<abbr class="tribe-events-abbr tribe-events-start-date published dtstart" title="2016-03-24"> March 24 </abbr>
-			</dd>
-
-			<dt> Time: </dt>
-			<dd>
-				<div class="tribe-events-abbr tribe-events-start-time published dtstart" title="2016-03-24">
-					8:00 am - 5:00 pm				</div>
-			</dd>
-
+			<span class="comments">
+			<a href="http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/#respond">0 Comments</a>
+		</span> 
 		
-		
-		<dt>Event Category:</dt> <dd class="tribe-events-event-categories"><a href="http://dsmbikecollective.org/virtual-passport/category/bike-month-iowa/" rel="tag">Bike Month Iowa</a></dd>
-		
-		
-			</dl>
+</div><h1>Duke, Clint, and Meryl</h1>
+<p>This route was scouted by: Bob Morgan, Biking Iowa</p>
+<p><strong>Madison County</strong><br />
+<strong>Length:</strong> 37 Miles<br />
+<strong>Surface:</strong> Paved Roads<br />
+<strong>Parking and Restrooms:</strong> Winterset City Park</p>
+<p>Big names stud Winterset’s story. Clint Eastwood and Meryl Streep starred in The Bridges of Madison County (based on book by same title), filmed in this area. Better yet, <a href="http://johnwaynebirthplace.org/" target="_blank">John Wayne</a> was born in Winterset in the house where the ride starts.</p>
+<p>This route is a favorite for the Madison County Cycle Club. Head south from town on John Wayne Drive, bear left on Summit Street and continue on P71.</p>
+<p>At 6.5 miles, turn east on Peru Road/CR G68. There’s a 7 percent downhill grade as you go into East Peru (pronounced “Pee-roo”). The Delicious apple, a variety named in 1872, stems from an apple tree that’s still growing near there. The terrain has definite ups and downs as you bike through Truro, then turn north on County Road R35. Enjoy the flat stretch to St. Charles before heading west back to Winterset on G50.</p>
+<p>Side trip: Check out the Northside Cafe on the courthouse square in Winterset. Clint Eastwood sat on the fourth stool from the front in the scene in the movie.</p>
+<p>Not to miss: Quilters in your group should head for <a href="http://www.fonsandporter.com/" target="_blank">Love of Quilts</a>, the home shop of public television quilting authorities Marianne Fons and Liz Porter. The popularity of their show and magazine brings busloads of visitors in Winterset.</p>
+<p><a href="http://dsmbikecollective.org/wp-content/uploads/2011/10/Duke-Clint.pdf?fdbc7c">Download Duke, Clint, and Meryl PDF Map</a></p>
+<p><iframe src="/zoomify2/dukeclintmeryl.html" width="750" height="500"></iframe></p>
+<p><img class="aligncenter wp-image-608 size-medium" title="CCI R5_CDCE_Profile" src="http://dsmbikecollective.org/wp-content/uploads/2011/10/CCI-R5_CDCE_Profile-300x213.jpg?fdbc7c" alt="" width="300" height="213" srcset="http://dsmbikecollective.org/wp-content/uploads/2011/10/CCI-R5_CDCE_Profile-300x213.jpg 300w, http://dsmbikecollective.org/wp-content/uploads/2011/10/CCI-R5_CDCE_Profile.jpg 545w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>&nbsp;</p>
+<h2><a href="http://dsmbikecollective.org/wp-content/uploads/2011/10/bmorgan-19.jpg?fdbc7c"><img class="alignnone size-full wp-image-2009" src="http://dsmbikecollective.org/wp-content/uploads/2011/10/bmorgan-19.jpg?fdbc7c" alt="bmorgan-19" width="200" height="171" /></a></h2>
+<h2><span class="about-author">Meet your route scout: Bob Morgan, Biking Iowa</span></h2>
+<p>Bob Morgan, a freelance writer from Cedar Falls, is author of <a href="http://www.amazon.com/Biking-Iowa-Trails-Books-Guide/dp/1931599637/ref=sr_1_1?ie=UTF8&amp;qid=1319654846&amp;sr=8-1">Biking Iowa</a>, which includes 50 well-documented rides throughout the state. He&#8217;s active in the <a href="http://www.cedartrailspartnership.org/">Cedar Trails Partnership</a> and leads evening bike rides during Bike Month.</p>
+							
+							<div class="meta tags"><a href="http://dsmbikecollective.org/tag/clint-eastwood/" rel="tag">Clint Eastwood</a>, <a href="http://dsmbikecollective.org/tag/delicious-apple/" rel="tag">Delicious Apple</a>, <a href="http://dsmbikecollective.org/tag/east-peru/" rel="tag">East Peru</a>, <a href="http://dsmbikecollective.org/tag/john-wayne/" rel="tag">John Wayne</a>, <a href="http://dsmbikecollective.org/tag/liz-porter/" rel="tag">Liz Porter</a>, <a href="http://dsmbikecollective.org/tag/love-of-quilts/" rel="tag">Love of Quilts</a>, <a href="http://dsmbikecollective.org/tag/madison-county/" rel="tag">Madison County</a>, <a href="http://dsmbikecollective.org/tag/madison-county-cycle-club/" rel="tag">Madison County Cycle Club</a>, <a href="http://dsmbikecollective.org/tag/marianne-fons/" rel="tag">Marianne Fons</a>, <a href="http://dsmbikecollective.org/tag/meryl-streep/" rel="tag">Meryl Streep</a>, <a href="http://dsmbikecollective.org/tag/northside-cafe/" rel="tag">Northside Cafe</a>, <a href="http://dsmbikecollective.org/tag/patterson/" rel="tag">Patterson</a>, <a href="http://dsmbikecollective.org/tag/quilts/" rel="tag">Quilts</a>, <a href="http://dsmbikecollective.org/tag/the-bridges-of-madison-county/" rel="tag">The Bridges of Madison County</a></div>
+							
+							<div class="divide10"></div>
+							
+							<div class="pull-left">
+								
+<div class="share"> 
+	<a href="http://www.facebook.com/share.php?u=http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/" target="_blank" onClick="return ebor_fb_like()" class="btn share-facebook">Like</a> 
+	<a href="https://twitter.com/share?url=http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/" target="_blank" onClick="return ebor_tweet()" class="btn share-twitter">Tweet</a> 
+	<a href="https://plus.google.com/share?url=http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/" target="_blank" onClick="return ebor_plus_one()" class="btn share-googleplus">+1</a> 
+	<a href="http://pinterest.com/pin/create/button/?url=http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/" onClick="return ebor_pin()" target="_blank" class="btn share-pinterest">Pin It</a>
 </div>
-<div class="tribe-events-meta-group tribe-events-meta-group-gmap"></div>
-	</div>
 
-
-					</div> <!-- #post-x -->
+<script type="text/javascript">
+	function ebor_fb_like() {
+		window.open('http://www.facebook.com/sharer.php?u=http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/&t=duke-clint-and-meryl','sharer','toolbar=0,status=0,width=626,height=436');
+		return false;
+	}
+	function ebor_tweet() {
+		window.open('https://twitter.com/share?url=http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/&t=duke-clint-and-meryl','sharer','toolbar=0,status=0,width=626,height=436');
+		return false;
+	}
+	function ebor_plus_one() {
+		window.open('https://plus.google.com/share?url=http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/&t=duke-clint-and-meryl','sharer','toolbar=0,status=0,width=626,height=436');
+		return false;
+	}
+	function ebor_pin() {
+		window.open('http://pinterest.com/pin/create/button/?url=http://dsmbikecollective.org/2011/10/19/duke-clint-and-meryl/&media=&description=duke-clint-and-meryl','sharer','toolbar=0,status=0,width=626,height=436');
+		return false;
+	}
+</script>							</div>
+							
+							<div class="navigation pull-right"> 
+								<a href="http://dsmbikecollective.org/2011/10/19/chuggin-along-the-chichaqua/" rel="prev"><i class='icon-left-open'></i></a> <a href="http://dsmbikecollective.org/2011/10/20/dutch-treat/" rel="next"><i class='icon-right-open'></i></a>							</div>
+							
+							<div class="clear"></div>
+						
+						</div><!--post-content-->
+					
+					</div><!--post-id-->
+				
+				<hr />
 			
-	<!-- Event footer -->
-	<div id="tribe-events-footer">
-		<!-- Navigation -->
-		<h3 class="tribe-events-visuallyhidden">Event Navigation</h3>
-		<ul class="tribe-events-sub-nav">
-			<li class="tribe-events-nav-previous"></li>
-			<li class="tribe-events-nav-next"></li>
-		</ul>
-		<!-- .tribe-events-sub-nav -->
-	</div>
-	<!-- #tribe-events-footer -->
+			</div><!--classic blog-->
+			
+			
 
-</div><!-- #tribe-events-content -->
-<div class="tribe-events-after-html"></div></div><!-- #tribe-events -->
-<!--
-This calendar is powered by The Events Calendar.
-http://eventscalendarpro.com/
--->
+<hr />
+<div id="comments">
+	<h3>
+		0 Comments	</h3>
+
 	</div>
+	
+<hr />
+	
+<div class="comment-form-wrapper">
+	<h3>
+		Would you like to share your thoughts?	</h3>
+	<p>Your email address will not be published. Required fields are marked *</p>
+				<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2011/10/19/duke-clint-and-meryl/#respond" style="display:none;">Cancel</a></small></h3>				<form action="http://dsmbikecollective.org/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+					<div class="message-field">
+							<textarea name="comment" placeholder="Enter your comment here..." id="comment" aria-required="true"></textarea>
+							</div><div class="name-field">
+		    			 <input type="text" id="author" name="author" placeholder="Name *" value="" />
+		    			 </div>
+<div class="email-field">
+		    			 <input name="email" type="text" id="email" placeholder="Email *" value="" />
+		    			 </div>
+<div class="website-field">
+		    			 <input name="url" type="text" id="url" placeholder="Website" value="" />
+		    			 </div>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit" /> <input type='hidden' name='comment_post_ID' value='59' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f80ed0c888" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="178"/></p>				</form>
+					</div><!-- #respond -->
+		</div>		
+		</div><!--col-sm-8 content-->
+		
+			
+	</div><!--row-->
 
 	</div>
 </div><footer class="footer">
@@ -554,7 +582,8 @@ Over 2,000 people visited the Collective and learned something about keeping the
       
     </div>
   </div>
-</div><div id='wpoa-result'></div><link rel='stylesheet' id='bxSlidercss-css'  href="http://dsmbikecollective.org/wp-content/plugins/slider-image/style/jquery.bxslider.css?fdbc7c" type='text/css' media='all' />
+</div><div id='wpoa-result'></div><script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/akismet/_inc/form.js?fdbc7c"></script>
+<link rel='stylesheet' id='bxSlidercss-css'  href="http://dsmbikecollective.org/wp-content/plugins/slider-image/style/jquery.bxslider.css?fdbc7c" type='text/css' media='all' />
 <script type='text/javascript' src="http://dsmbikecollective.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?fdbc7c"></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -595,4 +624,4 @@ var wp_data = {"fixed_header":"1","site_version":"multipage"};
 Page Caching using disk: enhanced
 Content Delivery Network via N/A
 
- Served from: dsmbikecollective.org @ 2016-03-04 23:50:19 by W3 Total Cache -->
+ Served from: dsmbikecollective.org @ 2016-03-05 00:12:27 by W3 Total Cache -->

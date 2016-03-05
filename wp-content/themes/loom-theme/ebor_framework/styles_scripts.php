@@ -12,10 +12,10 @@
  * Properly Enqueues Scripts & Styles for the theme
  * @since version 1.0
  * @author TommusRhodus
- */ 
+ */
 function ebor_load_scripts() {
 	$protocol = is_ssl() ? 'https' : 'http';
-	      
+
 	//Enqueue Styles
 	wp_enqueue_style( 'ebor-loom-raleway-font', "$protocol://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900" );
 	wp_enqueue_style( 'ebor-bootstrap', get_template_directory_uri() . '/style/css/bootstrap.css' );
@@ -28,11 +28,11 @@ function ebor_load_scripts() {
 	wp_enqueue_style( 'ebor-picons', get_template_directory_uri() . '/style/type/picons.css' );
 	wp_enqueue_style( 'ebor-budicons', get_template_directory_uri() . '/style/type/budicons.css' );
 	wp_enqueue_style( 'ebor-custom', get_template_directory_uri() . '/custom.css' );
-	
+
 	//Dequeue Styles
 	wp_dequeue_style('aqpb-view-css');
 	wp_deregister_style('aqpb-view-css');
-	
+
 	//Enqueue Scripts
 	wp_enqueue_script( 'ebor-bootstrap', get_template_directory_uri() . '/style/js/bootstrap.min.js', array('jquery'), false, true  );
 	wp_enqueue_script( 'ebor-bootstrap-dropdown', get_template_directory_uri() . '/style/js/twitter-bootstrap-hover-dropdown.min.js', array('jquery'), false, true  );
@@ -53,23 +53,24 @@ function ebor_load_scripts() {
 	}
 	wp_enqueue_script( 'ebor-gomap', get_template_directory_uri() . '/style/js/gomap.js', array('jquery'), false, true  );
 	wp_enqueue_script( 'ebor-canvas', get_template_directory_uri() . '/style/js/canvas.js', array('jquery'), false, true  );
+
 	wp_enqueue_script( 'ebor-scripts', get_template_directory_uri() . '/style/js/scripts.js', array('jquery'), false, true  );
-	
+
 	//Enqueue Comments
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
-	
+
 	/**
 	 * Dequeue Scripts
 	 */
 	wp_dequeue_script('aqpb-view-js');
 	wp_deregister_script('aqpb-view-js');
-	
+
 	/**
 	 * localize script
 	 */
-	$script_data = array( 
+	$script_data = array(
 		'fixed_header' => get_option('fixed_header','1'),
 		'site_version' => get_option('site_version', 'multipage')
 	);

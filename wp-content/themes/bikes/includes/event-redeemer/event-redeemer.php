@@ -1,11 +1,5 @@
 <?php
 
-// Enqueue jQuery
-function jquery_init() {
-    wp_enqueue_script('jquery');
-}
-add_action('wp_enqueue_scripts', 'jquery_init');
-
 // Create sponsored content
 function create_bikes_sponsors() {
     $labels = array(
