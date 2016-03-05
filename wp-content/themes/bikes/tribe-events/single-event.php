@@ -58,7 +58,7 @@
 
     <div class="unlock-section bm-section">
         <div class="bm-image-wrapper">
-            <img class="<?php echo $bw; ?>" src="<?php echo get_stylesheet_directory_uri().'/assets/images/badge-locked.png' ?>">
+            <img class="<?php echo $bw; ?>" src="<?php echo get_stylesheet_directory_uri().'/assets/images/badge.png' ?>">
         </div>
         <div class="bm-text-wrapper">
             <div id="unlockable" class="<?php echo $unlockable; ?>">

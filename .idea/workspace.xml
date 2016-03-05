@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f51f8f3d-20c9-46d2-9936-b929c2900bd1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/single-event.php" afterPath="$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/single-event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bikes/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/bikes/style.css" />
     </list>
     <ignored path="bikec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,9 +61,9 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/single-event.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.33382788" vertical-offset="675" max-vertical-offset="1710">
-              <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+              <caret line="60" column="112" selection-start-line="60" selection-start-column="112" selection-end-line="60" selection-end-column="112" />
               <folding>
-                <marker date="1457218950000" expanded="true" signature="3460:3489" placeholder="..." />
+                <marker date="1457218996000" expanded="true" signature="3453:3482" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -417,9 +416,9 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/single-event.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33382788" vertical-offset="675" max-vertical-offset="1710">
-          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+          <caret line="60" column="112" selection-start-line="60" selection-start-column="112" selection-end-line="60" selection-end-column="112" />
           <folding>
-            <marker date="1457218950000" expanded="true" signature="3460:3489" placeholder="..." />
+            <marker date="1457218996000" expanded="true" signature="3453:3482" placeholder="..." />
           </folding>
         </state>
       </provider>
