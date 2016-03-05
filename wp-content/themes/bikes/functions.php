@@ -85,6 +85,19 @@ function dsmbc_register_fields($user) {
   <?php echo ob_get_clean();
 }
 
+add_shortcode('user_data_export', 'generate_content');
+function generate_content() {
+	global $wpdb;
+	$results = $wpdb->get_results( 'select u.ID, u.user_email from wp_users u', ARRAY_N );
+	var_dump($results);
+	
+	$output = '';
+	foreach ($results as $row) {
+		$output .= "<pre>ID: " . $row[0] . ", email: " . $row[1] ."</pre>";		
+	}
+
+    return $output;
+}
 
 add_action('wp_loaded', 'dsmbc_add_acf_options');
 function dsmbc_add_acf_options() {
