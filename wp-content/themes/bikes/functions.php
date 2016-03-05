@@ -84,3 +84,11 @@ function dsmbc_register_fields($user) {
 
   <?php echo ob_get_clean();
 }
+
+
+add_action('wp_loaded', 'dsmbc_add_acf_options');
+function dsmbc_add_acf_options() {
+  if( function_exists('acf_add_options_page') ) {
+  	acf_add_options_page(['page_title' => 'Site-Wide Sponsors']);
+  }
+}
