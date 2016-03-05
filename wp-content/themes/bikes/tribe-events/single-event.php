@@ -77,8 +77,9 @@
 
     <div id="user-register">
         <p>It looks like you're not logged!</p>
-        <a href="/member-login"><button id="submit-button" class="green-pill pill">Log in or sign up here.</button></a>
-        <button class="red-pill pill cancel-button">Cancel</button>
+        <p><a href="/member-login"><button class="submit-button green-pill pill">Log In</button></a></p>
+        <p><a href="/member-register"><button class="submit-button green-pill pill">Register</button></a></p>
+        <p><button class="red-pill pill cancel-button">Cancel</button></p>
     </div>
 
     <div id="user-modal">

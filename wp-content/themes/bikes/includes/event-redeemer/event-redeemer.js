@@ -12,6 +12,8 @@ jQuery(document).ready( function($){
     var userValid = event_redeemer.user_valid;
     var userLoggedIn = event_redeemer.user_logged_in;
 
+    console.log(userLoggedIn);
+
     var age, zipcode, selectVal;
 
     function checkFields(){
