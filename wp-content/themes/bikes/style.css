@@ -135,7 +135,53 @@ body {
     }
 }
 
-/* User modal and badge unlock*/
+/*/member-login*/
+
+
+
+/* User register redirect */
+#user-register{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding: 50px;
+    height: 50%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(129,212,250, 1);
+}
+
+
+
+
+/* User modal and badge unlock */
+#user-modal{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding: 50px;
+    height: 75%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(129,212,250, 1);
+}
+
+#user-modal{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding: 50px;
+    height: 75%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(129,212,250, 1);
+}
 .unlock-section .wrapper{
     display: block;
     text-align: center;
@@ -218,18 +264,4 @@ select.input-pill.error,
 
 .twitter-share {
     background-color: #00adef;
-}
-
-/* User modal */
-#user-modal {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    padding: 50px;
-    height: 75%;
-    width: 60%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(129,212,250, 1);
 }

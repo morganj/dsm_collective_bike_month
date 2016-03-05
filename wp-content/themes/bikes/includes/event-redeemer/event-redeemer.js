@@ -4,6 +4,8 @@
 
 jQuery(document).ready( function($){
 
+    console.log(event_redeemer.user_logged_in);
+
   if(event_redeemer != null) {
 
     var eventCode = event_redeemer.event_code;
@@ -11,6 +13,7 @@ jQuery(document).ready( function($){
     var eventYear = event_redeemer.event_year;
     var eventComplete = event_redeemer.event_status;
     var userValid = event_redeemer.user_valid;
+    var userLoggedIn = event_redeemer.user_logged_in;
 
     var age, zipcode, selectVal;
 
@@ -50,6 +53,16 @@ jQuery(document).ready( function($){
 
     $('#unlock-button').click(function(){
 
+        if(userLoggedIn == 0){
+            $('#user-register').fadeIn();
+
+            $('#user-register .cancel-button').click(function(){
+                $('#user-register').fadeOut();
+            });
+
+            return;
+        }
+
         if(!userValid){
             $('#user-modal').fadeIn();
 
@@ -82,7 +95,7 @@ jQuery(document).ready( function($){
                 });
             });
 
-            $('#cancel-button').click(function(){
+            $('#user-modal .cancel-button').click(function(){
                 $('#user-modal').fadeOut();
             });
             return;

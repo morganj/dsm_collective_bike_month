@@ -75,6 +75,12 @@
         <p id="unlocked" class="<?php echo $unlocked; ?>">Congratulations! You earned the <b><i><?php the_title(); ?></i></b> badge!</p>
     </div>
 
+    <div id="user-register">
+        <p>It looks like you're not logged!</p>
+        <a href="/member-login"><button id="submit-button" class="green-pill pill">Log in or sign up here.</button></a>
+        <button class="red-pill pill cancel-button">Cancel</button>
+    </div>
+
     <div id="user-modal">
         <p>Please provide some information before redeeming your first badge!</p>
         <input type="hidden" name="current-user" value="<?php echo get_current_user_id(); ?>">
@@ -87,7 +93,7 @@
         </select>
         <div class="wrapper">
             <button id="submit-button" class="green-pill pill">Submit Info</button>
-            <div class="wrapper"><button id="cancel-button" class="red-pill pill">Cancel</button></div>
+            <div class="wrapper"><button class="red-pill pill cancel-button">Cancel</button></div>
         </div>
     </div>
 
