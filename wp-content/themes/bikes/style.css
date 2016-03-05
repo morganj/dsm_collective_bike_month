@@ -141,18 +141,16 @@ body {
 
 /* User register redirect */
 #user-register{
+    text-align: center;
     display: none;
     position: fixed;
     z-index: 9999;
     padding: 50px;
-    height: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(129,212,250, 1);
 }
-
-
 
 
 /* User modal and badge unlock */
