@@ -51,13 +51,14 @@
         </div>
     </div>
 
-    <?php $complete = bikes_event_details()['event_status']; ?>
-    <?php if(!$complete) $unlocked = 'unlock-copy bm-text sneaky'; else $unlocked = 'unlock-copy bm-text'; ?>
-    <?php if($complete) $unlockable = 'unlockable sneaky'; else $unlockable = 'unlockable'; ?>
+    <?php $event_complete = bikes_event_details()['event_status']; ?>
+    <?php if(!$event_complete) $unlocked = 'unlock-copy bm-text sneaky'; else $unlocked = 'unlock-copy bm-text'; ?>
+    <?php if($event_complete) $unlockable = 'unlockable sneaky'; else $unlockable = 'unlockable'; ?>
+    <?php if($event_complete) $bw = "bm-image"; else $bw="bm-image bw" ?>
 
     <div class="unlock-section bm-section">
         <div class="bm-image-wrapper">
-            <img class="bm-image" src="<?php echo get_stylesheet_directory_uri().'/assets/images/badge-locked.png' ?>">
+            <img class="<?php echo $bw; ?>" src="<?php echo get_stylesheet_directory_uri().'/assets/images/badge-locked.png' ?>">
         </div>
         <div class="bm-text-wrapper">
             <div id="unlockable" class="<?php echo $unlockable; ?>">

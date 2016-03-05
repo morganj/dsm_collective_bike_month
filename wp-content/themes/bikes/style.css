@@ -236,6 +236,24 @@ select.input-pill.error,
     display: none;
     padding: 15px;
 }
+.bw {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.bw:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
 .social-section > div {
     border-radius: 50%;
     height: 40px;
@@ -243,7 +261,6 @@ select.input-pill.error,
     margin: 5px 5px 0 0;
     display: inline-block;
 }
-
 .facebook-share {
     background-color: #005b8a;
 }
