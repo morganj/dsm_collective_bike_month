@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f51f8f3d-20c9-46d2-9936-b929c2900bd1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/branded-user-flow.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.js" afterPath="$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.php" afterPath="$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/single-event.php" afterPath="$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/single-event.php" />
@@ -30,21 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="event-redeemer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="event-redeemer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25787964" vertical-offset="615" max-vertical-offset="2055">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="2085">
+              <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event-redeemer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="event-redeemer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.22" vertical-offset="1059" max-vertical-offset="2160">
-              <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.46296296" vertical-offset="0" max-vertical-offset="2205">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +64,8 @@
       <file leaf-file-name="single-event.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/single-event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.458334" vertical-offset="991" max-vertical-offset="1665">
-              <caret line="94" column="75" selection-start-line="94" selection-start-column="75" selection-end-line="94" selection-end-column="75" />
+            <state vertical-scroll-proportion="-17.458334" vertical-offset="1021" max-vertical-offset="1680">
+              <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -87,9 +88,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/month.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/month-content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bikes/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/single-event.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.php" />
       </list>
     </option>
   </component>
@@ -398,26 +399,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.22" vertical-offset="1059" max-vertical-offset="2160">
-          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bikes/tribe-events/single-event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.458334" vertical-offset="991" max-vertical-offset="1665">
-          <caret line="94" column="75" selection-start-line="94" selection-start-column="75" selection-end-line="94" selection-end-column="75" />
+        <state vertical-scroll-proportion="-17.458334" vertical-offset="1021" max-vertical-offset="1680">
+          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25787964" vertical-offset="615" max-vertical-offset="2055">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="2085">
+          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/bikes/includes/event-redeemer/event-redeemer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46296296" vertical-offset="0" max-vertical-offset="2205">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

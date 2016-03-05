@@ -83,6 +83,7 @@
 
     <div id="user-modal">
         <p>Please provide some information before redeeming your first badge!</p>
+        <input type="hidden" name="current-user" value="<?php echo get_current_user_id(); ?>">
         <input type="text" id="user-age" class="input-pill" placeholder="age">
         <input type="text" id="user-zipcode" class="input-pill" placeholder="zipcode">
         <select id="user-gender" class="input-pill">

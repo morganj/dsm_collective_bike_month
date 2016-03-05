@@ -71,17 +71,19 @@ jQuery(document).ready( function($){
                     return;
 
                 $.ajax({
-                    url: 'wp-admin/admin-ajax.php',
+                    url: event_redeemer.ajax_url,
                     type: 'POST',
                     dataType: 'json',
                     data:{
                         action: 'bikes_submit_user_data',
                         user_age: age.val(),
                         user_gender: selectVal,
-                        user_zipcode: zipcode.val()
+                        user_zipcode: zipcode.val(),
+                        user: $('input[name="current-user"]').val()
                     },
                     success: function(html) {
                         userValid = true;
+                        console.log(html);
                         $('#confirmation').fadeIn(function(){
                             $('#user-modal').fadeOut();
                         });
