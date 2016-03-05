@@ -99,15 +99,15 @@ function dsmbc_sponsor_markup(){
 ob_start();
  if( have_rows('tier_1_sponsors', 'option') ): ?>
  
-    <ul>
+    <div>
  
     <?php while( have_rows('tier_1_sponsors', 'option') ): the_row(); ?>
  
-        <li><a href="<?php the_sub_field('sponsor_link'); ?>"><?php echo wp_get_attachment_image(get_sub_field('sponsor_logo')); ?> <br /><h2><?php the_sub_field('sponsor_title'); ?></h2></a></li>
+        <div class="hero-container"><a href="<?php the_sub_field('sponsor_link'); ?>"><?php echo wp_get_attachment_image(get_sub_field('sponsor_logo')); ?> <br /><h2><?php the_sub_field('sponsor_title'); ?></h2></a></div>
         
     <?php endwhile; ?>
  
-    </ul>
+    </div>
  
 <?php endif;
 echo ob_get_clean();
