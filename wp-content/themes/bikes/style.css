@@ -41,13 +41,14 @@ body {
 
 .event-container{
     height: 100%;
-    width: 540px;
+    width: 100%;
+    max-width: 800px;
     background-color: #fff;
     margin: 0 auto;
     padding: 40px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
     .event-container{
         width: 100%;
         padding: 20px 0;
@@ -90,7 +91,7 @@ body {
     font-weight: 800;
     padding: 10px;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
     .bm-text-wrapper{
         padding:0;
         width: 100%;
@@ -98,13 +99,13 @@ body {
     }
 }
 .bm-text {
-    width: 275px;
+    width: 80%;
     height: 100%;
     min-height: 140px;
     margin-left: 145px;
     padding: 0 20px;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
     .bm-text{
         margin-left: 0;
         width: 100%;
@@ -123,13 +124,13 @@ body {
     top: 0;
     left: 0;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
     .event-container .bm-image{
         position: static;
         display: inline;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
     .bm-image{
         display: block;
     }
@@ -172,7 +173,7 @@ body {
 .unlock-section {
     background-color: #efefef;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
     .unlock-copy {
         width: 100%;
         margin-left: 0;
