@@ -100,13 +100,11 @@ jQuery(document).ready( function($){
             });
             return;
         }
-
-        if($('#event-code').val() != eventCode){
-            $('#event-code').addClass('error');
-            $('#code-error').fadeIn();
-            return;
-        }
-
+//        if($('#event-code').val() != eventCode){
+//            $('#event-code').addClass('error');
+//            $('#code-error').fadeIn();
+//            return;
+//        }
         $.ajax({
             url: '/wp-admin/admin-ajax.php',
             type: 'POST',
@@ -114,12 +112,19 @@ jQuery(document).ready( function($){
             data:{
                 action: 'bikes_check_event',
                 eventYear: eventYear,
-                eventID: eventID
+                eventID: eventID,
+                eventCode: eventCode
             },
-            success: function(html) {
-                $('#unlockable').fadeOut(function(){
-                    $('#unlocked').fadeIn();
-                });
+            success: function(match) {
+                if(match){
+                    $('#unlockable').fadeOut(function(){
+                        $('#unlocked').fadeIn();
+                    });    
+                }else{
+                    $('#event-code').addClass('error');
+                    $('#code-error').fadeIn();
+                    return;
+                } 
             },
             error: function(html){
                 $('.event-code-error').text('There was an error processing your request').fadeIn();

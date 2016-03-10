@@ -49,25 +49,25 @@ add_action('wp_ajax_no_priv_bikes_submit_user_data', 'bikes_submit_user_data'); 
 
 // Update events user attended
 function bikes_check_event($id){
+    if($_POST['eventCode'] == get_field('bikes_event_code')){  
+        $events_redeemed = get_user_meta(get_current_user_id(), 'events_redeemed', true);
+        if($events_redeemed){
+            $events_redeemed = json_decode($events_redeemed, true);
 
-    $events_redeemed = get_user_meta(get_current_user_id(), 'events_redeemed', true);
-
-    if($events_redeemed){
-        $events_redeemed = json_decode($events_redeemed, true);
-
-        if(array_key_exists($_POST['eventYear'], $events_redeemed))
-            array_push($events_redeemed[$_POST['eventYear']], $_POST['eventID']);
-        else{
-            $events_redeemed[$_POST['eventYear']] = array($_POST['eventID']);
+            if(array_key_exists($_POST['eventYear'], $events_redeemed))
+                array_push($events_redeemed[$_POST['eventYear']], $_POST['eventID']);
+            else{
+                $events_redeemed[$_POST['eventYear']] = array($_POST['eventID']);
+            }
         }
-    }
-    else{
-        $events_redeemed = array($_POST['eventYear'] => array($_POST['eventID']));
-    }
-
-    update_user_meta(get_current_user_id(), 'events_redeemed', json_encode($events_redeemed));
-
-    exit();
+        else{
+            $events_redeemed = array($_POST['eventYear'] => array($_POST['eventID']));
+        }
+        update_user_meta(get_current_user_id(), 'events_redeemed', json_encode($events_redeemed));
+        return true;    
+    }else{
+        return false;
+    }  
 }
 add_action('wp_ajax_bikes_check_event', 'bikes_check_event');           // for logged in user
 add_action('wp_ajax_no_priv_bikes_check_event', 'bikes_check_event');    // if user not logged in
