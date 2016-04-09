@@ -70,8 +70,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php tribe_get_template_part( 'month/tooltip' ); ?>
 
 </div><!-- #tribe-events-content -->
+<div>
     <a href="http://challenge.bikemonthiowa.com/" rel="attachment wp-att-2643">
+        <p><u>Check out our NEW Bike Transporation Challenge!</u></p>
         <img src="http://dsmbikecollective.org/wp-content/uploads/2016/03/BIKE-COMMUTER-green-222x300.png" alt="BIKE-COMMUTER-green" width="222" height="300" class="aligncenter size-medium wp-image-2643" />
     </a>
-
- <a href="dsmbikecollective.org/virtual-passport-sponsors/" rel="attachment wp-att-2643">Thanks to all of our sponsors!</a>
+</div>
+<div>
+    <a href="dsmbikecollective.org/virtual-passport-sponsors/" rel="attachment wp-att-2643">
+        <p> A BIG Thank You to our sponsors. Click here to see who these wonderful sponsors are.</p>
+    </a>
+</div>
