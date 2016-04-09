@@ -78,8 +78,8 @@
 
     <div id="user-register">
         <p>It looks like you're not logged!</p>
-        <p><a href="/member-login"><button class="submit-button green-pill pill">Log In</button></a></p>
-        <p><a href="/member-register"><button class="submit-button green-pill pill">Register</button></a></p>
+        <p><a href="/member-login?redirect_to=<?php echo $_SERVER['REQUEST_URI'] ?>"><button class="submit-button green-pill pill">Log In</button></a></p>
+        <p><a href="/member-register?redirect_to=<?php echo $_SERVER['REQUEST_URI'] ?>"><button class="submit-button green-pill pill">Register</button></a></p>
         <p><button class="red-pill pill cancel-button">Cancel</button></p>
     </div>
 
