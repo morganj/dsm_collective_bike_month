@@ -288,7 +288,11 @@ select.input-pill.error,
 
 @media only screen and (max-width:710px) {
   .hero-container {
-    width: 100%;
+    width: 28%;
+  }
+
+  .hero-container h2{
+    font-size: 14px;
   }
 }
 
