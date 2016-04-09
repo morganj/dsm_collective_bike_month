@@ -49,7 +49,7 @@ add_action('wp_ajax_no_priv_bikes_submit_user_data', 'bikes_submit_user_data'); 
 
 // Update events user attended
 function bikes_check_event($id){
-    if($_POST['eventCode'] == get_field('bikes_event_code')){  
+    if(strcasecmp($_POST['eventCode'], get_field('bikes_event_code')) == 0){
         $events_redeemed = get_user_meta(get_current_user_id(), 'events_redeemed', true);
         if($events_redeemed){
             $events_redeemed = json_decode($events_redeemed, true);
