@@ -292,6 +292,10 @@ select.input-pill.error,
   }
 }
 
+ul.calendar-description{
+    list-style: initial;
+}
+
 .sponsors a {
   line-height: 40px;
 }

@@ -93,7 +93,26 @@ function dsmbc_add_acf_options() {
   }
 }
 
+add_action('tribe_events_before_template', 'calendar_desc_markup');
 add_action('tribe_events_before_template', 'dsmbc_sponsor_markup');
+
+function calendar_desc_markup(){
+ob_start(); ?>
+    <div>
+        <p>Participate in the Virtual Passport Adventure and earn badges to get swag! 
+    So how does it work?</p>
+        <ul class="calendar-description">
+            <li>Join us at the event</li> 
+            <li>Get the posted event code</li>  
+            <li>Enter the code into the badge area on the event’s page to earn your badge!</li>
+            <li>See your progress towards swag!</li> 
+        </ul>
+        <div>
+            <h1 class="virtual-passport-title">Virtual Passport</h1>
+        </div>
+    </div>
+<?php echo ob_get_clean();
+}
 
 function dsmbc_sponsor_markup(){
 ob_start();
